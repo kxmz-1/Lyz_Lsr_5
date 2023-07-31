@@ -7,6 +7,8 @@ Change openai's api_key in config.py
 
 $$
 \LaTeX
+
 test para
+
 a=func(n_i)*j
 $$
