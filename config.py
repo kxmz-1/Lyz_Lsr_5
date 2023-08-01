@@ -30,4 +30,7 @@ desired_caps = dict(
 )
 appium_server = 'http://localhost:4723'
 source_path = find_folder("C:\\Users\\11303\\Desktop\\generate\\", "Shop1")
-api_key = "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"
+# api_key = "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"
+# api_base = "https://api.openai.com/v1"
+api_key = "sk-obTstm9eJYFBC6DfsBlW6pZ8ue1yfOKkEAZ16GDZApGcNelj"
+api_base = "https://aigptx.top/v1"
