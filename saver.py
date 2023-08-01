@@ -14,9 +14,9 @@ class recorder(object):
 
     def save_file(self):
         self.remove_cyclic_events()
-        p = Path("C:\\Users\\swale\\Desktop\\ctm\\" + self.sourceapp)
+        p = Path("C:\\Users\\11303\\Desktop\\miaozi\\migrate\\" + self.sourceapp)
         p.mkdir(exist_ok=True)
-        with open("C:\\Users\\swale\\Desktop\\ctm\\" + self.sourceapp + "\\" + self.sourceapp + '-' + self.migrateapp + '.json', 'w') as f:
+        with open("C:\\Users\\11303\\Desktop\\miaozi\\migrate\\" + self.sourceapp + "\\" + self.sourceapp + '-' + self.migrateapp + '.json', 'w') as f:
             json.dump(self.record, f, indent=4)
 
     def compare_attributes(self, event1, event2):
@@ -45,3 +45,4 @@ class recorder(object):
                     events_to_remove.append(j)
                     break
         self.record = [event for i, event in enumerate(self.record) if i not in events_to_remove]
+

@@ -135,7 +135,7 @@ class Migration:
         if len(self.chose_performance) == 0:
             return ""
         else:
-            content += "\nCurrently, we have already performed the following actions to reach this goal, meaning that " \
+            content += "\nCurrently, we have already performed the following actions to reach this goal, meaning that "\
                        "you don't have to redo these steps anymore:\n"
             for i in range(len(self.chose_performance)):
                 if self.chose_performance[i][0] != "back":
@@ -148,7 +148,7 @@ class Migration:
     def finished_welcome_session(self):
         sentence = "The initial stage of any software includes a setup/configuration interface and a brief " \
                    "description of the software to provide information to the users who interact with this app for " \
-                   "the first time. Do you think our app, with package {config.package_name}, is in the initial stage " \
+                   "the first time. Do you think our app, with package {config.package_name}, is in the initial stage "\
                    "or in the main screen where the core functionality resides now? Choose [not main] or [main] with " \
                    "explanations. Here are the existing widgets' information:"
         ui_hierarchies = driver.page_source
@@ -184,11 +184,11 @@ class Migration:
         ele[num].click()
 
     def checked_if_finished(self):
-        cont = f"This is a test case description of a particular APP: {self.goal}. You are trying to perform the same " \
+        cont = f"This is a test case description of a particular APP: {self.goal}. You are trying to perform the same "\
                f"step described above to a related APP, an APP that has similar functions but different " \
                f"organizations. Now, you are trying to perform one of the action described in the test case: " \
                f"{self.source_testcase[self.current_step]}.These are the actions we already performed: " \
-               f"{self.actions_in_natural_language()}"
+               f"{self.natural_language_actions}"
         cont += f"Do you think this action is finished? Because our job is test migration, the variable name is no " \
                 f"need to be the same. If these actions are similar, output [1], and I will provide you with next " \
                 f"step of this testcase. else output [0]. Output only with [0] or [1] and explain the reason"
@@ -272,7 +272,7 @@ class Migration:
             "child_text": element_info_extractor.get_child_text(ele),
             "clickable": ele.get_attribute("clickable"),
         }
-        if self.text is not None:
+        if self.text is None:
             dic["action"] = [self.possible_actions["action" + str(self.action)]]
         else:
             dic["action"] = [self.possible_actions["action" + str(self.action)], self.text]
@@ -297,7 +297,7 @@ class Migration:
         if self.natural_language_actions != "":
             lead = "After these actions, we reach the screen that contains the following indexes:"
         else:
-            lead = "Currently, we haven't performed any actions yet. Here are the indexes you can choose to reach our " \
+            lead = "Currently, we haven't performed any actions yet. Here are the indexes you can choose to reach our "\
                    "goal:"
         content.append({"role": "user", "content": self.natural_language_actions + lead + self.indexes})
         completion = gpt_generation(content)
@@ -364,8 +364,10 @@ class Migration:
                                 "[NO].\n Your answer is:"
         messages = [{'role': 'system', 'content': sys_mes}, {'role': 'user', 'content': prompt}]
         response = gpt_generation(messages)
+        messages.append({"role": "assistant", "content": response})
+        messages.append({"role": "user", "content": "Only answer in [YES] or [NO]"})
         print(response)
-        if '[YES]' not in response:
+        if 'YES' not in response:
             self.clear_class()
             self.normal_step()
         else:

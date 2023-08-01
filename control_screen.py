@@ -1,21 +1,13 @@
-import set_goal
-from appium import webdriver
-from bs4 import BeautifulSoup
-import xml.etree.ElementTree as ET
 from appium.webdriver.common.touch_action import TouchAction
-from appium.webdriver.common.mobileby import MobileBy
-from selenium.common.exceptions import NoSuchElementException
 from time import sleep
-import config
-import openai
-import xml.dom.minidom
-from xml.dom import minidom
-import re
-class control():
+
+
+class control:
     def __init__(self, driver):
         self.driver = driver
         self.sleep_time = 0.1
         return
+
     def swipe_down(self):
         # 获取屏幕尺寸
         size = self.driver.get_window_size()
@@ -42,12 +34,12 @@ class control():
 
         self.driver.swipe(start_x, start_y, end_x, end_y)
 
-    def act_on_emulator(self, action, element, decision, text = None):
+    def act_on_emulator(self, action, element, decision, text=None):
         action = int(action)
         final_element = element[decision]
-      #  possible_actions = {"action0": "click", "action1": "long click", "action2" :"send keys",
-      #                      "action3" :"send keys and search", "action4":"send keys and enter",
-      #                      "action5":"send keys and hide keyboard", "action6":"swipe down", "action7" : "swipe up"}
+        #  possible_actions = {"action0": "click", "action1": "long click", "action2" :"send keys",
+        #                      "action3" :"send keys and search", "action4":"send keys and enter",
+        #                      "action5":"send keys and hide keyboard", "action6":"swipe down", "action7" : "swipe up"}
         if action == 0:
             final_element.click()
             sleep(5)
@@ -71,7 +63,3 @@ class control():
         if action == 7:
             final_element.clear()
             final_element.send_keys(text)
-
-    def back(self):
-        self.device.press("back")
-        sleep(self.sleep_time)

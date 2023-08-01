@@ -1,15 +1,16 @@
 from bs4 import BeautifulSoup
 from appium.webdriver.common.mobileby import MobileBy
+from selenium.common.exceptions import StaleElementReferenceException
+import time
 
-def process(dom,element):
+
+def process(dom, element):
     soup = BeautifulSoup(dom, 'lxml')
-    cond = {}
-    cond['resource-id'] = element.get_attribute('resourceId')
-    cond['class'] = element.get_attribute('class')
-    cond['content-desc'] = element.get_attribute('content-desc')
-    cond['text'] = element.get_attribute('text')
+    cond = {'resource-id': element.get_attribute('resourceId'), 'class': element.get_attribute('class'),
+            'content-desc': element.get_attribute('content-desc'), 'text': element.get_attribute('text')}
     ele = soup.find(attrs=cond)
     return ele
+
 
 def get_child_text(element):
     result = []
@@ -18,6 +19,8 @@ def get_child_text(element):
         if child_element.text != "":
             result.append(child_element.text)
     return result
+
+
 def get_parent_text(soup_ele):
     parent_text = ""
     parent = soup_ele.find_parent()
@@ -29,17 +32,20 @@ def get_parent_text(soup_ele):
         parent_text += parent['text']
     return parent_text
 
+
 def get_sibling_text(soup_ele):
     # (for Tip related apps)
     # consider immediate previous sibling text if exists and the parent is LinearLayout
     sibling_text = ''
     parent = soup_ele.find_parent()
-    if parent and parent.name in ['android.widget.LinearLayout', 'android.widget.relativelayout']:  # 使用 .name 属性来获取元素的标签名
+    if parent and parent.name in ['android.widget.LinearLayout',
+                                  'android.widget.relativelayout']:  # 使用 .name 属性来获取元素的标签名
         prev_sib = soup_ele.find_previous_sibling()
         if prev_sib:  # 添加类型检查，确保处理的是元素节点
             if 'text' in prev_sib.attrs and prev_sib['text']:
                 sibling_text = prev_sib['text']
     return sibling_text
+
 
 def remove_duplicate_resource_id(data_list):
     count = 1
@@ -52,16 +58,18 @@ def remove_duplicate_resource_id(data_list):
             current_resource_id = new_data_list[i]['resource_id']
         else:
             current_resource_id = None
-        if current_resource_id == last_resource_id and current_resource_id != None:
+        if current_resource_id == last_resource_id and current_resource_id is not None:
             count += 1
         else:
-            if(count >= 5):
-                new_data_list = new_data_list[:-count-1] + [new_data_list[-1]]
+            if count >= 5:
+                new_data_list = new_data_list[:-count - 1] + [new_data_list[-1]]
             count = 1
         last_resource_id = current_resource_id
     print(new_data_list)
     return new_data_list
-def get_element_info(driver,element, element_info):
+
+
+def get_element_info(driver, element, element_info):
     # Initialize child_texts here for each call
     process_result = process(driver.page_source, element)
     parent_text = get_parent_text(process_result)
@@ -84,25 +92,29 @@ def get_element_info(driver,element, element_info):
     return element_info
 
 
-def info(driver,element_list):
+def info(driver, element_list):
+    time.sleep(10)
     elements = driver.find_elements(MobileBy.XPATH, "//*")
     overall = []
     for element in elements:
-        element_info = {}
-        if element.get_attribute("clickable")== "true":
-            element_info["clickable"] = True
-        if element.get_attribute("scrollable")== "true":
-            element_info["scrollable"] = True
-        if element.get_attribute("long-clickable")== "true":
-            element_info["long-clickable"] = True
-        if element.get_attribute("checked") == "true":
-            element_info["checked"] = True
-        if element.get_attribute("class") == "android.widget.EditText":
-            element_info["fillable"] = True
-        if len(element_info) > 0:
-            element_list.append(element)
-            element_info = get_element_info(driver, element, element_info)
-            overall.append(element_info)
+        try:
+            element_info = {}
+            if element.is_displayed() and element.get_attribute("clickable") == "true":
+                element_info["clickable"] = True
+            if element.is_displayed() and element.get_attribute("scrollable") == "true":
+                element_info["scrollable"] = True
+            if element.is_displayed() and element.get_attribute("long-clickable") == "true":
+                element_info["long-clickable"] = True
+            if element.is_displayed() and element.get_attribute("checked") == "true":
+                element_info["checked"] = True
+            if element.is_displayed() and element.get_attribute("class") == "android.widget.EditText":
+                element_info["fillable"] = True
+            if len(element_info) > 0:
+                element_list.append(element)
+                element_info = get_element_info(driver, element, element_info)
+                overall.append(element_info)
+        except StaleElementReferenceException:
+            pass
     overall = remove_duplicate_resource_id(overall)
     print(overall)
     return overall

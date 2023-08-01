@@ -4,21 +4,23 @@ import json
 import openai
 import config
 
+
 def gpt_generation(messages):
     completion = openai.ChatCompletion.create(
         model="gpt-3.5-turbo-16k",
         messages=messages,
         temperature=0.2,
     )
-    return (completion.choices[0].message)["content"]
+    return completion.choices[0].message["content"]
+
+
 def extract_elements_with_conditions(node, layout, current_level=0):
     element_info = {}
     # Check if the element has 'text' attribute and it is not empty
     text = node.attrib.get('text', '')
     if text != '':
         element_info['text'] = text
-
-    # Check if the element has 'clickable' attribute and it is set to 'true'
+    # Check if the element has 'clickable' attribute, and it is set to 'true'
     clickable = node.attrib.get('clickable', '').lower()
     if clickable == 'true':
         element_info['clickable'] = True
@@ -42,16 +44,16 @@ def extract_elements_with_conditions(node, layout, current_level=0):
         if "/" in resource_id:
             element_info['resource-id'] = resource_id.split('/')[-1]
             element_info['resource_id'] = resource_id.replace('_', ' ')
-#    if element_info != {}:
-#        bounds = node.attrib.get('bounds', "")
-#        element_info['bounds'] = bounds
-    # Add the element info to the layout for the current level
+        #    if element_info != {}:
+        #        bounds = node.attrib.get('bounds', "")
+        #        element_info['bounds'] = bounds
+        # Add the element info to the layout for the current level
         layout.setdefault(current_level, []).append(element_info)
-
 
     # Recursively process child elements
     for child in node:
         extract_elements_with_conditions(child, layout, current_level + 1)
+
 
 def get_xml_files(xml_folder_path):
     xml_files = []
@@ -61,6 +63,8 @@ def get_xml_files(xml_folder_path):
             file_path = os.path.join(xml_folder_path, file_name)
             xml_files.append(file_path)
     return xml_files
+
+
 def process_json(json_file_path):
     for file_name in os.listdir(json_file_path):
         # Check if the file has '.json' extension
@@ -80,6 +84,7 @@ def process_json(json_file_path):
 
         processed_data.append(entry)
     return processed_data
+
 
 def remove_consecutive_duplicates(layout):
     new_layout = {}
@@ -104,10 +109,10 @@ def remove_consecutive_duplicates(layout):
 
     return new_layout
 
+
 def xml_files_enum(xml_files):
     layout = []
     for file in xml_files:
-
         # Parse the XML file
         tree = ET.parse(file)
         root = tree.getroot()
@@ -122,25 +127,28 @@ def xml_files_enum(xml_files):
         layout.append(layout_min)
     return layout
 
+
 def templating(content_organized):
     content = ""
     for level, elements in content_organized.items():
         for element in elements:
-            content += str(level*'\t') + str(element)+"\n"
+            content += str(level * '\t') + str(element) + "\n"
     return content
+
 
 def gpt_content(layout, processed_data):
     length = len(processed_data)
     sentence = ""
     for i in range(length):
         sentence += "This is the current UI Hierarchy. Indentation refers to the level of hierarchy:\n"
-        sentence += str(templating(layout[i]))+"\n"
+        sentence += str(templating(layout[i])) + "\n"
         sentence += "Now, we execute this event within the current UI Hierarchy:\n"
-        sentence += str(processed_data[i])+"\n"
+        sentence += str(processed_data[i]) + "\n"
     sentence += "This is the final UI Hierarchy. Indentation refers to the level of hierarchy:\n"
-    sentence += str(templating(layout[length]))+"\n"
+    sentence += str(templating(layout[length])) + "\n"
     sentence += "Can you explain the intention of this test case to me?"
     return sentence
+
 
 def comprehend(provide_path):
     # Replace 'your_file.xml' with the path to your XML file
@@ -153,15 +161,27 @@ def comprehend(provide_path):
     print(display)
     openai.api_key = config.api_key
     message = [
-            {"role": "system", "content": "You are an UI testing android expert. You are here to assist me to understand the intention of a test case that is performed on an app. I then will "},
-            {"role": "user", "content": " A test case contains multiple events that is performed on UI elements on a UI Hierarchy. Now, I will provide you a test case with events and their corresponding UI hierarchy. You have to know the goal of this test case, and explain it to me through simple sentences."\
-             "I will organize it into: The current page of UI Hierarchy, the action, the following page of UI Hierarchy, the acition, the next page of UI HIerarchy, and so on..... OK?"},
-            {"role": "assistant", "content": "Absolutely, that sounds like a structured way to convey the information. Please go ahead and provide the test case along with the corresponding events' UI hierarchy in the format you mentioned:\nCurrent page of UI Hierarchy\nAction\nFollowing page of UI Hierarchy\nAction"},
-            {"role": "user", "content": display}
-        ]
+        {"role": "system",
+         "content": "You are an UI testing android expert. You are here to assist me to understand the intention of a "
+                    "test case that is performed on an app. I then will "},
+        {"role": "user",
+         "content": "A test case contains multiple events that is performed on UI elements on a UI Hierarchy. Now, "
+                    "I will provide you a test case with events and their corresponding UI hierarchy. You have to "
+                    "know the goal of this test case, and explain it to me through simple sentences."
+                    "I will organize it into: The current page of UI Hierarchy, the action, the following page of UI "
+                    "Hierarchy, the action, the next page of UI Hierarchy, and so on..... OK?"},
+        {"role": "assistant",
+         "content": "Absolutely, that sounds like a structured way to convey the information. Please go ahead and "
+                    "provide the test case along with the corresponding events' UI hierarchy in the format you "
+                    "mentioned:\nCurrent page of UI Hierarchy\nAction\nFollowing page of UI Hierarchy\nAction"},
+        {"role": "user", "content": display}
+    ]
     completion = gpt_generation(message)
-    message.append({"role":"assistant","content": completion})
-    message.append({"role":"user","content":"Don't listing the step one by one with number. You need to summarize the overall test case's goal within three sentences without listing and providing specific declarations so"
-                                            "I can also perform these procedures in another APP with different attributes' name"})
+    message.append({"role": "assistant", "content": completion})
+    message.append({"role": "user",
+                    "content": "Don't listing the step one by one with number. You need to summarize the overall test "
+                               "case's goal within three sentences without listing and providing specific "
+                               "declarations so I can also perform these procedures in another APP with different "
+                               "attributes' name"})
     completion = gpt_generation(message)
     return completion, processed_data
