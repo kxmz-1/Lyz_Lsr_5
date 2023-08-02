@@ -43,7 +43,7 @@ def extract_elements_with_conditions(node, layout, current_level=0):
         element_info['resource-id'] = resource_id
         if "/" in resource_id:
             element_info['resource-id'] = resource_id.split('/')[-1]
-            element_info['resource_id'] = resource_id.replace('_', ' ')
+            element_info['resource-id'] = resource_id.replace('_', ' ')
         #    if element_info != {}:
         #        bounds = node.attrib.get('bounds', "")
         #        element_info['bounds'] = bounds

@@ -29,7 +29,7 @@ desired_caps = dict(
     forceAppLaunch=True
 )
 appium_server = 'http://localhost:4723'
-source_path = find_folder("C:\\Users\\11303\\Desktop\\generate\\", source)
+source_path = find_folder("C:\\Users\\swale\\Desktop\\generate\\", source)
 #api_key = "sk-obTstm9eJYFBC6DfsBlW6pZ8ue1yfOKkEAZ16GDZApGcNelj"
 #api_base = "https://aigptx.top/v1"
 api_key = "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"

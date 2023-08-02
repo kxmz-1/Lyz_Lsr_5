@@ -197,21 +197,22 @@ class Migration:
         cont = f"This is a test case description of a particular APP: {self.goal}. You are trying to perform the same " \
                f"step described above to a related APP, an APP that has similar functions but different " \
                f"organizations. Now, you are trying to perform one of the action described in the test case: " \
-               f"{self.source_testcase[self.current_step]}.These are the actions we already performed: " \
+               f"{self.source_testcase[self.current_step]}. These are the actions we already performed: " \
                f"{self.natural_language_actions}"
-        print("natural_language_actions", self.natural_language_actions)
-        cont += f"Do you think this action is finished? Because our job is test migration, the variable name is no " \
+        cont += f" Do you think this action is completed? Because our task is test migration, the variable name is no " \
                 f"need to be the same. If these actions are similar, output [1], and I will provide you with next " \
-                f"step of this testcase. else output [0]. Output only with [0] or [1] and explain the reason"
-        mes = [{"role": "user", "content": cont}]
+                f"step of this testcase. else output [0]. First, output only with [0] or [1]. Then, explain the reason"
+        mes = [{"role":"system","content":"You are an expert on UI testing."},
+            {"role": "user", "content": cont}]
         completion = gpt_generation(mes)
         print(completion)
-        mes.append({"role": "assistant", "content": completion})
-        mes.append({"role": "user", "content": "output only with [0] or [1]. Remember, the attributes are no need "
-                                               "to be the same. Only functions are similar is fine"})
-        print(mes)
-        completion = gpt_generation(mes)
-        print(completion)
+        #mes.append({"role": "assistant", "content": completion})
+        #mes.append({"role": "user", "content": "From your previous output, respond only with [0] or [1]."
+        #            "Remember, the attributes do not need to be the same. Similar functions is fine"})
+        for p in mes:
+            print(p['role'],p['content'])
+        #completion = gpt_generation(mes)
+        #print(completion)
 
         return "[1]" in completion
 
@@ -231,8 +232,9 @@ class Migration:
                 self.flag = True
                 self.scroll_decision = i
         if self.flag:
-            message += f"Among these indexes, index{self.scroll_decision} can lead you to discover elements that are " \
-                       f"hidden under the current UI state that might lead you to finish the testcase."
+            message += f"Among these indexes, index{self.scroll_decision} is a scrollable element that can can lead you to discover elements that are " \
+                       f"hidden under the current UI state that might lead you to finish the testcase. If you want to act on this element, this element" \
+                       f"will be swiped down. However, if you already swipe this elements, you should not do it again.\n"
         if add:
             message += "Please choose the index you think can imitate the above test case or bring us closer to the goal. Display your " \
                        "answer in the form [index{i}]. For example, [index0]"
@@ -270,8 +272,8 @@ class Migration:
                                             "a wrong answer:['clear_and_send_keys','12'],don't do that.{content you "
                                             "want to send} refers to the text in the source testcase that corresponds "
                                             "to the  action we want to perform now."})
-        completion = gpt_generation(self.message)
-        choose_action = self.choose(completion, "action")
+        #completion = gpt_generation(self.message)
+        choose_action = self.check_valid_response(self.message, "action")
         if "fillable" in self.get_current_page_info[self.decision_element]:
             text = self.extract_quoted_text(completion)
             print(text)
@@ -318,9 +320,18 @@ class Migration:
             dic["action"] = [self.possible_actions["action" + str(self.action)], self.text]
         page = driver.page_source
         self.result_collector.add_event(dic, page)
+    def check_valid_response(self,message, keyword): #to prevent chatgpt respond a non-number call
+        try:
+            completion = gpt_generation(message)
+            choose_number = self.choose(completion, keyword)
+            return int(choose_number)
+        except:
+            return self.check_valid_response(message,keyword)
 
     def perform_gpt(self):
-        content = [{"role": "user",
+        content = [{"role":"system",
+                    "content": "You are an experts on UI testing."},
+                    {"role": "user",
                     "content": f"This is a test case description of a particular APP: {self.goal}. You are trying to "
                                f"perform the same step described above to a related APP, an APP that has similar "
                                f"functions but different organizations. Now, you are trying to perform one of the "
@@ -340,10 +351,7 @@ class Migration:
             lead = "Currently, we haven't performed any actions yet. Here are the indexes you can choose to reach our " \
                    "goal:"
         content.append({"role": "user", "content": self.natural_language_actions + lead + self.indexes})
-        completion = gpt_generation(content)
-        print(completion)
-        choose_element = self.choose(completion, "index")
-        self.decision_element = int(choose_element)
+        self.decision_element = self.check_valid_response(content,"index")
         content.append({"role": "assistant", "content": "index" + str(self.decision_element)})
         self.message = content
 
