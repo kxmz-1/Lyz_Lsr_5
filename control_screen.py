@@ -1,6 +1,8 @@
 from appium.webdriver.common.touch_action import TouchAction
 from time import sleep
-
+from selenium.webdriver.support.ui import WebDriverWait
+from appium.webdriver.common.mobileby import MobileBy
+from selenium.webdriver.support import expected_conditions as EC
 
 class control:
     def __init__(self, driver):
@@ -34,7 +36,40 @@ class control:
 
         self.driver.swipe(start_x, start_y, end_x, end_y)
 
-    def act_on_emulator(self, action, element, decision, text=None):
+    def act_on_emulator_oracle(self, content, driver):
+        try:
+            if content[0] == "wait_until_element_presence" or content[0] == "wait_until_text_presence":
+                if content[2] == "id":
+                    WebDriverWait(driver, content[1]).until(
+                        EC.presence_of_element_located((MobileBy.ID, content[3])))
+                    print("find", "id")
+                    return True, driver.find_element(MobileBy.ID, content[3])
+                elif content[2] == "xpath":
+                    WebDriverWait(driver, content[1]).until(
+                        EC.presence_of_element_located((MobileBy.XPATH, content[3]))
+                    )
+                    print("find", "xpath")
+                    return True, driver.find_element(MobileBy.XPATH, content[3])
+                elif content[2] == "text":
+                    WebDriverWait(driver, content[1]).until(
+                        EC.presence_of_element_located((MobileBy.XPATH, f"//*[@text='{content[3]}']")))
+                    print("find", "text")
+                    return True, driver.find_element(MobileBy.XPATH, f"//*[@text='{content[3]}']")
+            elif content[0] == "wait_until_text_invisible":
+                if content[2] == "xpath":
+                    WebDriverWait(driver, content[1]).until(
+                        EC.invisibility_of_element_located((MobileBy.XPATH, content[3])))
+                    print("invisible true")
+                    return True, None
+                elif content[2] == "text":
+                    WebDriverWait(driver, content[1]).until(
+                        EC.invisibility_of_element_located((MobileBy.XPATH, f"//*[@text='{content[3]}']")))
+                    print("invisible true")
+                    return True, None
+        except Exception:
+            return False, None
+
+    def act_on_emulator_gui(self, action, element, decision, text=None):
         action = int(action)
         final_element = element[decision]
         #  possible_actions = {"action0": "click", "action1": "long click", "action2" :"send keys",

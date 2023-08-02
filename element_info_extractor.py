@@ -73,7 +73,7 @@ def get_element_info(driver, element, element_info):
     # Initialize child_texts here for each call
     process_result = process(driver.page_source, element)
     parent_text = get_parent_text(process_result)
-    sibling_text = get_sibling_text(process_result)
+    # sibling_text = get_sibling_text(process_result)
     child_text = get_child_text(element)
     if element.get_attribute("content-desc") is not None:
         element_info["content-desc"] = element.get_attribute("content-desc")
@@ -85,8 +85,8 @@ def get_element_info(driver, element, element_info):
         element_info['resource_id'] = element.get_attribute('resourceId').split('/')[-1].replace('_', ' ')
     if parent_text != '':
         element_info['parent_text'] = parent_text
-    if sibling_text != '':
-        element_info['sibling_text'] = sibling_text
+    #   if sibling_text != '':
+    #       element_info['sibling_text'] = sibling_text
     if len(child_text) > 0:
         element_info['child_text'] = child_text
     return element_info
@@ -103,6 +103,7 @@ def info(driver, element_list):
                 element_info["clickable"] = True
             if element.is_displayed() and element.get_attribute("scrollable") == "true":
                 element_info["scrollable"] = True
+                element_info["bounds"] = element.get_attribute("bounds")
             if element.is_displayed() and element.get_attribute("long-clickable") == "true":
                 element_info["long-clickable"] = True
             if element.is_displayed() and element.get_attribute("checked") == "true":

@@ -14,23 +14,22 @@ def find_folder(folder_path, target_folder_name):
     return None
 
 
-source = "shop1"
-migrate = "shop3"
-package_name = "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist"
-app_activity = ".ui.main.SplashActivity"
+source = "usatoday_testAbout"
+migrate = "smartnews_testAbout"
+package_name = "jp.gocro.smartnews.android"
+app_activity = ".activity.MainActivity"
 gpt_model = "gpt-3.5-turbo-16k"
 desired_caps = dict(
     automationName="uiautomator2",
     platformName="Android",  # Operating System
     appPackage=package_name,  # target appPackage
     appActivity=app_activity,  # target appActivity
-    noReset=False,
+    noReset=True,
     deviceName='emulator-5554',
     forceAppLaunch=True
 )
 appium_server = 'http://localhost:4723'
-source_path = find_folder("C:\\Users\\11303\\Desktop\\generate\\", "Shop1")
-# api_key = "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"
-# api_base = "https://api.openai.com/v1"
-api_key = "sk-obTstm9eJYFBC6DfsBlW6pZ8ue1yfOKkEAZ16GDZApGcNelj"
-api_base = "https://aigptx.top/v1"
+source_path = find_folder("C:\\Users\\11303\\Desktop\\generate\\", source)
+#api_key = "sk-obTstm9eJYFBC6DfsBlW6pZ8ue1yfOKkEAZ16GDZApGcNelj"
+#api_base = "https://aigptx.top/v1"
+api_key = "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"

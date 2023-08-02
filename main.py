@@ -88,7 +88,7 @@ class History:
 
 def gpt_generation(messages):
     completion = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-3.5-turbo-16k",
         messages=messages,
         temperature=0.2,
     )
@@ -110,9 +110,9 @@ class Migration:
         self.action = 0
         self.current_page_info = ""
         self.element_List = []
-        self.decision = 0
-        self.scroll_decision=0
-        self.flag=False
+        self.decision_element = 0
+        self.scroll_decision = 0
+        self.flag = False
         self.message = []
         self.result_collector = recorder(config.source, config.migrate)
         self.possible_actions = {"action0": "click", "action1": "long click", "action2": "swipe down",
@@ -142,7 +142,7 @@ class Migration:
         if len(self.chose_performance) == 0:
             return ""
         else:
-            content += "\nCurrently, we have already performed the following actions to reach this goal, meaning that "\
+            content += "\nCurrently, we have already performed the following actions to reach this goal, meaning that " \
                        "you don't have to redo these steps anymore:\n"
             for i in range(len(self.chose_performance)):
                 if self.chose_performance[i][1] is not None:
@@ -158,7 +158,7 @@ class Migration:
     def finished_welcome_session(self):
         sentence = "The initial stage of any software includes a setup/configuration interface and a brief " \
                    "description of the software to provide information to the users who interact with this app for " \
-                   "the first time. Do you think our app, with package {config.package_name}, is in the initial stage "\
+                   "the first time. Do you think our app, with package {config.package_name}, is in the initial stage " \
                    "or in the main screen where the core functionality resides now? Choose [not main] or [main] with " \
                    "explanations. Here are the existing widgets' information:"
         ui_hierarchies = driver.page_source
@@ -194,7 +194,7 @@ class Migration:
         ele[num].click()
 
     def checked_if_finished(self):
-        cont = f"This is a test case description of a particular APP: {self.goal}. You are trying to perform the same "\
+        cont = f"This is a test case description of a particular APP: {self.goal}. You are trying to perform the same " \
                f"step described above to a related APP, an APP that has similar functions but different " \
                f"organizations. Now, you are trying to perform one of the action described in the test case: " \
                f"{self.source_testcase[self.current_step]}.These are the actions we already performed: " \
@@ -207,7 +207,7 @@ class Migration:
         completion = gpt_generation(mes)
         print(completion)
         mes.append({"role": "assistant", "content": completion})
-        mes.append({"role": "user", "content": "output only with [0] or [1]. Remember, the attributes are no need"
+        mes.append({"role": "user", "content": "output only with [0] or [1]. Remember, the attributes are no need "
                                                "to be the same. Only functions are similar is fine"})
         print(mes)
         completion = gpt_generation(mes)
@@ -223,28 +223,29 @@ class Migration:
 
     def index_list(self, info, add=True):
         message = ""
-        self.scroll_decision=0
-        self.flag=False
+        self.scroll_decision = 0
+        self.flag = False
         for i in range(len(info)):
             message += f"index{i}:{str(info[i])} \n"
-            if info[i]["scrollable"] and self.flag==False:
-                self.flag=True
-                self.scroll_decision=i
+            if "scrollable" in info[i] and info[i]["scrollable"] and self.flag is False:
+                self.flag = True
+                self.scroll_decision = i
         if self.flag:
-            message+="Additionally, index"+str(self.scroll_decision)+" is a scrollable element that allows you to swipe"\
-            " the current UI state and explore new functions. This element will be swipe down if your response is index"+str(self.scroll_decision)\
-            +"/n"
+            message += f"Among these indexes, index{self.scroll_decision} can lead you to discover elements that are " \
+                       f"hidden under the current UI state that might lead you to finish the testcase."
         if add:
-            message += "please choose the index you think can imitate the above test case. Display your" \
+            message += "Please choose the index you think can imitate the above test case or bring us closer to the goal. Display your " \
                        "answer in the form [index{i}]. For example, [index0]"
         else:
-            message += "Please choose the index you think can transfer to main screen. Display your" \
+            message += "Please choose the index you think can transfer to main screen. Display your " \
                        "answer in the form [index{i}]. For example, [index0]"
         self.indexes = message
+        print(self.indexes)
 
     def choose_action(self):
-        if self.decision==self.scroll_decision and self.flag==True:
-            return 2,None
+        print(self.decision_element, self.scroll_decision, self.flag)
+        if self.decision_element == self.scroll_decision and self.flag:
+            return 2, None
         action_list = "Choose only one of the following actions you want to perform on this index:\n "
         action_list += "action0: click\n action1:" \
                        "long click\n action2:swipe down\n action3:swipe up\n" \
@@ -256,7 +257,7 @@ class Migration:
                            "send}'] for example, [action4, 'Hello'],[action8, '18']. \n Since this widget is " \
                            "fillable, you better to choose between action4 and action7 and enter the text of the " \
                            "event in the source testcase that corresponds to the action we want to perform now."
-        self.message.append({"role": 'assistant', "content": "index" + str(self.decision)})
+        self.message.append({"role": 'assistant', "content": "index" + str(self.decision_element)})
         self.message.append({'role': "user", "content": action_list})
         completion = gpt_generation(self.message)
         choose_action = self.choose(completion, "action")
@@ -271,7 +272,7 @@ class Migration:
                                             "to the  action we want to perform now."})
         completion = gpt_generation(self.message)
         choose_action = self.choose(completion, "action")
-        if "fillable" in self.get_current_page_info[self.decision]:
+        if "fillable" in self.get_current_page_info[self.decision_element]:
             text = self.extract_quoted_text(completion)
             print(text)
         else:
@@ -301,7 +302,7 @@ class Migration:
             self.result_collector.add_event(dic, page)
 
     def send_migrate_result_gui(self):
-        ele = self.element_List[self.decision]
+        ele = self.element_List[self.decision_element]
         process_result = element_info_extractor.process(driver.page_source, ele)
         dic = {
             "text": ele.text, "content-desc": ele.get_attribute("content-desc"), "class": ele.get_attribute("class"),
@@ -336,14 +337,14 @@ class Migration:
         if self.natural_language_actions != "":
             lead = "After these actions, we reach the screen that contains the following indexes:"
         else:
-            lead = "Currently, we haven't performed any actions yet. Here are the indexes you can choose to reach our "\
+            lead = "Currently, we haven't performed any actions yet. Here are the indexes you can choose to reach our " \
                    "goal:"
         content.append({"role": "user", "content": self.natural_language_actions + lead + self.indexes})
         completion = gpt_generation(content)
         print(completion)
         choose_element = self.choose(completion, "index")
-        self.decision = int(choose_element)
-        content.append({"role": "assistant", "content": "index" + str(self.decision)})
+        self.decision_element = int(choose_element)
+        content.append({"role": "assistant", "content": "index" + str(self.decision_element)})
         self.message = content
 
     def normal_step(self):
@@ -395,20 +396,20 @@ class Migration:
             self.element_List = []
             # Store the attributes of the current screen's elements (including their corresponding resource-id, text,
             # class, etc.) in a list. Each index within the list represents an element's information.
-            self.get_current_page_info = element_info_extractor.info(driver, self.element)
+            self.get_current_page_info = element_info_extractor.info(driver, self.element_List)
             # Prevent loop by adjusting self.element_List and self.get_current_page_info to ignore multiple invocations.
             self.element_List, self.get_current_page_info = record_history.eliminate_duplications(self.element_List,
-                                                                                             self.get_current_page_info)
+                                                                                                  self.get_current_page_info)
             # Format elements information into natural language form for ChatGPT to make selections.
             self.index_list(self.get_current_page_info)
             # Ask ChatGPT to select the most suitable element
             self.perform_gpt()
             # Store this element into the history
-            record_history.store(self.element_List, self.element_List[self.decision])
+            record_history.store(self.element_List, self.element_List[self.decision_element])
             # Request ChatGPT to choose an action on this element.
             self.action, self.text = self.choose_action()
             # Record the action information in the chose_performance variable.
-            lst = [self.element_Lis[self.decision], self.get_current_page_info[self.decision],
+            lst = [self.element_List[self.decision_element], self.get_current_page_info[self.decision_element],
                    [self.possible_actions["action" + str(self.action)]]]
             if 4 <= int(self.action) <= 7:
                 lst[-1].append(self.text)
@@ -416,7 +417,7 @@ class Migration:
             # generate dic for the testcase
             self.send_migrate_result_gui()
             # Perform action
-            screen_control.act_on_emulator_gui(self.action, self.element, self.decision, self.text)
+            screen_control.act_on_emulator_gui(self.action, self.element_List, self.decision_element, self.text)
 
     def clear_class(self):
         # Restore the class to its original state.
@@ -428,7 +429,7 @@ class Migration:
         self.natural_language_actions = ""
         self.indexes = ""
         self.element_List = []
-        self.decision = 0
+        self.decision_element = 0
         self.message = []
 
     def termination_judgement(self):
