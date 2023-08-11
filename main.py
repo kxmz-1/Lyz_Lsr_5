@@ -26,8 +26,6 @@ class Context:
             self.elem_num[elem] += 1
         else:
             self.elem_num[elem] = 1
-        print(self.elem_num)
-        print(self.ui)
         return self.elem_num[elem]
 
     def find_possible_elem(self, ui_elem, elem_info):
@@ -194,18 +192,18 @@ class Migration:
         ele[num].click()
 
     def checked_if_finished(self):
+        nlp=self.natural_language_actions.replace("Currently, we have already performed the following actions to reach this goal, meaning that you don't have to redo these steps anymore:","")
+        nlp=nlp.replace('\n',"")
         cont = f"This is a test case description of a particular APP: {self.goal}. You are trying to perform the same " \
                f"step described above to a related APP, an APP that has similar functions but different " \
                f"organizations. Now, you are trying to perform one of the action described in the test case: " \
-               f"{self.source_testcase[self.current_step]}. These are the actions we already performed: " \
-               f"{self.natural_language_actions}"
-        cont += f" Do you think this action is completed? Because our task is test migration, the variable name is no " \
-                f"need to be the same. If these actions are similar, output [1], and I will provide you with next " \
-                f"step of this testcase. else output [0]. First, output only with [0] or [1]. Then, explain the reason"
-        mes = [{"role":"system","content":"You are an expert on UI testing."},
-            {"role": "user", "content": cont}]
-        completion = gpt_generation(mes)
-        print(completion)
+               f"{self.source_testcase[self.current_step]}. These are the actions we already performed: \n" \
+               f"{nlp} \n"
+        cont += f"Do you think the action in the test case to the action we performed? Because our task is imitating the action in the test case, " \
+                f"the attribute of the widget only need to be similar. They do not need to strictly be the same."\
+                f"If the actions are similar, output [1], and I will provide you with next " \
+                f"step of this test case. else output [0]. First, output only with [0] or [1]. Then, explain the reason"
+        mes = [{"role": "user", "content": cont}]
         #mes.append({"role": "assistant", "content": completion})
         #mes.append({"role": "user", "content": "From your previous output, respond only with [0] or [1]."
         #            "Remember, the attributes do not need to be the same. Similar functions is fine"})
@@ -213,7 +211,8 @@ class Migration:
             print(p['role'],p['content'])
         #completion = gpt_generation(mes)
         #print(completion)
-
+        completion = gpt_generation(mes)
+        print(completion)
         return "[1]" in completion
 
     def choose(self, completion, content):
@@ -329,9 +328,7 @@ class Migration:
             return self.check_valid_response(message,keyword)
 
     def perform_gpt(self):
-        content = [{"role":"system",
-                    "content": "You are an experts on UI testing."},
-                    {"role": "user",
+        content = [ {"role": "user",
                     "content": f"This is a test case description of a particular APP: {self.goal}. You are trying to "
                                f"perform the same step described above to a related APP, an APP that has similar "
                                f"functions but different organizations. Now, you are trying to perform one of the "
@@ -426,6 +423,7 @@ class Migration:
             self.send_migrate_result_gui()
             # Perform action
             screen_control.act_on_emulator_gui(self.action, self.element_List, self.decision_element, self.text)
+
 
     def clear_class(self):
         # Restore the class to its original state.

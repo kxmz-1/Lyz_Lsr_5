@@ -1,0 +1,80 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "pl.com.andrzejgrzyb.shoppinglist:id/fab",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Shop1",
+        "package": "pl.com.andrzejgrzyb.shoppinglist",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "pl.com.andrzejgrzyb.shoppinglist:id/shoppingListNameEditText",
+        "text": "Shopping list name",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Shop1",
+        "package": "pl.com.andrzejgrzyb.shoppinglist",
+        "activity": ".ShoppingListEditActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "Shopping list name"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "pl.com.andrzejgrzyb.shoppinglist:id/shoppingListDescriptionEditText",
+        "text": "Description",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Shop1",
+        "package": "pl.com.andrzejgrzyb.shoppinglist",
+        "activity": ".ShoppingListEditActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "Description"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "pl.com.andrzejgrzyb.shoppinglist:id/addShoppingListButton",
+        "text": "SAVE",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Shop1",
+        "package": "pl.com.andrzejgrzyb.shoppinglist",
+        "activity": ".ShoppingListEditActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

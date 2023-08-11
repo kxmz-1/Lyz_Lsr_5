@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="com.foxnews.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="com.foxnews.android" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="com.foxnews.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="com.foxnews.android" class="android.widget.LinearLayout" text="" resource-id="com.foxnews.android:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="com.foxnews.android" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+						
+            
+						<android.view.ViewGroup index="0" package="com.foxnews.android" class="android.view.ViewGroup" text="" resource-id="com.foxnews.android:id/container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+							
+              
+							<androidx.viewpager.widget.ViewPager index="0" package="com.foxnews.android" class="androidx.viewpager.widget.ViewPager" text="" resource-id="com.foxnews.android:id/view_pager" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+								
+                
+								<android.view.ViewGroup index="0" package="com.foxnews.android" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+									
+                  
+									<android.view.View index="0" package="com.foxnews.android" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true"/>
+									
+                  
+									<android.widget.LinearLayout index="1" package="com.foxnews.android" class="android.widget.LinearLayout" text="" resource-id="com.foxnews.android:id/appbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+										
+                    
+										<android.view.ViewGroup index="0" package="com.foxnews.android" class="android.view.ViewGroup" text="" resource-id="com.foxnews.android:id/toolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+											
+                      
+											<android.widget.ImageButton index="0" package="com.foxnews.android" class="android.widget.ImageButton" text="" content-desc="Back" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][147,210]" displayed="true"/>
+											
+                      
+											<android.widget.LinearLayout index="1" package="com.foxnews.android" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[147,63][1064,210]" displayed="true">
+												
+                        
+												<android.widget.ImageView index="0" package="com.foxnews.android" class="android.widget.ImageView" text="" content-desc="Text Size" resource-id="com.foxnews.android:id/scale_text" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[730,102][828,170]" displayed="true"/>
+												
+                        
+												<android.widget.ImageView index="1" package="com.foxnews.android" class="android.widget.ImageView" text="" content-desc="Save" resource-id="com.foxnews.android:id/save" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[854,84][959,189]" displayed="true"/>
+												
+                        
+												<android.widget.ImageView index="2" package="com.foxnews.android" class="android.widget.ImageView" text="" content-desc="Share" resource-id="com.foxnews.android:id/share" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[959,84][1064,189]" displayed="true"/>
+												
+                      
+											</android.widget.LinearLayout>
+											
+                    
+										</android.view.ViewGroup>
+										
+                  
+									</android.widget.LinearLayout>
+									
+                  
+									<android.widget.LinearLayout index="2" package="com.foxnews.android" class="android.widget.LinearLayout" text="" resource-id="com.foxnews.android:id/scrolling_view_behavior" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+										
+                    
+										<android.view.ViewGroup index="0" package="com.foxnews.android" class="android.view.ViewGroup" text="" resource-id="com.foxnews.android:id/swipe_refresh" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+											
+                      
+											<androidx.recyclerview.widget.RecyclerView index="0" package="com.foxnews.android" class="androidx.recyclerview.widget.RecyclerView" text="" resource-id="com.foxnews.android:id/main_recyclerview" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+												
+                        
+												<android.widget.LinearLayout index="0" package="com.foxnews.android" class="android.widget.LinearLayout" text="" resource-id="com.foxnews.android:id/component_article_header" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,671]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.foxnews.android" class="android.widget.TextView" text="CHICAGO  Mar 1" resource-id="com.foxnews.android:id/story_eyebrow" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,252][1038,302]" displayed="true"/>
+													
+                          
+													<android.widget.TextView index="1" package="com.foxnews.android" class="android.widget.TextView" text="Chicago ousts embattled Mayor Lori Lightfoot, as race heads to runoff without her" resource-id="com.foxnews.android:id/story_headline" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,302][1038,555]" displayed="true"/>
+													
+                          
+													<android.view.ViewGroup index="2" package="com.foxnews.android" class="android.view.ViewGroup" text="" resource-id="com.foxnews.android:id/story_author" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,576][1038,639]" displayed="true">
+														
+                            
+														<android.widget.ImageView index="0" package="com.foxnews.android" class="android.widget.ImageView" text="" content-desc="Author image" resource-id="com.foxnews.android:id/author_image" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[293,576][356,639]" displayed="true"/>
+														
+                            
+														<android.widget.TextView index="1" package="com.foxnews.android" class="android.widget.TextView" text="By Brandon Gillespie | Fox News" resource-id="com.foxnews.android:id/author" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[377,588][788,627]" displayed="true"/>
+														
+                          
+													</android.view.ViewGroup>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.view.ViewGroup index="1" package="com.foxnews.android" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,671][1080,1714]" displayed="true">
+													
+                          
+													<android.widget.FrameLayout index="0" package="com.foxnews.android" class="android.widget.FrameLayout" text="" resource-id="com.foxnews.android:id/embedded_video_image_container" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,703][1080,1311]" displayed="true">
+														
+                            
+														<android.widget.ImageView index="0" package="com.foxnews.android" class="android.widget.ImageView" text="" content-desc="Embedded video thumbnail" resource-id="com.foxnews.android:id/embedded_video_image" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,703][1080,1311]" displayed="true"/>
+														
+                            
+														<android.widget.ImageView index="1" package="com.foxnews.android" class="android.widget.ImageView" text="" content-desc="Play icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[456,923][624,1091]" displayed="true"/>
+														
+                          
+													</android.widget.FrameLayout>
+													
+                          
+													<android.widget.TextView index="1" package="com.foxnews.android" class="android.widget.TextView" text="Lori Lightfoot in ‘big trouble’ in Chicago mayoral election: Kellyanne Conway" resource-id="com.foxnews.android:id/embedded_video_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1332][1080,1437]" displayed="true"/>
+													
+                          
+													<android.widget.TextView index="2" package="com.foxnews.android" class="android.widget.TextView" text="Fox News contributor Kellyanne Conway weighs in on the mayor race in Chicago where crime and education are key issues and Democrat Lori Lightfoot faces potential ousting." resource-id="com.foxnews.android:id/embedded_video_description" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1458][1080,1637]" displayed="true"/>
+													
+                          
+													<android.view.View index="3" package="com.foxnews.android" class="android.view.View" text="" resource-id="com.foxnews.android:id/divider" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1679][1080,1682]" displayed="true"/>
+													
+                        
+												</android.view.ViewGroup>
+												
+                        
+												<android.widget.TextView index="2" package="com.foxnews.android" class="android.widget.TextView" text="Democratic Chicago Mayor Lori Lightfoot has lost her bid for re-election as the race heads to runoff without her after no candidate reached the required 50% vote threshold to be elected." resource-id="com.foxnews.android:id/article_text" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1714][1080,1857]" displayed="true"/>
+												
+                      
+											</androidx.recyclerview.widget.RecyclerView>
+											
+                    
+										</android.view.ViewGroup>
+										
+                  
+									</android.widget.LinearLayout>
+									
+                
+								</android.view.ViewGroup>
+								
+              
+							</androidx.viewpager.widget.ViewPager>
+							
+            
+						</android.view.ViewGroup>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+    
+		<android.view.View index="1" package="com.foxnews.android" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1857][1080,1920]" displayed="true"/>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

@@ -1,0 +1,61 @@
+[
+    {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "chan.android.app.pocketnote:id/notes_$_linearlayout_empty",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Note4",
+        "package": "chan.android.app.pocketnote",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "chan.android.app.pocketnote:id/editor_$_edittext_title",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Note4",
+        "package": "chan.android.app.pocketnote",
+        "activity": ".app.notes.EditNoteActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "abc"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "chan.android.app.pocketnote:id/editor_$_note_editor",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Note4",
+        "package": "chan.android.app.pocketnote",
+        "activity": ".app.notes.EditNoteActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "abc"
+        ]
+    }
+]

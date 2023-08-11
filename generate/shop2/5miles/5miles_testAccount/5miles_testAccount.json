@@ -1,0 +1,198 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.thirdrock.fivemiles:id/sign_in",
+        "text": "Sign In",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [
+            "Sign In"
+        ],
+        "tid": "5miles_testAccount",
+        "package": "com.thirdrock.fivemiles",
+        "activity": "com.insthub.fivemiles.Activity.WelcomeActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.thirdrock.fivemiles:id/login_email",
+        "text": "Email",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [
+            "Email"
+        ],
+        "tid": "5miles_testAccount",
+        "package": "com.thirdrock.fivemiles",
+        "activity": ".login.EmailLoginActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys",
+            "migratingresearch@gmail.com"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.thirdrock.fivemiles:id/login_password",
+        "text": "Password (6–16 characters)",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "true",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [
+            "Password (6–16 characters)"
+        ],
+        "tid": "5miles_testAccount",
+        "package": "com.thirdrock.fivemiles",
+        "activity": ".login.EmailLoginActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys",
+            "researchisfun"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.thirdrock.fivemiles:id/login_login",
+        "text": "SIGN IN",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [
+            "SIGN IN"
+        ],
+        "tid": "5miles_testAccount",
+        "package": "com.thirdrock.fivemiles",
+        "activity": ".login.EmailLoginActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.thirdrock.fivemiles:id/btn_skip",
+        "text": "SKIP",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [
+            "SKIP"
+        ],
+        "tid": "5miles_testAccount",
+        "package": "com.thirdrock.fivemiles",
+        "activity": ".login.AskForContactsActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "Navigate up",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [],
+        "tid": "5miles_testAccount",
+        "package": "com.thirdrock.fivemiles",
+        "activity": ".reco.SellersNearbyActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.thirdrock.fivemiles:id/close",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [],
+        "tid": "5miles_testAccount",
+        "package": "com.thirdrock.fivemiles",
+        "activity": "com.insthub.fivemiles.Activity.MainTabActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.thirdrock.fivemiles:id/action_profile",
+        "text": "",
+        "content-desc": "Me",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [
+            "Me"
+        ],
+        "tid": "5miles_testAccount",
+        "package": "com.thirdrock.fivemiles",
+        "activity": "com.insthub.fivemiles.Activity.MainTabActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.thirdrock.fivemiles:id/profile_edit_profile",
+        "text": "Edit Profile",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [
+            "Edit Profile"
+        ],
+        "tid": "5miles_testAccount",
+        "package": "com.thirdrock.fivemiles",
+        "activity": "com.insthub.fivemiles.Activity.MainTabActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

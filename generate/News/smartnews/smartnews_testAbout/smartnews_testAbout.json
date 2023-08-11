@@ -1,0 +1,49 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "jp.gocro.smartnews.android:id/settingButton",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "package": "jp.gocro.smartnews.android",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "smartnews_testAbout",
+        "activity": ".activity.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "action": [
+            "swipe"
+        ],
+        "event_type": "gui",
+        "tid": "smartnews_testAbout",
+        "package": "jp.gocro.smartnews.android",
+        "activity": ".activity.SettingActivity"
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "package": "jp.gocro.smartnews.android",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "smartnews_testAbout",
+        "activity": ".activity.SettingActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

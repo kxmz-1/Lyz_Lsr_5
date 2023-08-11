@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1848">
+	
+  
+	<android.widget.FrameLayout index="0" package="de.baumann.browser" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="de.baumann.browser" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="de.baumann.browser" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="de.baumann.browser" class="android.widget.LinearLayout" text="" resource-id="de.baumann.browser:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="de.baumann.browser" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+						
+            
+						<android.view.ViewGroup index="0" package="de.baumann.browser" class="android.view.ViewGroup" text="" resource-id="de.baumann.browser:id/switcher_panel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+							
+              
+							<android.widget.LinearLayout index="0" package="de.baumann.browser" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+								
+                
+								<android.widget.RelativeLayout index="0" package="de.baumann.browser" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1680]" displayed="true">
+									
+                  
+									<android.widget.FrameLayout index="0" package="de.baumann.browser" class="android.widget.FrameLayout" text="" resource-id="de.baumann.browser:id/main_content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1680]" displayed="true">
+										
+                    
+										<android.widget.RelativeLayout index="0" package="de.baumann.browser" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1680]" displayed="true">
+											
+                      
+											<android.widget.FrameLayout index="0" package="de.baumann.browser" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,96][1056,1656]" displayed="true">
+												
+                        
+												<android.widget.RelativeLayout index="0" package="de.baumann.browser" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[32,107][1048,1645]" displayed="true">
+													
+                          
+													<android.widget.RelativeLayout index="0" package="de.baumann.browser" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[32,107][1048,1477]" displayed="true">
+														
+                            
+														<android.widget.GridView index="0" package="de.baumann.browser" class="android.widget.GridView" text="" resource-id="de.baumann.browser:id/home_grid" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[32,107][1048,1477]" displayed="true"/>
+														
+                            
+														<android.view.View index="1" package="de.baumann.browser" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[32,1465][1048,1477]" displayed="true"/>
+														
+                          
+													</android.widget.RelativeLayout>
+													
+                          
+													<android.widget.LinearLayout index="1" package="de.baumann.browser" class="android.widget.LinearLayout" text="" resource-id="de.baumann.browser:id/home_buttons" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[32,1501][1048,1645]" displayed="true">
+														
+                            
+														<android.widget.LinearLayout index="0" package="de.baumann.browser" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[288,1501][414,1645]" displayed="true">
+															
+                              
+															<android.view.View index="0" package="de.baumann.browser" class="android.view.View" text="" resource-id="de.baumann.browser:id/open_newTabView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[288,1501][414,1507]" displayed="true"/>
+															
+                              
+															<android.widget.ImageButton index="1" package="de.baumann.browser" class="android.widget.ImageButton" text="" resource-id="de.baumann.browser:id/open_newTab" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[288,1507][414,1633]" displayed="true"/>
+															
+                            
+														</android.widget.LinearLayout>
+														
+                            
+														<android.widget.LinearLayout index="1" package="de.baumann.browser" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[414,1501][540,1645]" displayed="true">
+															
+                              
+															<android.widget.ImageButton index="0" package="de.baumann.browser" class="android.widget.ImageButton" text="" resource-id="de.baumann.browser:id/open_bookmark" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[414,1507][540,1633]" displayed="true"/>
+															
+                            
+														</android.widget.LinearLayout>
+														
+                            
+														<android.widget.LinearLayout index="2" package="de.baumann.browser" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[540,1501][666,1645]" displayed="true">
+															
+                              
+															<android.widget.ImageButton index="0" package="de.baumann.browser" class="android.widget.ImageButton" text="" resource-id="de.baumann.browser:id/open_history" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[540,1507][666,1633]" displayed="true"/>
+															
+                            
+														</android.widget.LinearLayout>
+														
+                            
+														<android.widget.LinearLayout index="3" package="de.baumann.browser" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[666,1501][792,1645]" displayed="true">
+															
+                              
+															<android.widget.ImageButton index="0" package="de.baumann.browser" class="android.widget.ImageButton" text="" resource-id="de.baumann.browser:id/open_pass" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[666,1507][792,1633]" displayed="true"/>
+															
+                            
+														</android.widget.LinearLayout>
+														
+                          
+													</android.widget.LinearLayout>
+													
+                        
+												</android.widget.RelativeLayout>
+												
+                      
+											</android.widget.FrameLayout>
+											
+                    
+										</android.widget.RelativeLayout>
+										
+                  
+									</android.widget.FrameLayout>
+									
+                  
+									<android.view.View index="1" package="de.baumann.browser" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1668][1080,1680]" displayed="true"/>
+									
+                
+								</android.widget.RelativeLayout>
+								
+                
+								<android.widget.RelativeLayout index="1" package="de.baumann.browser" class="android.widget.RelativeLayout" text="" resource-id="de.baumann.browser:id/main_omnibox" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1680][1080,1848]" displayed="true">
+									
+                  
+									<android.widget.AutoCompleteTextView index="0" package="de.baumann.browser" class="android.widget.AutoCompleteTextView" text="Search or type URL" resource-id="de.baumann.browser:id/main_omnibox_input" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[48,1680][840,1848]" displayed="true" hint="Search or type URL"/>
+									
+                  
+									<android.widget.ImageButton index="1" package="de.baumann.browser" class="android.widget.ImageButton" text="" resource-id="de.baumann.browser:id/omnibox_refresh" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[840,1680][960,1848]" displayed="true"/>
+									
+                  
+									<android.widget.ImageButton index="2" package="de.baumann.browser" class="android.widget.ImageButton" text="" resource-id="de.baumann.browser:id/omnibox_overflow" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[960,1680][1080,1848]" displayed="true"/>
+									
+                
+								</android.widget.RelativeLayout>
+								
+              
+							</android.widget.LinearLayout>
+							
+            
+						</android.view.ViewGroup>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+    
+		<android.view.View index="2" package="de.baumann.browser" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1848][1080,1920]" displayed="true"/>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

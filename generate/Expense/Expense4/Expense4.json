@@ -1,0 +1,138 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.blogspot.e_kanivets.moneytracker:id/btn_add_income",
+        "text": "添加收入",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expense4",
+        "package": "com.blogspot.e_kanivets.moneytracker",
+        "activity": ".activity.record.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.blogspot.e_kanivets.moneytracker:id/action_done",
+        "text": "",
+        "content-desc": "添加",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expense4",
+        "package": "com.blogspot.e_kanivets.moneytracker",
+        "activity": ".activity.record.AddRecordActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.blogspot.e_kanivets.moneytracker:id/et_price",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "价格",
+        "sibling_text": "",
+        "tid": "Expense4",
+        "package": "com.blogspot.e_kanivets.moneytracker",
+        "activity": ".activity.record.AddRecordActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "30"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.blogspot.e_kanivets.moneytracker:id/action_done",
+        "text": "",
+        "content-desc": "添加",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expense4",
+        "package": "com.blogspot.e_kanivets.moneytracker",
+        "activity": ".activity.record.AddRecordActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.blogspot.e_kanivets.moneytracker:id/et_title",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "标题",
+        "sibling_text": "",
+        "tid": "Expense4",
+        "package": "com.blogspot.e_kanivets.moneytracker",
+        "activity": ".activity.record.AddRecordActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "水果"
+        ]
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "resource-id": "com.blogspot.e_kanivets.moneytracker:id/et_category",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "类别",
+        "sibling_text": "",
+        "tid": "Expense4",
+        "package": "com.blogspot.e_kanivets.moneytracker",
+        "activity": ".activity.record.AddRecordActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "饮食"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.blogspot.e_kanivets.moneytracker:id/action_done",
+        "text": "",
+        "content-desc": "添加",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expense4",
+        "package": "com.blogspot.e_kanivets.moneytracker",
+        "activity": ".activity.record.AddRecordActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

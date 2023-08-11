@@ -1,0 +1,494 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="com.usatoday.android.news" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="com.usatoday.android.news" class="android.widget.LinearLayout" text="" resource-id="com.usatoday.android.news:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+						
+            
+						<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" resource-id="com.usatoday.android.news:id/snack_bar_frame" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+							
+              
+							<android.view.ViewGroup index="0" package="com.usatoday.android.news" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+								
+                
+								<android.widget.LinearLayout index="0" package="com.usatoday.android.news" class="android.widget.LinearLayout" text="" resource-id="com.usatoday.android.news:id/activity_article_app_bar_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+									
+                  
+									<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" content-desc="" resource-id="com.usatoday.android.news:id/article_pager_collapsing_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+										
+                    
+										<android.view.ViewGroup index="0" package="com.usatoday.android.news" class="android.view.ViewGroup" text="" resource-id="com.usatoday.android.news:id/toolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+											
+                      
+											<android.widget.ImageButton index="0" package="com.usatoday.android.news" class="android.widget.ImageButton" text="" content-desc="转到上一层级" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][147,210]" displayed="true"/>
+											
+                      
+											<androidx.appcompat.widget.LinearLayoutCompat index="2" package="com.usatoday.android.news" class="androidx.appcompat.widget.LinearLayoutCompat" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[702,63][1080,210]" displayed="true">
+												
+                        
+												<android.widget.TextView index="0" package="com.usatoday.android.news" class="android.widget.TextView" text="" content-desc="Article Text Size" resource-id="com.usatoday.android.news:id/button_articleTextSize" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[702,73][828,199]" displayed="true"/>
+												
+                        
+												<android.widget.TextView index="1" package="com.usatoday.android.news" class="android.widget.TextView" text="" content-desc="Share" resource-id="com.usatoday.android.news:id/button_articleShare" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[828,73][954,199]" displayed="true"/>
+												
+                        
+												<android.widget.TextView index="2" package="com.usatoday.android.news" class="android.widget.TextView" text="" content-desc="Checked. Save Checkbox" resource-id="com.usatoday.android.news:id/menuButtonBookmark" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[954,73][1080,199]" displayed="true"/>
+												
+                      
+											</androidx.appcompat.widget.LinearLayoutCompat>
+											
+                    
+										</android.view.ViewGroup>
+										
+                  
+									</android.widget.FrameLayout>
+									
+                
+								</android.widget.LinearLayout>
+								
+                
+								<android.widget.FrameLayout index="1" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" resource-id="com.usatoday.android.news:id/pager_frame" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+									
+                  
+									<androidx.viewpager.widget.ViewPager index="0" package="com.usatoday.android.news" class="androidx.viewpager.widget.ViewPager" text="" resource-id="com.usatoday.android.news:id/articles_view_pager" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+										
+                    
+										<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+											
+                      
+											<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+												
+                        
+												<android.view.ViewGroup index="0" package="com.usatoday.android.news" class="android.view.ViewGroup" text="" resource-id="com.usatoday.android.news:id/follow_topic_coordinator_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+													
+                          
+													<android.widget.LinearLayout index="0" package="com.usatoday.android.news" class="android.widget.LinearLayout" text="" resource-id="com.usatoday.android.news:id/app_bar_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,752]" displayed="true">
+														
+                            
+														<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" resource-id="com.usatoday.android.news:id/headline_collapsing_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,637]" displayed="true">
+															
+                              
+															<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" resource-id="com.usatoday.android.news:id/article_headline_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,637]" displayed="true">
+																
+                                
+																<android.widget.LinearLayout index="0" package="com.usatoday.android.news" class="android.widget.LinearLayout" text="" resource-id="com.usatoday.android.news:id/articleInfo" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,611]" displayed="true">
+																	
+                                  
+																	<android.widget.TextView index="1" package="com.usatoday.android.news" class="android.widget.TextView" text="Trump's fake electors charged by Michigan AG in alleged 2020 election scheme" resource-id="com.usatoday.android.news:id/articleTitle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,548]" displayed="true"/>
+																	
+                                  
+																	<android.widget.TextView index="2" package="com.usatoday.android.news" class="android.widget.TextView" text="Clara Hendrickson, Detroit Free Press  11h ago" resource-id="com.usatoday.android.news:id/articleBylineTimestamp" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,548][1080,611]" displayed="true"/>
+																	
+                                
+																</android.widget.LinearLayout>
+																
+                              
+															</android.widget.FrameLayout>
+															
+                            
+														</android.widget.FrameLayout>
+														
+                            
+														<android.widget.FrameLayout index="1" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" resource-id="com.usatoday.android.news:id/follow_topic_collapsing_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,637][1080,752]" displayed="true">
+															
+                              
+															<android.view.ViewGroup index="0" package="com.usatoday.android.news" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,637][1080,752]" displayed="true">
+																
+                                
+																<android.view.View index="0" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="com.usatoday.android.news:id/follow_topic_top_line" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,637][1080,640]" displayed="true"/>
+																
+                                
+																<android.widget.TextView index="1" package="com.usatoday.android.news" class="android.widget.TextView" text="2020 U.S. General Elections" resource-id="com.usatoday.android.news:id/follow_topic_name" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,644][736,745]" displayed="true"/>
+																
+                                
+																<android.widget.Button index="2" package="com.usatoday.android.news" class="android.widget.Button" text="Add Topic" content-desc="Follow Topic Checkbox" resource-id="com.usatoday.android.news:id/follow_topic_button" checkable="true" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[736,663][1014,726]" displayed="true"/>
+																
+                                
+																<android.view.View index="3" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="com.usatoday.android.news:id/follow_topic_bottom_line" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,749][1080,752]" displayed="true"/>
+																
+                              
+															</android.view.ViewGroup>
+															
+                            
+														</android.widget.FrameLayout>
+														
+                          
+													</android.widget.LinearLayout>
+													
+                          
+													<android.widget.FrameLayout index="1" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" resource-id="com.usatoday.android.news:id/content_frame" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,752][1080,1857]" displayed="true">
+														
+                            
+														<androidx.recyclerview.widget.RecyclerView index="0" package="com.usatoday.android.news" class="androidx.recyclerview.widget.RecyclerView" text="" resource-id="com.usatoday.android.news:id/recycler_article" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,752][1080,1857]" displayed="true">
+															
+                              
+															<android.widget.RelativeLayout index="0" package="com.usatoday.android.news" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,794][1080,1653]" displayed="true">
+																
+                                
+																<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" resource-id="com.usatoday.android.news:id/video_thumb_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[66,794][1014,1327]" displayed="true">
+																	
+                                  
+																	<android.widget.ImageView index="0" package="com.usatoday.android.news" class="android.widget.ImageView" text="" content-desc="Video with Republicans try to deliver their own electoral votes in Lansing length 5:58" resource-id="com.usatoday.android.news:id/img_video_thumb" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[66,794][1014,1327]" displayed="true"/>
+																	
+                                  
+																	<android.widget.LinearLayout index="1" package="com.usatoday.android.news" class="android.widget.LinearLayout" text="" resource-id="com.usatoday.android.news:id/aux_info_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[66,1227][349,1327]" displayed="true">
+																		
+                                    
+																		<android.widget.LinearLayout index="0" package="com.usatoday.android.news" class="android.widget.LinearLayout" text="" resource-id="com.usatoday.android.news:id/layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[66,1227][349,1327]" displayed="true">
+																			
+                                      
+																			<android.widget.ImageView index="0" package="com.usatoday.android.news" class="android.widget.ImageView" text="" resource-id="com.usatoday.android.news:id/icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[87,1256][129,1298]" displayed="true"/>
+																			
+                                      
+																			<android.widget.TextView index="1" package="com.usatoday.android.news" class="android.widget.TextView" text="Play | 5:58" resource-id="com.usatoday.android.news:id/title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[129,1255][328,1298]" displayed="true"/>
+																			
+                                    
+																		</android.widget.LinearLayout>
+																		
+                                  
+																	</android.widget.LinearLayout>
+																	
+                                
+																</android.widget.FrameLayout>
+																
+                                
+																<android.widget.RelativeLayout index="1" package="com.usatoday.android.news" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[66,1327][1014,1653]" displayed="true">
+																	
+                                  
+																	<android.widget.TextView index="0" package="com.usatoday.android.news" class="android.widget.TextView" text="Republicans try to deliver their own electoral votes in Lansing" resource-id="com.usatoday.android.news:id/video_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[132,1369][948,1483]" displayed="true"/>
+																	
+                                  
+																	<android.widget.TextView index="1" package="com.usatoday.android.news" class="android.widget.TextView" text="Outside the electoral college proceedings, a group of Republicans were denied access by law enforcement after incorrectly arguing the &quot;GOP electors&quot; ha... more" resource-id="com.usatoday.android.news:id/video_description" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[132,1483][948,1611]" displayed="true"/>
+																	
+                                
+																</android.widget.RelativeLayout>
+																
+                              
+															</android.widget.RelativeLayout>
+															
+                              
+															<android.widget.FrameLayout index="1" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1695][1080,1857]" displayed="true">
+																
+                                
+																<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1695][934,1857]" displayed="true">
+																	
+                                  
+																	<android.widget.LinearLayout index="0" package="com.usatoday.android.news" class="android.widget.LinearLayout" text="" resource-id="com.usatoday.android.news:id/ad_frame" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][934,1857]" displayed="true">
+																		
+                                    
+																		<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][934,1857]" displayed="true">
+																			
+                                      
+																			<android.widget.RelativeLayout index="0" package="com.usatoday.android.news" class="android.widget.RelativeLayout" text="" resource-id="com.usatoday.android.news:id/adContainer" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][934,1857]" displayed="true">
+																				
+                                        
+																				<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" resource-id="com.usatoday.android.news:id/adViewContainer" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][933,1857]" displayed="true">
+																					
+                                          
+																					<android.view.ViewGroup index="0" package="com.usatoday.android.news" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][933,1857]" displayed="true">
+																						
+                                            
+																						<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][933,1857]" displayed="true">
+																							
+                                              
+																							<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][933,1857]" displayed="true">
+																								
+                                                
+																								<android.widget.FrameLayout index="0" package="com.usatoday.android.news" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][933,1857]" displayed="true">
+																									
+                                                  
+																									<android.webkit.WebView index="0" package="com.usatoday.android.news" class="android.webkit.WebView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][933,1857]" displayed="true">
+																										
+                                                    
+																										<android.webkit.WebView index="0" package="com.usatoday.android.news" class="android.webkit.WebView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																											
+                                                      
+																											<android.view.View index="0" package="com.usatoday.android.news" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																												
+                                                        
+																												<android.widget.TextView index="0" package="com.usatoday.android.news" class="android.widget.TextView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint=""/>
+																												
+                                                        
+																												<android.view.View index="1" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="abgcp" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[841,1760][936,1838]" displayed="true" hint=""/>
+																												
+                                                        
+																												<android.view.View index="2" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="dclk-studio-creative_1689752393651" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																													
+                                                          
+																													<android.view.View index="0" package="com.usatoday.android.news" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																														
+                                                            
+																														<android.view.View index="0" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="200_268_dfa7banner_html_inpage_0.if" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																															
+                                                              
+																															<android.view.View index="0" package="com.usatoday.android.news" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="true" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																
+                                                                
+																																<android.view.View index="0" package="com.usatoday.android.news" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																	
+                                                                  
+																																	<android.view.View index="0" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="gwd-ad" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																		
+                                                                    
+																																		<android.view.View index="0" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="pagedeck" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																			
+                                                                      
+																																			<android.view.View index="0" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="page1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																				
+                                                                        
+																																				<android.view.View index="0" package="com.usatoday.android.news" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																					
+                                                                          
+																																					<android.view.View index="0" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="gradient-ani" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																						
+                                                                            
+																																						<android.widget.TextView index="0" package="com.usatoday.android.news" class="android.widget.TextView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint=""/>
+																																						
+                                                                            
+																																						<android.view.View index="1" package="com.usatoday.android.news" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																							
+                                                                              
+																																							<android.widget.Image index="0" package="com.usatoday.android.news" class="android.widget.Image" text="lines" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint=""/>
+																																							
+                                                                            
+																																						</android.view.View>
+																																						
+                                                                            
+																																						<android.view.View index="2" package="com.usatoday.android.news" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																							
+                                                                              
+																																							<android.widget.Image index="0" package="com.usatoday.android.news" class="android.widget.Image" text="lines" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint=""/>
+																																							
+                                                                            
+																																						</android.view.View>
+																																						
+                                                                            
+																																						<android.view.View index="3" package="com.usatoday.android.news" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																							
+                                                                              
+																																							<android.widget.Image index="0" package="com.usatoday.android.news" class="android.widget.Image" text="lines" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint=""/>
+																																							
+                                                                            
+																																						</android.view.View>
+																																						
+                                                                            
+																																						<android.view.View index="4" package="com.usatoday.android.news" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																							
+                                                                              
+																																							<android.widget.Image index="0" package="com.usatoday.android.news" class="android.widget.Image" text="lines" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint=""/>
+																																							
+                                                                            
+																																						</android.view.View>
+																																						
+                                                                          
+																																					</android.view.View>
+																																					
+                                                                          
+																																					<android.view.View index="1" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="trophy-moving" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																						
+                                                                            
+																																						<android.view.View index="0" package="com.usatoday.android.news" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																							
+                                                                              
+																																							<android.widget.Image index="0" package="com.usatoday.android.news" class="android.widget.Image" text="trophy" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint=""/>
+																																							
+                                                                            
+																																						</android.view.View>
+																																						
+                                                                          
+																																					</android.view.View>
+																																					
+                                                                          
+																																					<android.view.View index="2" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="txt-impossible" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[195,1802][883,1857]" displayed="true" hint="">
+																																						
+                                                                            
+																																						<android.widget.Image index="0" package="com.usatoday.android.news" class="android.widget.Image" text="txt-impossible" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[195,1802][883,1857]" displayed="true" hint=""/>
+																																						
+                                                                          
+																																					</android.view.View>
+																																					
+                                                                          
+																																					<android.view.View index="9" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="hdr-2" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][516,1857]" displayed="true" hint="">
+																																						
+                                                                            
+																																						<android.widget.Image index="0" package="com.usatoday.android.news" class="android.widget.Image" text="txt-prize" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][516,1857]" displayed="true" hint=""/>
+																																						
+                                                                          
+																																					</android.view.View>
+																																					
+                                                                          
+																																					<android.view.View index="11" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="logo-fecp" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1770][629,1857]" displayed="true" hint="">
+																																						
+                                                                            
+																																						<android.widget.Image index="0" package="com.usatoday.android.news" class="android.widget.Image" text="logo-fecp" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1770][629,1857]" displayed="true" hint=""/>
+																																						
+                                                                          
+																																					</android.view.View>
+																																					
+                                                                          
+																																					<android.view.View index="12" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="txt-all" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																						
+                                                                            
+																																						<android.widget.Image index="0" package="com.usatoday.android.news" class="android.widget.Image" text="txt-all" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint=""/>
+																																						
+                                                                          
+																																					</android.view.View>
+																																					
+                                                                          
+																																					<android.view.View index="13" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="trophy_1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[531,1760][936,1857]" displayed="true" hint="">
+																																						
+                                                                            
+																																						<android.widget.Image index="0" package="com.usatoday.android.news" class="android.widget.Image" text="trophy" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[531,1760][936,1857]" displayed="true" hint=""/>
+																																						
+                                                                          
+																																					</android.view.View>
+																																					
+                                                                          
+																																					<android.view.View index="15" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="btn" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																						
+                                                                            
+																																						<android.widget.Image index="0" package="com.usatoday.android.news" class="android.widget.Image" text="btn" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint=""/>
+																																						
+                                                                          
+																																					</android.view.View>
+																																					
+                                                                          
+																																					<android.view.View index="16" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="txt-viewstandings" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint="">
+																																						
+                                                                            
+																																						<android.widget.Image index="0" package="com.usatoday.android.news" class="android.widget.Image" text="txt-viewstandings" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint=""/>
+																																						
+                                                                          
+																																					</android.view.View>
+																																					
+                                                                          
+																																					<android.widget.Image index="17" package="com.usatoday.android.news" class="android.widget.Image" text="" resource-id="outline" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint=""/>
+																																					
+                                                                          
+																																					<android.widget.TextView index="18" package="com.usatoday.android.news" class="android.widget.TextView" text="" resource-id="gwd-taparea_1" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[146,1760][936,1857]" displayed="true" hint=""/>
+																																					
+                                                                        
+																																				</android.view.View>
+																																				
+                                                                      
+																																			</android.view.View>
+																																			
+                                                                    
+																																		</android.view.View>
+																																		
+                                                                  
+																																	</android.view.View>
+																																	
+                                                                
+																																</android.view.View>
+																																
+                                                              
+																															</android.view.View>
+																															
+                                                            
+																														</android.view.View>
+																														
+                                                          
+																													</android.view.View>
+																													
+                                                        
+																												</android.view.View>
+																												
+                                                      
+																											</android.view.View>
+																											
+                                                    
+																										</android.webkit.WebView>
+																										
+                                                  
+																									</android.webkit.WebView>
+																									
+                                                
+																								</android.widget.FrameLayout>
+																								
+                                              
+																							</android.widget.FrameLayout>
+																							
+                                            
+																						</android.widget.FrameLayout>
+																						
+                                          
+																					</android.view.ViewGroup>
+																					
+                                        
+																				</android.widget.FrameLayout>
+																				
+                                      
+																			</android.widget.RelativeLayout>
+																			
+                                    
+																		</android.widget.FrameLayout>
+																		
+                                  
+																	</android.widget.LinearLayout>
+																	
+                                
+																</android.widget.FrameLayout>
+																
+                              
+															</android.widget.FrameLayout>
+															
+                            
+														</androidx.recyclerview.widget.RecyclerView>
+														
+                          
+													</android.widget.FrameLayout>
+													
+                        
+												</android.view.ViewGroup>
+												
+                      
+											</android.widget.FrameLayout>
+											
+                    
+										</android.widget.FrameLayout>
+										
+                  
+									</androidx.viewpager.widget.ViewPager>
+									
+                
+								</android.widget.FrameLayout>
+								
+              
+							</android.view.ViewGroup>
+							
+            
+						</android.widget.FrameLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+    
+		<android.view.View index="2" package="com.usatoday.android.news" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1857][1080,1920]" displayed="true"/>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

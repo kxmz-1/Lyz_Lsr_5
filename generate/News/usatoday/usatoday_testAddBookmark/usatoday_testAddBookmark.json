@@ -1,0 +1,40 @@
+[
+    {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "package": "com.usatoday.android.news",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "usatoday_testAddBookmark",
+        "activity": "com.gannett.android.news.ui.activity.ActivityNavigation",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.usatoday.android.news:id/menuButtonBookmark",
+        "text": "",
+        "content-desc": "Unchecked. Save Checkbox",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "package": "com.usatoday.android.news",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "usatoday_testAddBookmark",
+        "activity": "com.gannett.android.news.ui.activity.ActivityArticle",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

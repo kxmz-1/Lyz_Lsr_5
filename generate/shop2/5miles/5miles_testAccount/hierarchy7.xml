@@ -1,0 +1,674 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1848">
+	
+  
+	<android.widget.FrameLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+				
+        
+				<android.widget.TabHost index="0" package="com.thirdrock.fivemiles" class="android.widget.TabHost" text="" resource-id="android:id/tabhost" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+						
+            
+						<android.widget.FrameLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" resource-id="android:id/tabcontent" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+							
+              
+							<android.widget.FrameLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+								
+                
+								<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+									
+                  
+									<android.widget.FrameLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+										
+                    
+										<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" resource-id="com.thirdrock.fivemiles:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+											
+                      
+											<android.widget.FrameLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+												
+                        
+												<android.view.ViewGroup index="0" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+													
+                          
+													<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" resource-id="com.thirdrock.fivemiles:id/appBarLayout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,420]" displayed="true">
+														
+                            
+														<android.view.ViewGroup index="0" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" resource-id="com.thirdrock.fivemiles:id/home_toolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,420]" displayed="true">
+															
+                              
+															<android.widget.RelativeLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,420]" displayed="true">
+																
+                                
+																<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" resource-id="com.thirdrock.fivemiles:id/search_bar_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,240]" displayed="true">
+																	
+                                  
+																	<android.widget.FrameLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" resource-id="com.thirdrock.fivemiles:id/btn_category" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,120][132,192]" displayed="true">
+																		
+                                    
+																		<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[30,120][102,192]" displayed="true"/>
+																		
+                                  
+																	</android.widget.FrameLayout>
+																	
+                                  
+																	<android.widget.RelativeLayout index="1" package="com.thirdrock.fivemiles" class="android.widget.RelativeLayout" text="" resource-id="com.thirdrock.fivemiles:id/home_toolbar_search" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[132,96][948,216]" displayed="true">
+																		
+                                    
+																		<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/ic_search_img" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[180,138][216,174]" displayed="true"/>
+																		
+                                    
+																		<android.widget.TextView index="1" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="Search 5miles" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[240,127][504,184]" displayed="true"/>
+																		
+                                    
+																		<android.widget.ImageView index="2" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/home_toolbar_location" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[828,96][948,216]" displayed="true"/>
+																		
+                                  
+																	</android.widget.RelativeLayout>
+																	
+                                  
+																	<android.widget.ImageView index="2" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/right_image_button" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[948,90][1080,222]" displayed="true"/>
+																	
+                                
+																</android.widget.LinearLayout>
+																
+                                
+																<android.widget.FrameLayout index="1" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" resource-id="com.thirdrock.fivemiles:id/banner_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,264][1056,414]" displayed="true">
+																	
+                                  
+																	<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,264][1056,414]" displayed="true">
+																		
+                                    
+																		<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,264][1056,414]" displayed="true">
+																			
+                                      
+																			<android.widget.RelativeLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.RelativeLayout" text="" resource-id="com.thirdrock.fivemiles:id/root_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,264][1056,413]" displayed="true">
+																				
+                                        
+																				<androidx.viewpager.widget.ViewPager index="0" package="com.thirdrock.fivemiles" class="androidx.viewpager.widget.ViewPager" text="" resource-id="com.thirdrock.fivemiles:id/cbLoopViewPager" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[24,264][1056,413]" displayed="true">
+																					
+                                          
+																					<android.widget.ImageView index="1" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,264][1056,413]" displayed="true"/>
+																					
+                                        
+																				</androidx.viewpager.widget.ViewPager>
+																				
+                                      
+																			</android.widget.RelativeLayout>
+																			
+                                    
+																		</android.widget.LinearLayout>
+																		
+                                  
+																	</android.widget.LinearLayout>
+																	
+                                
+																</android.widget.FrameLayout>
+																
+                              
+															</android.widget.RelativeLayout>
+															
+                            
+														</android.view.ViewGroup>
+														
+                          
+													</android.widget.LinearLayout>
+													
+                          
+													<android.widget.LinearLayout index="1" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,420][1080,1848]" displayed="true">
+														
+                            
+														<android.widget.HorizontalScrollView index="0" package="com.thirdrock.fivemiles" class="android.widget.HorizontalScrollView" text="" resource-id="com.thirdrock.fivemiles:id/home_tab_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,420][1080,564]" displayed="true">
+															
+                              
+															<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,420][1080,564]" displayed="true">
+																
+                                
+																<androidx.appcompat.app.ActionBar.b index="0" package="com.thirdrock.fivemiles" class="androidx.appcompat.app.ActionBar$b" text="" content-desc="Local" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[0,420][360,564]" displayed="true">
+																	
+                                  
+																	<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[0,420][360,564]" displayed="true">
+																		
+                                    
+																		<android.widget.TextView index="0" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="LOCAL" resource-id="com.thirdrock.fivemiles:id/text" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[115,465][244,519]" displayed="true"/>
+																		
+                                  
+																	</android.widget.LinearLayout>
+																	
+                                
+																</androidx.appcompat.app.ActionBar.b>
+																
+                                
+																<androidx.appcompat.app.ActionBar.b index="1" package="com.thirdrock.fivemiles" class="androidx.appcompat.app.ActionBar$b" text="" content-desc="Dash" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[360,420][720,564]" displayed="true">
+																	
+                                  
+																	<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[360,420][720,564]" displayed="true">
+																		
+                                    
+																		<android.widget.TextView index="0" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="DASH" resource-id="com.thirdrock.fivemiles:id/text" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[484,465][595,519]" displayed="true"/>
+																		
+                                  
+																	</android.widget.LinearLayout>
+																	
+                                
+																</androidx.appcompat.app.ActionBar.b>
+																
+                                
+																<androidx.appcompat.app.ActionBar.b index="2" package="com.thirdrock.fivemiles" class="androidx.appcompat.app.ActionBar$b" text="" content-desc="Buy Now" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[720,420][1080,564]" displayed="true">
+																	
+                                  
+																	<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[720,420][1080,564]" displayed="true">
+																		
+                                    
+																		<android.widget.TextView index="0" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="BUY NOW" resource-id="com.thirdrock.fivemiles:id/text" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[806,465][993,519]" displayed="true"/>
+																		
+                                  
+																	</android.widget.LinearLayout>
+																	
+                                
+																</androidx.appcompat.app.ActionBar.b>
+																
+                              
+															</android.widget.LinearLayout>
+															
+                            
+														</android.widget.HorizontalScrollView>
+														
+                            
+														<androidx.viewpager.widget.ViewPager index="1" package="com.thirdrock.fivemiles" class="androidx.viewpager.widget.ViewPager" text="" resource-id="com.thirdrock.fivemiles:id/home_viewpager" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,567][1080,1848]" displayed="true">
+															
+                              
+															<android.view.ViewGroup index="0" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" resource-id="com.thirdrock.fivemiles:id/home_nearby_swipe_refresh_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,567][1080,1848]" displayed="true">
+																
+                                
+																<androidx.recyclerview.widget.RecyclerView index="0" package="com.thirdrock.fivemiles" class="androidx.recyclerview.widget.RecyclerView" text="" resource-id="com.thirdrock.fivemiles:id/home_items" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,567][1080,1848]" displayed="true">
+																	
+                                  
+																	<android.widget.FrameLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,567][1080,568]" displayed="true"/>
+																	
+                                  
+																	<androidx.recyclerview.widget.RecyclerView index="1" package="com.thirdrock.fivemiles" class="androidx.recyclerview.widget.RecyclerView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,568][1080,841]" displayed="true">
+																		
+                                    
+																		<android.view.ViewGroup index="0" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,592][240,817]" displayed="true">
+																			
+                                      
+																			<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/entrance_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[36,592][204,760]" displayed="true"/>
+																			
+                                      
+																			<android.widget.TextView index="1" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="Dash" resource-id="com.thirdrock.fivemiles:id/entrance_text" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,760][240,799]" displayed="true"/>
+																			
+                                    
+																		</android.view.ViewGroup>
+																		
+                                    
+																		<android.view.ViewGroup index="1" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[240,592][480,817]" displayed="true">
+																			
+                                      
+																			<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/entrance_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[276,592][444,760]" displayed="true"/>
+																			
+                                      
+																			<android.widget.TextView index="1" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="Cars" resource-id="com.thirdrock.fivemiles:id/entrance_text" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[240,760][480,799]" displayed="true"/>
+																			
+                                    
+																		</android.view.ViewGroup>
+																		
+                                    
+																		<android.view.ViewGroup index="2" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[480,592][720,817]" displayed="true">
+																			
+                                      
+																			<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/entrance_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[516,592][684,760]" displayed="true"/>
+																			
+                                      
+																			<android.widget.TextView index="1" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="Featured" resource-id="com.thirdrock.fivemiles:id/entrance_text" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[480,760][720,799]" displayed="true"/>
+																			
+                                    
+																		</android.view.ViewGroup>
+																		
+                                    
+																		<android.view.ViewGroup index="3" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[720,592][960,817]" displayed="true">
+																			
+                                      
+																			<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/entrance_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[756,592][924,760]" displayed="true"/>
+																			
+                                      
+																			<android.widget.TextView index="1" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="Free" resource-id="com.thirdrock.fivemiles:id/entrance_text" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[720,760][960,799]" displayed="true"/>
+																			
+                                    
+																		</android.view.ViewGroup>
+																		
+                                    
+																		<android.view.ViewGroup index="4" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[960,592][1080,817]" displayed="true">
+																			
+                                      
+																			<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/entrance_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[996,592][1080,760]" displayed="true"/>
+																			
+                                      
+																			<android.widget.TextView index="1" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="Category" resource-id="com.thirdrock.fivemiles:id/entrance_text" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[960,760][1080,799]" displayed="true"/>
+																			
+                                    
+																		</android.view.ViewGroup>
+																		
+                                  
+																	</androidx.recyclerview.widget.RecyclerView>
+																	
+                                  
+																	<android.widget.FrameLayout index="3" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,841][1080,1034]" displayed="true">
+																		
+                                    
+																		<android.view.ViewGroup index="0" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" resource-id="com.thirdrock.fivemiles:id/root" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,865][1068,1034]" displayed="true">
+																			
+                                      
+																			<android.widget.TextView index="0" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="Balance :" resource-id="com.thirdrock.fivemiles:id/lbl_fmt_balance" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[60,913][281,986]" displayed="true"/>
+																			
+                                      
+																			<android.widget.TextView index="1" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="10 Coin" resource-id="com.thirdrock.fivemiles:id/fmt_balance" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[764,913][948,986]" displayed="true"/>
+																			
+                                      
+																			<android.widget.ImageView index="2" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/arrow" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[948,914][1020,986]" displayed="true"/>
+																			
+                                    
+																		</android.view.ViewGroup>
+																		
+                                  
+																	</android.widget.FrameLayout>
+																	
+                                  
+																	<android.widget.LinearLayout index="4" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,1034][1068,1595]" displayed="true">
+																		
+                                    
+																		<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,1058][1068,1595]" displayed="true">
+																			
+                                      
+																			<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,1058][1068,1595]" displayed="true">
+																				
+                                        
+																				<android.widget.FrameLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,1058][348,1583]" displayed="true">
+																					
+                                          
+																					<android.view.ViewGroup index="0" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,1058][348,1583]" displayed="true">
+																						
+                                            
+																						<android.widget.RelativeLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.RelativeLayout" text="" resource-id="com.thirdrock.fivemiles:id/flContainer" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,1058][348,1394]" displayed="true">
+																							
+                                              
+																							<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/image" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,1058][348,1394]" displayed="true"/>
+																							
+                                              
+																							<android.widget.ImageView index="1" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[30,1076][165,1139]" displayed="true"/>
+																							
+                                            
+																						</android.widget.RelativeLayout>
+																						
+                                            
+																						<android.widget.LinearLayout index="1" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" resource-id="com.thirdrock.fivemiles:id/btn_bid" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,1394][348,1496]" displayed="true">
+																							
+                                              
+																							<android.widget.TextView index="0" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="CHAT NOW" resource-id="com.thirdrock.fivemiles:id/txt_action_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,1403][336,1487]" displayed="true"/>
+																							
+                                            
+																						</android.widget.LinearLayout>
+																						
+                                            
+																						<android.widget.TextView index="2" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="$5" resource-id="com.thirdrock.fivemiles:id/txt_state" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,1517][348,1571]" displayed="true"/>
+																						
+                                            
+																						<android.widget.ImageView index="3" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/ic_liked" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[276,1517][336,1577]" displayed="true"/>
+																						
+                                          
+																					</android.view.ViewGroup>
+																					
+                                        
+																				</android.widget.FrameLayout>
+																				
+                                        
+																				<android.widget.FrameLayout index="1" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[372,1058][708,1583]" displayed="true">
+																					
+                                          
+																					<android.view.ViewGroup index="0" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[372,1058][708,1583]" displayed="true">
+																						
+                                            
+																						<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/image" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[372,1058][708,1394]" displayed="true"/>
+																						
+                                            
+																						<android.widget.LinearLayout index="1" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" resource-id="com.thirdrock.fivemiles:id/btn_bid" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[372,1394][708,1496]" displayed="true">
+																							
+                                              
+																							<android.widget.TextView index="0" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="" resource-id="com.thirdrock.fivemiles:id/txt_action_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[384,1403][696,1487]" displayed="true"/>
+																							
+                                            
+																						</android.widget.LinearLayout>
+																						
+                                            
+																						<android.widget.ProgressBar index="2" package="com.thirdrock.fivemiles" class="android.widget.ProgressBar" text="0.0" resource-id="com.thirdrock.fivemiles:id/prg_timeout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[372,1496][708,1505]" displayed="true"/>
+																						
+                                            
+																						<android.widget.TextView index="3" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="" resource-id="com.thirdrock.fivemiles:id/txt_state" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[384,1517][708,1571]" displayed="true"/>
+																						
+                                          
+																					</android.view.ViewGroup>
+																					
+                                        
+																				</android.widget.FrameLayout>
+																				
+                                        
+																				<android.widget.FrameLayout index="2" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[732,1058][1068,1583]" displayed="true">
+																					
+                                          
+																					<android.view.ViewGroup index="0" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[732,1058][1068,1583]" displayed="true">
+																						
+                                            
+																						<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/image" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[732,1058][1068,1394]" displayed="true"/>
+																						
+                                            
+																						<android.widget.LinearLayout index="1" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" resource-id="com.thirdrock.fivemiles:id/btn_bid" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[732,1394][1068,1496]" displayed="true">
+																							
+                                              
+																							<android.widget.TextView index="0" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="" resource-id="com.thirdrock.fivemiles:id/txt_action_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[744,1403][1056,1487]" displayed="true"/>
+																							
+                                            
+																						</android.widget.LinearLayout>
+																						
+                                            
+																						<android.widget.ProgressBar index="2" package="com.thirdrock.fivemiles" class="android.widget.ProgressBar" text="0.0" resource-id="com.thirdrock.fivemiles:id/prg_timeout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[732,1496][1068,1505]" displayed="true"/>
+																						
+                                            
+																						<android.widget.TextView index="3" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="" resource-id="com.thirdrock.fivemiles:id/txt_state" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[744,1517][1068,1571]" displayed="true"/>
+																						
+                                          
+																					</android.view.ViewGroup>
+																					
+                                        
+																				</android.widget.FrameLayout>
+																				
+                                      
+																			</android.widget.LinearLayout>
+																			
+                                    
+																		</android.widget.LinearLayout>
+																		
+                                  
+																	</android.widget.LinearLayout>
+																	
+                                  
+																	<android.widget.LinearLayout index="5" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,1619][1068,1676]" displayed="true">
+																		
+                                    
+																		<android.view.View index="0" package="com.thirdrock.fivemiles" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,1646][274,1649]" displayed="true"/>
+																		
+                                    
+																		<android.widget.TextView index="1" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="Popular listings near you" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[310,1619][769,1676]" displayed="true"/>
+																		
+                                    
+																		<android.view.View index="2" package="com.thirdrock.fivemiles" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[805,1646][1068,1649]" displayed="true"/>
+																		
+                                  
+																	</android.widget.LinearLayout>
+																	
+                                  
+																	<android.widget.FrameLayout index="6" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" resource-id="com.thirdrock.fivemiles:id/root_view" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,1700][348,1848]" displayed="true">
+																		
+                                    
+																		<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,1700][348,1848]" displayed="true">
+																			
+                                      
+																			<android.widget.FrameLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" resource-id="com.thirdrock.fivemiles:id/item_pic" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,1700][348,1848]" displayed="true">
+																				
+                                        
+																				<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/home_location_item_image" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[12,1700][348,1848]" displayed="true"/>
+																				
+                                      
+																			</android.widget.FrameLayout>
+																			
+                                    
+																		</android.widget.LinearLayout>
+																		
+                                  
+																	</android.widget.FrameLayout>
+																	
+                                  
+																	<android.widget.FrameLayout index="7" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" resource-id="com.thirdrock.fivemiles:id/root_view" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[372,1700][708,1848]" displayed="true">
+																		
+                                    
+																		<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[372,1700][708,1848]" displayed="true">
+																			
+                                      
+																			<android.widget.FrameLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" resource-id="com.thirdrock.fivemiles:id/item_pic" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[372,1700][708,1848]" displayed="true">
+																				
+                                        
+																				<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/home_location_item_image" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[372,1700][708,1848]" displayed="true"/>
+																				
+                                      
+																			</android.widget.FrameLayout>
+																			
+                                    
+																		</android.widget.LinearLayout>
+																		
+                                  
+																	</android.widget.FrameLayout>
+																	
+                                  
+																	<android.widget.FrameLayout index="8" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" resource-id="com.thirdrock.fivemiles:id/root_view" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[732,1700][1068,1848]" displayed="true">
+																		
+                                    
+																		<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[732,1700][1068,1848]" displayed="true">
+																			
+                                      
+																			<android.widget.FrameLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" resource-id="com.thirdrock.fivemiles:id/item_pic" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[732,1700][1068,1848]" displayed="true">
+																				
+                                        
+																				<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/home_location_item_image" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[732,1700][1068,1848]" displayed="true"/>
+																				
+                                      
+																			</android.widget.FrameLayout>
+																			
+                                    
+																		</android.widget.LinearLayout>
+																		
+                                  
+																	</android.widget.FrameLayout>
+																	
+                                
+																</androidx.recyclerview.widget.RecyclerView>
+																
+                              
+															</android.view.ViewGroup>
+															
+                            
+														</androidx.viewpager.widget.ViewPager>
+														
+                          
+													</android.widget.LinearLayout>
+													
+                        
+												</android.view.ViewGroup>
+												
+                      
+											</android.widget.FrameLayout>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                  
+									</android.widget.FrameLayout>
+									
+                
+								</android.widget.LinearLayout>
+								
+              
+							</android.widget.FrameLayout>
+							
+            
+						</android.widget.FrameLayout>
+						
+            
+						<android.widget.LinearLayout index="1" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[260,1488][820,1674]" displayed="true">
+							
+              
+							<android.widget.LinearLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[260,1488][820,1638]" displayed="true">
+								
+                
+								<android.widget.TextView index="0" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="Snap and Sell ! " resource-id="com.thirdrock.fivemiles:id/tv_content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[308,1530][635,1595]" displayed="true"/>
+								
+                
+								<android.view.View index="1" package="com.thirdrock.fivemiles" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[683,1536][686,1590]" displayed="true"/>
+								
+                
+								<android.widget.ImageView index="2" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/iv_close" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[716,1535][772,1591]" displayed="true"/>
+								
+              
+							</android.widget.LinearLayout>
+							
+              
+							<android.widget.ImageView index="1" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/iv_arrow_down" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[480,1638][600,1674]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+            
+						<android.widget.FrameLayout index="2" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" resource-id="com.thirdrock.fivemiles:id/bottom_navigation" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1680][1080,1848]" displayed="true">
+							
+              
+							<android.view.ViewGroup index="0" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1680][1080,1848]" displayed="true">
+								
+                
+								<android.widget.FrameLayout index="0" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" content-desc="Home" resource-id="com.thirdrock.fivemiles:id/action_home" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[0,1680][216,1848]" displayed="true">
+									
+                  
+									<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[72,1704][144,1776]" displayed="true"/>
+									
+                  
+									<android.view.ViewGroup index="1" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[59,1779][157,1848]" displayed="true">
+										
+                    
+										<android.widget.TextView index="0" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="Home" resource-id="com.thirdrock.fivemiles:id/largeLabel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[59,1779][157,1828]" displayed="true"/>
+										
+                  
+									</android.view.ViewGroup>
+									
+                
+								</android.widget.FrameLayout>
+								
+                
+								<android.view.ViewGroup index="1" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[216,1680][432,1848]" displayed="true">
+									
+                  
+									<android.view.View index="0" package="com.thirdrock.fivemiles" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[216,1680][432,1848]" displayed="true"/>
+									
+                  
+									<android.widget.FrameLayout index="1" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" content-desc="Rewards" resource-id="com.thirdrock.fivemiles:id/action_search" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[216,1680][432,1848]" displayed="true">
+										
+                    
+										<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[288,1704][360,1776]" displayed="true"/>
+										
+                    
+										<android.view.ViewGroup index="1" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[254,1779][393,1848]" displayed="true">
+											
+                      
+											<android.widget.TextView index="0" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="Rewards" resource-id="com.thirdrock.fivemiles:id/smallLabel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[254,1779][393,1828]" displayed="true"/>
+											
+                    
+										</android.view.ViewGroup>
+										
+                  
+									</android.widget.FrameLayout>
+									
+                
+								</android.view.ViewGroup>
+								
+                
+								<android.widget.FrameLayout index="2" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" content-desc="" resource-id="com.thirdrock.fivemiles:id/action_sell" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[432,1680][648,1848]" displayed="true">
+									
+                  
+									<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[468,1692][612,1836]" displayed="true"/>
+									
+                
+								</android.widget.FrameLayout>
+								
+                
+								<android.view.ViewGroup index="3" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[648,1680][864,1848]" displayed="true">
+									
+                  
+									<android.view.View index="0" package="com.thirdrock.fivemiles" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[648,1680][864,1848]" displayed="true"/>
+									
+                  
+									<android.widget.FrameLayout index="1" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" content-desc="Chat" resource-id="com.thirdrock.fivemiles:id/action_message" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[648,1680][864,1848]" displayed="true">
+										
+                    
+										<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[720,1704][792,1776]" displayed="true"/>
+										
+                    
+										<android.view.ViewGroup index="1" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[718,1779][793,1848]" displayed="true">
+											
+                      
+											<android.widget.TextView index="0" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="Chat" resource-id="com.thirdrock.fivemiles:id/smallLabel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[718,1779][793,1828]" displayed="true"/>
+											
+                    
+										</android.view.ViewGroup>
+										
+                  
+									</android.widget.FrameLayout>
+									
+                
+								</android.view.ViewGroup>
+								
+                
+								<android.view.ViewGroup index="4" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[864,1680][1080,1848]" displayed="true">
+									
+                  
+									<android.view.View index="0" package="com.thirdrock.fivemiles" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[864,1680][1080,1848]" displayed="true"/>
+									
+                  
+									<android.widget.FrameLayout index="1" package="com.thirdrock.fivemiles" class="android.widget.FrameLayout" text="" content-desc="Me" resource-id="com.thirdrock.fivemiles:id/action_profile" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[864,1680][1080,1848]" displayed="true">
+										
+                    
+										<android.widget.ImageView index="0" package="com.thirdrock.fivemiles" class="android.widget.ImageView" text="" resource-id="com.thirdrock.fivemiles:id/icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[936,1704][1008,1776]" displayed="true"/>
+										
+                    
+										<android.view.ViewGroup index="1" package="com.thirdrock.fivemiles" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[947,1779][997,1848]" displayed="true">
+											
+                      
+											<android.widget.TextView index="0" package="com.thirdrock.fivemiles" class="android.widget.TextView" text="Me" resource-id="com.thirdrock.fivemiles:id/smallLabel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[947,1779][997,1828]" displayed="true"/>
+											
+                    
+										</android.view.ViewGroup>
+										
+                  
+									</android.widget.FrameLayout>
+									
+                
+								</android.view.ViewGroup>
+								
+              
+							</android.view.ViewGroup>
+							
+            
+						</android.widget.FrameLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.widget.TabHost>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+    
+		<android.view.View index="2" package="com.thirdrock.fivemiles" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1848][1080,1920]" displayed="true"/>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

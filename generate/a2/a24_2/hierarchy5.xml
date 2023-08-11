@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="kdk.android.simplydo" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[60,680][1020,1240]" displayed="true">
+		
+    
+		<android.widget.FrameLayout index="0" package="kdk.android.simplydo" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[60,680][1020,1240]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="kdk.android.simplydo" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[60,680][1020,1240]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="kdk.android.simplydo" class="android.widget.LinearLayout" text="" resource-id="android:id/parentPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[60,680][1020,1240]" displayed="true">
+					
+          
+					<android.widget.LinearLayout index="0" package="kdk.android.simplydo" class="android.widget.LinearLayout" text="" resource-id="android:id/topPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[68,704][1017,867]" displayed="true">
+						
+            
+						<android.widget.LinearLayout index="0" package="kdk.android.simplydo" class="android.widget.LinearLayout" text="" resource-id="android:id/title_template" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[127,746][958,840]" displayed="true">
+							
+              
+							<android.widget.TextView index="0" package="kdk.android.simplydo" class="android.widget.TextView" text="Delete?" resource-id="android:id/alertTitle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[127,746][958,840]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+            
+						<android.widget.ImageView index="1" package="kdk.android.simplydo" class="android.widget.ImageView" text="" resource-id="android:id/titleDivider" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[101,864][984,867]" displayed="true"/>
+						
+          
+					</android.widget.LinearLayout>
+					
+          
+					<android.widget.LinearLayout index="1" package="kdk.android.simplydo" class="android.widget.LinearLayout" text="" resource-id="android:id/contentPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[68,867][1017,1048]" displayed="true">
+						
+            
+						<android.widget.ScrollView index="0" package="kdk.android.simplydo" class="android.widget.ScrollView" text="" resource-id="android:id/scrollView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[101,867][984,1048]" displayed="true">
+							
+              
+							<android.widget.TextView index="0" package="kdk.android.simplydo" class="android.widget.TextView" text="Are you sure you want to delete this list?" resource-id="android:id/message" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[138,872][958,1016]" displayed="true"/>
+							
+            
+						</android.widget.ScrollView>
+						
+          
+					</android.widget.LinearLayout>
+					
+          
+					<android.widget.LinearLayout index="2" package="kdk.android.simplydo" class="android.widget.LinearLayout" text="" resource-id="android:id/buttonPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[68,1048][1017,1232]" displayed="true">
+						
+            
+						<android.widget.LinearLayout index="0" package="kdk.android.simplydo" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[101,1048][984,1191]" displayed="true">
+							
+              
+							<android.widget.Button index="0" package="kdk.android.simplydo" class="android.widget.Button" text="Yes" resource-id="android:id/button1" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[106,1059][542,1185]" displayed="true"/>
+							
+              
+							<android.widget.Button index="1" package="kdk.android.simplydo" class="android.widget.Button" text="No" resource-id="android:id/button2" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[542,1059][979,1185]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+          
+					</android.widget.LinearLayout>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.FrameLayout>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

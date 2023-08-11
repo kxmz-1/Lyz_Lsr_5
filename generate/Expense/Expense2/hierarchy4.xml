@@ -1,0 +1,218 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="luankevinferreira.expenses" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,278][960,1641]" displayed="true">
+		
+    
+		<android.widget.FrameLayout index="0" package="luankevinferreira.expenses" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,320][918,1599]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="luankevinferreira.expenses" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,320][918,1599]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="luankevinferreira.expenses" class="android.widget.LinearLayout" text="" resource-id="android:id/parentPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,320][918,1599]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="luankevinferreira.expenses" class="android.widget.FrameLayout" text="" resource-id="android:id/customPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,320][918,1451]" displayed="true">
+						
+            
+						<android.widget.FrameLayout index="0" package="luankevinferreira.expenses" class="android.widget.FrameLayout" text="" resource-id="android:id/custom" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,320][918,1451]" displayed="true">
+							
+              
+							<android.widget.DatePicker index="0" package="luankevinferreira.expenses" class="android.widget.DatePicker" text="" resource-id="android:id/datePicker" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,320][918,1451]" displayed="true">
+								
+                
+								<android.widget.LinearLayout index="0" package="luankevinferreira.expenses" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,320][918,1451]" displayed="true">
+									
+                  
+									<android.widget.LinearLayout index="0" package="luankevinferreira.expenses" class="android.widget.LinearLayout" text="" resource-id="android:id/date_picker_header" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,320][918,563]" displayed="true">
+										
+                    
+										<android.widget.LinearLayout index="0" package="luankevinferreira.expenses" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,320][918,563]" displayed="true">
+											
+                      
+											<android.widget.TextView index="0" package="luankevinferreira.expenses" class="android.widget.TextView" text="2023年" resource-id="android:id/date_picker_header_year" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[204,341][384,432]" displayed="true"/>
+											
+                      
+											<android.widget.TextView index="1" package="luankevinferreira.expenses" class="android.widget.TextView" text="7月19日周三" resource-id="android:id/date_picker_header_date" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[225,411][734,516]" displayed="true"/>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                  
+									</android.widget.LinearLayout>
+									
+                  
+									<android.widget.ScrollView index="1" package="luankevinferreira.expenses" class="android.widget.ScrollView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,563][918,1451]" displayed="true">
+										
+                    
+										<android.widget.ViewAnimator index="0" package="luankevinferreira.expenses" class="android.widget.ViewAnimator" text="" resource-id="android:id/animator" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,563][918,1451]" displayed="true">
+											
+                      
+											<android.view.ViewGroup index="0" package="luankevinferreira.expenses" class="android.view.ViewGroup" text="" resource-id="android:id/date_picker_day_picker" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,563][918,1451]" displayed="true">
+												
+                        
+												<com.android.internal.widget.ViewPager index="0" package="luankevinferreira.expenses" class="com.android.internal.widget.ViewPager" text="" resource-id="android:id/day_picker_view_pager" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[162,563][918,1451]" displayed="true">
+													
+                          
+													<android.view.View index="1" package="luankevinferreira.expenses" class="android.view.View" text="" resource-id="android:id/month_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,563][918,1451]" displayed="true">
+														
+                            
+														<android.view.View index="0" package="luankevinferreira.expenses" class="android.view.View" text="1" content-desc="01 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[767,821][859,926]" displayed="true"/>
+														
+                            
+														<android.view.View index="1" package="luankevinferreira.expenses" class="android.view.View" text="2" content-desc="02 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[215,926][307,1031]" displayed="true"/>
+														
+                            
+														<android.view.View index="2" package="luankevinferreira.expenses" class="android.view.View" text="3" content-desc="03 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[307,926][399,1031]" displayed="true"/>
+														
+                            
+														<android.view.View index="3" package="luankevinferreira.expenses" class="android.view.View" text="4" content-desc="04 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[399,926][491,1031]" displayed="true"/>
+														
+                            
+														<android.view.View index="4" package="luankevinferreira.expenses" class="android.view.View" text="5" content-desc="05 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[491,926][583,1031]" displayed="true"/>
+														
+                            
+														<android.view.View index="5" package="luankevinferreira.expenses" class="android.view.View" text="6" content-desc="06 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[583,926][675,1031]" displayed="true"/>
+														
+                            
+														<android.view.View index="6" package="luankevinferreira.expenses" class="android.view.View" text="7" content-desc="07 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[675,926][767,1031]" displayed="true"/>
+														
+                            
+														<android.view.View index="7" package="luankevinferreira.expenses" class="android.view.View" text="8" content-desc="08 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[767,926][859,1031]" displayed="true"/>
+														
+                            
+														<android.view.View index="8" package="luankevinferreira.expenses" class="android.view.View" text="9" content-desc="09 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[215,1031][307,1136]" displayed="true"/>
+														
+                            
+														<android.view.View index="9" package="luankevinferreira.expenses" class="android.view.View" text="10" content-desc="10 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[307,1031][399,1136]" displayed="true"/>
+														
+                            
+														<android.view.View index="10" package="luankevinferreira.expenses" class="android.view.View" text="11" content-desc="11 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[399,1031][491,1136]" displayed="true"/>
+														
+                            
+														<android.view.View index="11" package="luankevinferreira.expenses" class="android.view.View" text="12" content-desc="12 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[491,1031][583,1136]" displayed="true"/>
+														
+                            
+														<android.view.View index="12" package="luankevinferreira.expenses" class="android.view.View" text="13" content-desc="13 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[583,1031][675,1136]" displayed="true"/>
+														
+                            
+														<android.view.View index="13" package="luankevinferreira.expenses" class="android.view.View" text="14" content-desc="14 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[675,1031][767,1136]" displayed="true"/>
+														
+                            
+														<android.view.View index="14" package="luankevinferreira.expenses" class="android.view.View" text="15" content-desc="15 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[767,1031][859,1136]" displayed="true"/>
+														
+                            
+														<android.view.View index="15" package="luankevinferreira.expenses" class="android.view.View" text="16" content-desc="16 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[215,1136][307,1241]" displayed="true"/>
+														
+                            
+														<android.view.View index="16" package="luankevinferreira.expenses" class="android.view.View" text="17" content-desc="17 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[307,1136][399,1241]" displayed="true"/>
+														
+                            
+														<android.view.View index="17" package="luankevinferreira.expenses" class="android.view.View" text="18" content-desc="18 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[399,1136][491,1241]" displayed="true"/>
+														
+                            
+														<android.view.View index="18" package="luankevinferreira.expenses" class="android.view.View" text="19" content-desc="19 七月 2023" checkable="false" checked="true" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[491,1136][583,1241]" displayed="true"/>
+														
+                            
+														<android.view.View index="19" package="luankevinferreira.expenses" class="android.view.View" text="20" content-desc="20 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[583,1136][675,1241]" displayed="true"/>
+														
+                            
+														<android.view.View index="20" package="luankevinferreira.expenses" class="android.view.View" text="21" content-desc="21 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[675,1136][767,1241]" displayed="true"/>
+														
+                            
+														<android.view.View index="21" package="luankevinferreira.expenses" class="android.view.View" text="22" content-desc="22 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[767,1136][859,1241]" displayed="true"/>
+														
+                            
+														<android.view.View index="22" package="luankevinferreira.expenses" class="android.view.View" text="23" content-desc="23 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[215,1241][307,1346]" displayed="true"/>
+														
+                            
+														<android.view.View index="23" package="luankevinferreira.expenses" class="android.view.View" text="24" content-desc="24 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[307,1241][399,1346]" displayed="true"/>
+														
+                            
+														<android.view.View index="24" package="luankevinferreira.expenses" class="android.view.View" text="25" content-desc="25 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[399,1241][491,1346]" displayed="true"/>
+														
+                            
+														<android.view.View index="25" package="luankevinferreira.expenses" class="android.view.View" text="26" content-desc="26 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[491,1241][583,1346]" displayed="true"/>
+														
+                            
+														<android.view.View index="26" package="luankevinferreira.expenses" class="android.view.View" text="27" content-desc="27 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[583,1241][675,1346]" displayed="true"/>
+														
+                            
+														<android.view.View index="27" package="luankevinferreira.expenses" class="android.view.View" text="28" content-desc="28 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[675,1241][767,1346]" displayed="true"/>
+														
+                            
+														<android.view.View index="28" package="luankevinferreira.expenses" class="android.view.View" text="29" content-desc="29 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[767,1241][859,1346]" displayed="true"/>
+														
+                            
+														<android.view.View index="29" package="luankevinferreira.expenses" class="android.view.View" text="30" content-desc="30 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[215,1346][307,1451]" displayed="true"/>
+														
+                            
+														<android.view.View index="30" package="luankevinferreira.expenses" class="android.view.View" text="31" content-desc="31 七月 2023" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[307,1346][399,1451]" displayed="true"/>
+														
+                          
+													</android.view.View>
+													
+                        
+												</com.android.internal.widget.ViewPager>
+												
+                        
+												<android.widget.ImageButton index="1" package="luankevinferreira.expenses" class="android.widget.ImageButton" text="" content-desc="上个月" resource-id="android:id/prev" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[198,589][324,715]" displayed="true"/>
+												
+                        
+												<android.widget.ImageButton index="2" package="luankevinferreira.expenses" class="android.widget.ImageButton" text="" content-desc="下个月" resource-id="android:id/next" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[756,589][882,715]" displayed="true"/>
+												
+                      
+											</android.view.ViewGroup>
+											
+                    
+										</android.widget.ViewAnimator>
+										
+                  
+									</android.widget.ScrollView>
+									
+                
+								</android.widget.LinearLayout>
+								
+              
+							</android.widget.DatePicker>
+							
+            
+						</android.widget.FrameLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+          
+					<android.widget.ScrollView index="1" package="luankevinferreira.expenses" class="android.widget.ScrollView" text="" resource-id="android:id/buttonPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,1451][918,1599]" displayed="true">
+						
+            
+						<android.widget.LinearLayout index="0" package="luankevinferreira.expenses" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[162,1451][918,1599]" displayed="true">
+							
+              
+							<android.widget.Button index="0" package="luankevinferreira.expenses" class="android.widget.Button" text="取消" resource-id="android:id/button2" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[550,1462][718,1588]" displayed="true"/>
+							
+              
+							<android.widget.Button index="1" package="luankevinferreira.expenses" class="android.widget.Button" text="确定" resource-id="android:id/button1" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[718,1462][886,1588]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+          
+					</android.widget.ScrollView>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.FrameLayout>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+				
+        
+				<android.view.ViewGroup index="0" package="com.kvannli.simonkvannli.dailybudget" class="android.view.ViewGroup" text="" resource-id="com.kvannli.simonkvannli.dailybudget:id/decor_content_parent" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.FrameLayout" text="" resource-id="com.kvannli.simonkvannli.dailybudget:id/action_bar_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+						
+            
+						<android.view.ViewGroup index="0" package="com.kvannli.simonkvannli.dailybudget" class="android.view.ViewGroup" text="" resource-id="com.kvannli.simonkvannli.dailybudget:id/action_bar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+							
+              
+							<android.widget.ImageButton index="0" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.ImageButton" text="" content-desc="Open navigation drawer" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][147,210]" displayed="true"/>
+							
+            
+						</android.view.ViewGroup>
+						
+          
+					</android.widget.FrameLayout>
+					
+          
+					<android.widget.FrameLayout index="1" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+						
+            
+						<android.support.v4.widget.DrawerLayout index="0" package="com.kvannli.simonkvannli.dailybudget" class="android.support.v4.widget.DrawerLayout" text="" resource-id="com.kvannli.simonkvannli.dailybudget:id/drawer_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+							
+              
+							<android.widget.LinearLayout index="0" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+								
+                
+								<android.widget.LinearLayout index="0" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,618]" displayed="true">
+									
+                  
+									<android.widget.TextView index="0" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.TextView" text="TODAYS BUDGET" resource-id="com.kvannli.simonkvannli.dailybudget:id/textView3" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[305,373][775,454]" displayed="true"/>
+									
+                
+								</android.widget.LinearLayout>
+								
+                
+								<android.widget.TextView index="1" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.TextView" text="$ 0.00" resource-id="com.kvannli.simonkvannli.dailybudget:id/current_money" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[354,618][725,1010]" displayed="true"/>
+								
+                
+								<android.widget.LinearLayout index="2" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1010][1080,1168]" displayed="true">
+									
+                  
+									<android.widget.TextView index="0" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.TextView" text="DAILY AMOUNT:" resource-id="com.kvannli.simonkvannli.dailybudget:id/textView2" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[340,1062][627,1115]" displayed="true"/>
+									
+                  
+									<android.widget.TextView index="1" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.TextView" text=" 0.00" resource-id="com.kvannli.simonkvannli.dailybudget:id/daily_amount" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[653,1062][740,1115]" displayed="true"/>
+									
+                
+								</android.widget.LinearLayout>
+								
+                
+								<android.widget.LinearLayout index="3" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[125,1168][955,1726]" displayed="true">
+									
+                  
+									<android.widget.ImageButton index="0" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.ImageButton" text="" resource-id="com.kvannli.simonkvannli.dailybudget:id/imageButton2" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[125,1385][409,1700]" displayed="true"/>
+									
+                  
+									<android.widget.ImageButton index="1" package="com.kvannli.simonkvannli.dailybudget" class="android.widget.ImageButton" text="" resource-id="com.kvannli.simonkvannli.dailybudget:id/imageButton" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[671,1385][955,1700]" displayed="true"/>
+									
+                
+								</android.widget.LinearLayout>
+								
+              
+							</android.widget.LinearLayout>
+							
+            
+						</android.support.v4.widget.DrawerLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.view.ViewGroup>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+    
+		<android.view.View index="2" package="com.kvannli.simonkvannli.dailybudget" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1857][1080,1920]" displayed="true"/>
+		
+  
+	</android.widget.FrameLayout>
+	
+  
+	<android.widget.Toast index="1" package="com.android.settings" class="android.widget.Toast" text="Daily amount will be added tomorrow!" displayed="true"/>
+	
+
+</hierarchy>

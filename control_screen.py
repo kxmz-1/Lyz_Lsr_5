@@ -3,6 +3,7 @@ from time import sleep
 from selenium.webdriver.support.ui import WebDriverWait
 from appium.webdriver.common.mobileby import MobileBy
 from selenium.webdriver.support import expected_conditions as EC
+import ast
 
 class control:
     def __init__(self, driver):
@@ -10,29 +11,32 @@ class control:
         self.sleep_time = 0.1
         return
 
-    def swipe_down(self):
+    def swipe_down(self,bound):
         # 获取屏幕尺寸
-        size = self.driver.get_window_size()
-        width = size['width']
-        height = size['height']
-
-        # 定义起始点和结束点坐标
-        start_x = width // 2
-        start_y = height // 2
-        end_x = width // 2
-        end_y = 0
-
-        # 创建TouchAction对象，并执行滑动操作
+        x1=bound[0][0]
+        y1=bound[0][1]
+        x2=bound[1][0]
+        y2=bound[1][1]
+        #size = self.driver.get_window_size()
+        #width = size['width']
+        #height = size['height']
+        start_x = (x1+x2) // 2
+        start_y = y2-10
+        end_x = (x1+x2)//2
+        end_y = y1+10  # Adjust this value to control the swipe distance
         self.driver.swipe(start_x, start_y, end_x, end_y)
-
-    def swipe_up(self):
-        size = self.driver.get_window_size()
-        width = size['width']
-        height = size['height']
-        start_x = width // 2
-        start_y = height // 2
-        end_x = width // 2
-        end_y = height - 1  # Adjust this value to control the swipe distance
+    def swipe_up(self,bound):
+        x1=bound[0][0]
+        y1=bound[0][1]
+        x2=bound[1][0]
+        y2=bound[1][1]
+        #size = self.driver.get_window_size()
+        #width = size['width']
+        #height = size['height']
+        start_x = (x1+x2) // 2
+        start_y = y1+10
+        end_x = (x1+x2)//2
+        end_y = y2-10  # Adjust this value to control the swipe distance
 
         self.driver.swipe(start_x, start_y, end_x, end_y)
 
@@ -82,9 +86,12 @@ class control:
             TouchAction(self.driver).long_press(final_element).perform()
             sleep(5)
         if action == 2:
-            self.swipe_down()
+            bound=ast.literal_eval(final_element.get_attribute("bounds").replace("][", "],["))
+            print(type(bound),bound)
+            self.swipe_down(bound)
         if action == 3:
-            self.swipe_up()
+            bound=ast.literal_eval(final_element.get_attribute("bounds").replace("][", "],["))
+            self.swipe_up(bound)
         if action == 4:
             final_element.send_keys(text)
             self.driver.execute_script("mobile: performEditorAction", {"action": "search"})

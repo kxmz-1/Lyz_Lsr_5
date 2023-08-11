@@ -1,0 +1,42 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "com.guardian:id/fabHome",
+        "text": "",
+        "content-desc": "Open navigation button",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [],
+        "tid": "theguardian_testAccount",
+        "package": "com.guardian",
+        "activity": ".feature.stream.NewHomeActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.guardian:id/nav_drawer_profile_button",
+        "text": "",
+        "content-desc": "Your profile",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [],
+        "tid": "theguardian_testAccount",
+        "package": "com.guardian",
+        "activity": ".feature.stream.NewHomeActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

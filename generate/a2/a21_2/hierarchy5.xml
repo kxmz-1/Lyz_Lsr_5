@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="com.rubenroy.minimaltodo" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="com.rubenroy.minimaltodo" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="com.rubenroy.minimaltodo" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="com.rubenroy.minimaltodo" class="android.widget.LinearLayout" text="" resource-id="com.rubenroy.minimaltodo:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="com.rubenroy.minimaltodo" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+						
+            
+						<android.widget.LinearLayout index="0" package="com.rubenroy.minimaltodo" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+							
+              
+							<android.view.ViewGroup index="0" package="com.rubenroy.minimaltodo" class="android.view.ViewGroup" text="" resource-id="com.rubenroy.minimaltodo:id/myCoordinatorLayout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+								
+                
+								<android.widget.LinearLayout index="0" package="com.rubenroy.minimaltodo" class="android.widget.LinearLayout" text="" resource-id="com.rubenroy.minimaltodo:id/toDoEmptyView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+									
+                  
+									<android.widget.ImageView index="0" package="com.rubenroy.minimaltodo" class="android.widget.ImageView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[408,784][671,1047]" displayed="true"/>
+									
+                  
+									<android.widget.TextView index="1" package="com.rubenroy.minimaltodo" class="android.widget.TextView" text="You don't have any todos" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1047][1080,1136]" displayed="true"/>
+									
+                
+								</android.widget.LinearLayout>
+								
+                
+								<android.widget.LinearLayout index="1" package="com.rubenroy.minimaltodo" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+									
+                  
+									<android.view.ViewGroup index="0" package="com.rubenroy.minimaltodo" class="android.view.ViewGroup" text="" resource-id="com.rubenroy.minimaltodo:id/toolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+										
+                    
+										<android.widget.TextView index="0" package="com.rubenroy.minimaltodo" class="android.widget.TextView" text="Minimal" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,101][235,172]" displayed="true"/>
+										
+                    
+										<android.support.v7.widget.bh index="1" package="com.rubenroy.minimaltodo" class="android.support.v7.widget.bh" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[975,63][1080,210]" displayed="true">
+											
+                      
+											<android.widget.ImageView index="0" package="com.rubenroy.minimaltodo" class="android.widget.ImageView" text="" content-desc="更多选项" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[975,73][1080,199]" displayed="true"/>
+											
+                    
+										</android.support.v7.widget.bh>
+										
+                  
+									</android.view.ViewGroup>
+									
+                
+								</android.widget.LinearLayout>
+								
+                
+								<android.widget.LinearLayout index="2" package="com.rubenroy.minimaltodo" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1731][1080,1857]" displayed="true">
+									
+                  
+									<android.widget.TextView index="0" package="com.rubenroy.minimaltodo" class="android.widget.TextView" text="Deleted Todo" resource-id="com.rubenroy.minimaltodo:id/snackbar_text" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[32,1731][817,1856]" displayed="true"/>
+									
+                  
+									<android.widget.Button index="1" package="com.rubenroy.minimaltodo" class="android.widget.Button" text="UNDO" resource-id="com.rubenroy.minimaltodo:id/snackbar_action" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[817,1731][1048,1857]" displayed="true"/>
+									
+                
+								</android.widget.LinearLayout>
+								
+                
+								<android.widget.ImageButton index="3" package="com.rubenroy.minimaltodo" class="android.widget.ImageButton" text="" resource-id="com.rubenroy.minimaltodo:id/addToDoItemFAB" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[891,1542][1038,1689]" displayed="true"/>
+								
+              
+							</android.view.ViewGroup>
+							
+            
+						</android.widget.LinearLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+    
+		<android.view.View index="2" package="com.rubenroy.minimaltodo" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1857][1080,1920]" displayed="true"/>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

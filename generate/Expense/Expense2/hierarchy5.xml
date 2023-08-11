@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="luankevinferreira.expenses" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="luankevinferreira.expenses" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="luankevinferreira.expenses" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1048]" displayed="true">
+				
+        
+				<android.view.ViewGroup index="0" package="luankevinferreira.expenses" class="android.view.ViewGroup" text="" resource-id="luankevinferreira.expenses:id/decor_content_parent" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1048]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="luankevinferreira.expenses" class="android.widget.FrameLayout" text="" resource-id="luankevinferreira.expenses:id/action_bar_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+						
+            
+						<android.view.ViewGroup index="0" package="luankevinferreira.expenses" class="android.view.ViewGroup" text="" resource-id="luankevinferreira.expenses:id/action_bar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+							
+              
+							<android.widget.ImageButton index="0" package="luankevinferreira.expenses" class="android.widget.ImageButton" text="" content-desc="转到上一层级" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][147,210]" displayed="true"/>
+							
+              
+							<android.widget.TextView index="1" package="luankevinferreira.expenses" class="android.widget.TextView" text="Expenses" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[189,101][416,172]" displayed="true"/>
+							
+            
+						</android.view.ViewGroup>
+						
+          
+					</android.widget.FrameLayout>
+					
+          
+					<android.widget.FrameLayout index="1" package="luankevinferreira.expenses" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1048]" displayed="true">
+						
+            
+						<android.widget.LinearLayout index="0" package="luankevinferreira.expenses" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1048]" displayed="true">
+							
+              
+							<android.widget.ScrollView index="0" package="luankevinferreira.expenses" class="android.widget.ScrollView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,252][1038,1006]" displayed="true">
+								
+                
+								<android.widget.LinearLayout index="0" package="luankevinferreira.expenses" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,252][1038,998]" displayed="true">
+									
+                  
+									<android.widget.LinearLayout index="0" package="luankevinferreira.expenses" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,252][1038,413]" displayed="true">
+										
+                    
+										<android.widget.ImageView index="0" package="luankevinferreira.expenses" class="android.widget.ImageView" text="" content-desc="Dinheiro" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,252][173,373]" displayed="true"/>
+										
+                    
+										<android.widget.EditText index="1" package="luankevinferreira.expenses" class="android.widget.EditText" text="3.50" resource-id="luankevinferreira.expenses:id/expense_value" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[173,252][1038,413]" displayed="true" hint="0.00"/>
+										
+                  
+									</android.widget.LinearLayout>
+									
+                  
+									<android.widget.LinearLayout index="1" package="luankevinferreira.expenses" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,413][1038,546]" displayed="true">
+										
+                    
+										<android.widget.ImageView index="0" package="luankevinferreira.expenses" class="android.widget.ImageView" text="" content-desc="Descrição" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,413][174,534]" displayed="true"/>
+										
+                    
+										<android.widget.EditText index="1" package="luankevinferreira.expenses" class="android.widget.EditText" text="Fruit" resource-id="luankevinferreira.expenses:id/expense_description" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[174,413][1038,546]" displayed="true" hint="Adicione uma descrição"/>
+										
+                  
+									</android.widget.LinearLayout>
+									
+                  
+									<android.widget.LinearLayout index="2" package="luankevinferreira.expenses" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,546][1038,737]" displayed="true">
+										
+                    
+										<android.widget.ImageView index="0" package="luankevinferreira.expenses" class="android.widget.ImageView" text="" content-desc="Data" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,599][161,715]" displayed="true"/>
+										
+                    
+										<android.widget.Button index="1" package="luankevinferreira.expenses" class="android.widget.Button" text="19/07/2023" resource-id="luankevinferreira.expenses:id/date_picker" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[161,599][1038,737]" displayed="true"/>
+										
+                  
+									</android.widget.LinearLayout>
+									
+                  
+									<android.widget.Spinner index="3" package="luankevinferreira.expenses" class="android.widget.Spinner" text="" resource-id="luankevinferreira.expenses:id/expense_type" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="true" selected="false" bounds="[42,737][1038,872]" displayed="true">
+										
+                    
+										<android.widget.TextView index="0" package="luankevinferreira.expenses" class="android.widget.TextView" text="Alimentação" resource-id="android:id/text1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[81,776][999,833]" displayed="true"/>
+										
+                  
+									</android.widget.Spinner>
+									
+                  
+									<android.widget.Button index="4" package="luankevinferreira.expenses" class="android.widget.Button" text="SALVAR" resource-id="luankevinferreira.expenses:id/save_expense" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,872][1038,998]" displayed="true"/>
+									
+                
+								</android.widget.LinearLayout>
+								
+              
+							</android.widget.ScrollView>
+							
+            
+						</android.widget.LinearLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.view.ViewGroup>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

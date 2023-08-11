@@ -1,0 +1,99 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "Open navigation drawer",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expanse3",
+        "package": "com.kvannli.simonkvannli.dailybudget",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "android:id/text1",
+        "text": "INCOME",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expanse3",
+        "package": "com.kvannli.simonkvannli.dailybudget",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.kvannli.simonkvannli.dailybudget:id/editText",
+        "text": "Name",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expanse3",
+        "package": "com.kvannli.simonkvannli.dailybudget",
+        "activity": ".income_activity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "Fruit"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.kvannli.simonkvannli.dailybudget:id/editText2",
+        "text": "Amount",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expanse3",
+        "package": "com.kvannli.simonkvannli.dailybudget",
+        "activity": ".income_activity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            80
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.kvannli.simonkvannli.dailybudget:id/button2",
+        "text": "ADD INCOME",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expanse3",
+        "package": "com.kvannli.simonkvannli.dailybudget",
+        "activity": ".income_activity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

@@ -1,0 +1,254 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1848">
+	
+  
+	<android.widget.FrameLayout index="0" package="com.guardian" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="com.guardian" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="com.guardian" class="android.widget.LinearLayout" text="" resource-id="com.guardian:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="com.guardian" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+						
+            
+						<androidx.drawerlayout.widget.DrawerLayout index="0" package="com.guardian" class="androidx.drawerlayout.widget.DrawerLayout" text="" resource-id="com.guardian:id/drawerLayoutHome" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+							
+              
+							<android.widget.FrameLayout index="0" package="com.guardian" class="android.widget.FrameLayout" text="" resource-id="com.guardian:id/radialActionMenuView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true"/>
+							
+              
+							<android.view.ViewGroup index="1" package="com.guardian" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+								
+                
+								<androidx.viewpager.widget.ViewPager index="0" package="com.guardian" class="androidx.viewpager.widget.ViewPager" text="" resource-id="com.guardian:id/vpHome" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+									
+                  
+									<android.view.ViewGroup index="1" package="com.guardian" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+										
+                    
+										<android.widget.LinearLayout index="0" package="com.guardian" class="android.widget.LinearLayout" text="" resource-id="com.guardian:id/appbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,371]" displayed="true">
+											
+                      
+											<android.view.ViewGroup index="0" package="com.guardian" class="android.view.ViewGroup" text="" resource-id="com.guardian:id/tHomeToolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,371]" displayed="true">
+												
+                        
+												<android.view.ViewGroup index="0" package="com.guardian" class="android.view.ViewGroup" text="" resource-id="com.guardian:id/action_bar_custom_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,323]" displayed="true">
+													
+                          
+													<android.widget.FrameLayout index="0" package="com.guardian" class="android.widget.FrameLayout" text="" content-desc="Discover button" resource-id="com.guardian:id/flDiscoverTeardropContainer" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][246,323]" displayed="true">
+														
+                            
+														<android.widget.ImageView index="0" package="com.guardian" class="android.widget.ImageView" text="" resource-id="com.guardian:id/ivDiscoverTeardrop" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,108][246,180]" displayed="true"/>
+														
+                          
+													</android.widget.FrameLayout>
+													
+                          
+													<android.widget.ImageView index="1" package="com.guardian" class="android.widget.ImageView" text="" content-desc="The Guardian" resource-id="com.guardian:id/iivLogo" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[381,84][1032,294]" displayed="true"/>
+													
+                          
+													<android.widget.FrameLayout index="2" package="com.guardian" class="android.widget.FrameLayout" text="" content-desc="Live button" resource-id="com.guardian:id/flLiveTeardropContainer" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[882,72][1080,216]" displayed="true">
+														
+                            
+														<android.widget.ImageView index="0" package="com.guardian" class="android.widget.ImageView" text="" resource-id="com.guardian:id/ivLiveTeardrop" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[918,108][1080,180]" displayed="true"/>
+														
+                          
+													</android.widget.FrameLayout>
+													
+                        
+												</android.view.ViewGroup>
+												
+                      
+											</android.view.ViewGroup>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                    
+										<android.widget.FrameLayout index="1" package="com.guardian" class="android.widget.FrameLayout" text="" resource-id="com.guardian:id/fragmentContainer" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,371][1080,1848]" displayed="true">
+											
+                      
+											<android.widget.FrameLayout index="0" package="com.guardian" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,371][1080,1848]" displayed="true">
+												
+                        
+												<android.view.ViewGroup index="0" package="com.guardian" class="android.view.ViewGroup" text="" resource-id="com.guardian:id/srlArticlesContainer" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,371][1080,1848]" displayed="true">
+													
+                          
+													<androidx.recyclerview.widget.RecyclerView index="0" package="com.guardian" class="androidx.recyclerview.widget.RecyclerView" text="" resource-id="com.guardian:id/rvArticles" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,371][1080,1848]" displayed="true">
+														
+                            
+														<android.widget.LinearLayout index="0" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,371][1080,557]" displayed="true">
+															
+                              
+															<android.widget.RelativeLayout index="0" package="com.guardian" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,371][1080,557]" displayed="true">
+																
+                                
+																<android.widget.TextView index="0" package="com.guardian" class="android.widget.TextView" text="Headlines" resource-id="com.guardian:id/tvGroupTitle" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,392][456,521]" displayed="true"/>
+																
+                                
+																<android.widget.LinearLayout index="1" package="com.guardian" class="android.widget.LinearLayout" text="" resource-id="com.guardian:id/add_to_home_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[855,371][1056,461]" displayed="true">
+																	
+                                  
+																	<android.widget.TextView index="0" package="com.guardian" class="android.widget.TextView" text=" 37m ago" resource-id="com.guardian:id/itvLastUpdatedTime" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[855,371][1056,461]" displayed="true"/>
+																	
+                                
+																</android.widget.LinearLayout>
+																
+                              
+															</android.widget.RelativeLayout>
+															
+                            
+														</android.widget.LinearLayout>
+														
+                            
+														<android.widget.LinearLayout index="1" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[24,581][1056,1667]" displayed="true">
+															
+                              
+															<android.view.View index="0" package="com.guardian" class="android.view.View" text="" resource-id="com.guardian:id/card_section_top" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,581][1056,584]" displayed="true"/>
+															
+                              
+															<android.widget.LinearLayout index="1" package="com.guardian" class="android.widget.LinearLayout" text="" resource-id="com.guardian:id/card_headline_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,584][1056,843]" displayed="true">
+																
+                                
+																<android.widget.TextView index="0" package="com.guardian" class="android.widget.TextView" text="Summer of discontent / Will US strikes spell trouble for ‘union guy’ Biden?" resource-id="com.guardian:id/tvHeadline" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,584][1032,819]" displayed="true"/>
+																
+                              
+															</android.widget.LinearLayout>
+															
+                              
+															<android.widget.LinearLayout index="2" package="com.guardian" class="android.widget.LinearLayout" text="" resource-id="com.guardian:id/card_meta_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,843][1032,1053]" displayed="true">
+																
+                                
+																<android.widget.LinearLayout index="0" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,843][1032,1053]" displayed="true">
+																	
+                                  
+																	<android.widget.LinearLayout index="0" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,843][912,1053]" displayed="true">
+																		
+                                    
+																		<android.widget.TextView index="0" package="com.guardian" class="android.widget.TextView" text="Widespread industrial action could cloud president’s ‘Bidenomics’ pitch to voters but some see a chance to shine as a champion of working people" resource-id="com.guardian:id/tvTrail" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,846][912,1053]" displayed="true"/>
+																		
+                                  
+																	</android.widget.LinearLayout>
+																	
+                                
+																</android.widget.LinearLayout>
+																
+                              
+															</android.widget.LinearLayout>
+															
+                              
+															<android.widget.LinearLayout index="3" package="com.guardian" class="android.widget.LinearLayout" text="" resource-id="com.guardian:id/card_image_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,1068][1056,1664]" displayed="true">
+																
+                                
+																<android.widget.LinearLayout index="0" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,1068][1056,1664]" displayed="true">
+																	
+                                  
+																	<android.widget.ImageView index="0" package="com.guardian" class="android.widget.ImageView" text="" content-desc="" resource-id="com.guardian:id/card_image" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,1068][1056,1664]" displayed="true"/>
+																	
+                                
+																</android.widget.LinearLayout>
+																
+                              
+															</android.widget.LinearLayout>
+															
+                              
+															<android.view.View index="4" package="com.guardian" class="android.view.View" text="" resource-id="com.guardian:id/card_shadow_bottom" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,1664][1056,1667]" displayed="true"/>
+															
+                            
+														</android.widget.LinearLayout>
+														
+                            
+														<android.widget.LinearLayout index="2" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[24,1691][528,1848]" displayed="true">
+															
+                              
+															<android.view.View index="0" package="com.guardian" class="android.view.View" text="" resource-id="com.guardian:id/card_section_top" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,1691][528,1694]" displayed="true"/>
+															
+                              
+															<android.widget.LinearLayout index="1" package="com.guardian" class="android.widget.LinearLayout" text="" resource-id="com.guardian:id/card_headline_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,1694][528,1848]" displayed="true">
+																
+                                
+																<android.widget.TextView index="0" package="com.guardian" class="android.widget.TextView" text="Criminal justice / Struggling DeSantis and Pence attack law they championed" resource-id="com.guardian:id/tvHeadline" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[48,1694][504,1848]" displayed="true"/>
+																
+                              
+															</android.widget.LinearLayout>
+															
+                            
+														</android.widget.LinearLayout>
+														
+                            
+														<android.widget.LinearLayout index="3" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[552,1691][1056,1848]" displayed="true">
+															
+                              
+															<android.view.View index="0" package="com.guardian" class="android.view.View" text="" resource-id="com.guardian:id/card_section_top" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[552,1691][1056,1694]" displayed="true"/>
+															
+                              
+															<android.widget.LinearLayout index="1" package="com.guardian" class="android.widget.LinearLayout" text="" resource-id="com.guardian:id/card_headline_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[552,1694][1056,1848]" displayed="true">
+																
+                                
+																<android.widget.TextView index="0" package="com.guardian" class="android.widget.TextView" text="Abortion / Group using ‘shield laws’ to provide care in states that ban it" resource-id="com.guardian:id/tvHeadline" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[576,1694][1032,1848]" displayed="true"/>
+																
+                              
+															</android.widget.LinearLayout>
+															
+                            
+														</android.widget.LinearLayout>
+														
+                          
+													</androidx.recyclerview.widget.RecyclerView>
+													
+                        
+												</android.view.ViewGroup>
+												
+                      
+											</android.widget.FrameLayout>
+											
+                    
+										</android.widget.FrameLayout>
+										
+                  
+									</android.view.ViewGroup>
+									
+                
+								</androidx.viewpager.widget.ViewPager>
+								
+                
+								<android.view.ViewGroup index="1" package="com.guardian" class="android.view.ViewGroup" text="" resource-id="com.guardian:id/clFabContainer" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[744,1656][1056,1824]" displayed="true">
+									
+                  
+									<android.widget.ImageButton index="0" package="com.guardian" class="android.widget.ImageButton" text="" content-desc="Open navigation button" resource-id="com.guardian:id/fabHome" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[888,1656][1056,1824]" displayed="true"/>
+									
+                
+								</android.view.ViewGroup>
+								
+              
+							</android.view.ViewGroup>
+							
+            
+						</androidx.drawerlayout.widget.DrawerLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+    
+		<android.view.View index="2" package="com.guardian" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1848][1080,1920]" displayed="true"/>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

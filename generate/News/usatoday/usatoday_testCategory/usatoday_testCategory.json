@@ -1,0 +1,21 @@
+[
+    {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.usatoday.android.news:id/sections_tab",
+        "text": "",
+        "content-desc": "Sections",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "package": "com.usatoday.android.news",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "usatoday_testCategory",
+        "activity": "com.gannett.android.news.ui.activity.ActivityNavigation",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

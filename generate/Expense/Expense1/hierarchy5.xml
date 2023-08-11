@@ -1,0 +1,575 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+				
+        
+				<android.view.ViewGroup index="0" package="com.benoitletondor.easybudgetapp" class="android.view.ViewGroup" text="" resource-id="com.benoitletondor.easybudgetapp:id/decor_content_parent" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.FrameLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/action_bar_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+						
+            
+						<android.view.ViewGroup index="0" package="com.benoitletondor.easybudgetapp" class="android.view.ViewGroup" text="" resource-id="com.benoitletondor.easybudgetapp:id/action_bar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+							
+              
+							<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="EasyBudget" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,101][322,172]" displayed="true"/>
+							
+              
+							<android.support.v7.widget.LinearLayoutCompat index="1" package="com.benoitletondor.easybudgetapp" class="android.support.v7.widget.LinearLayoutCompat" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[975,63][1080,210]" displayed="true">
+								
+                
+								<android.widget.ImageView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.ImageView" text="" content-desc="更多选项" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[975,73][1080,199]" displayed="true"/>
+								
+              
+							</android.support.v7.widget.LinearLayoutCompat>
+							
+            
+						</android.view.ViewGroup>
+						
+          
+					</android.widget.FrameLayout>
+					
+          
+					<android.widget.FrameLayout index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+						
+            
+						<android.widget.FrameLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+							
+              
+							<android.view.View index="0" package="com.benoitletondor.easybudgetapp" class="android.view.View" text="" resource-id="com.benoitletondor.easybudgetapp:id/fab_choices_background" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true"/>
+							
+              
+							<android.widget.LinearLayout index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+								
+                
+								<android.widget.FrameLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.FrameLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/calendarView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1060]" displayed="true">
+									
+                  
+									<android.widget.LinearLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1060]" displayed="true">
+										
+                    
+										<android.widget.LinearLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/calendar_title_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,334]" displayed="true">
+											
+                      
+											<android.widget.Button index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.Button" text="&lt;" resource-id="com.benoitletondor.easybudgetapp:id/calendar_left_arrow" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[26,210][142,326]" displayed="true"/>
+											
+                      
+											<android.widget.TextView index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="2023年7月" resource-id="com.benoitletondor.easybudgetapp:id/calendar_month_year_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[142,235][938,309]" displayed="true"/>
+											
+                      
+											<android.widget.Button index="2" package="com.benoitletondor.easybudgetapp" class="android.widget.Button" text="&gt;" resource-id="com.benoitletondor.easybudgetapp:id/calendar_right_arrow" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[938,210][1054,326]" displayed="true"/>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                    
+										<android.widget.GridView index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.GridView" text="" resource-id="com.benoitletondor.easybudgetapp:id/weekday_gridview" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,308][1080,406]" displayed="true">
+											
+                      
+											<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="周一" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,334][154,406]" displayed="true"/>
+											
+                      
+											<android.widget.TextView index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="周二" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[154,334][308,406]" displayed="true"/>
+											
+                      
+											<android.widget.TextView index="2" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="周三" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[308,334][462,406]" displayed="true"/>
+											
+                      
+											<android.widget.TextView index="3" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="周四" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[462,334][616,406]" displayed="true"/>
+											
+                      
+											<android.widget.TextView index="4" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="周五" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[616,334][770,406]" displayed="true"/>
+											
+                      
+											<android.widget.TextView index="5" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="周六" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[770,334][924,406]" displayed="true"/>
+											
+                      
+											<android.widget.TextView index="6" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="周日" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[924,334][1078,406]" displayed="true"/>
+											
+                    
+										</android.widget.GridView>
+										
+                    
+										<android.support.v4.view.ViewPager index="2" package="com.benoitletondor.easybudgetapp" class="android.support.v4.view.ViewPager" text="" resource-id="com.benoitletondor.easybudgetapp:id/months_infinite_pager" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,406][1080,1060]" displayed="true">
+											
+                      
+											<android.widget.GridView index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.GridView" text="" resource-id="com.benoitletondor.easybudgetapp:id/calendar_gridview" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[0,406][1080,1060]" displayed="true">
+												
+                        
+												<android.widget.LinearLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[27,409][132,514]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="26" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[59,420][99,466]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[180,409][285,514]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="27" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[212,420][252,466]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="2" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[333,409][438,514]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="28" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[365,420][405,466]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="3" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[486,409][591,514]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="29" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[518,420][558,466]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="4" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[639,409][744,514]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="30" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[671,420][711,466]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="5" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[792,409][897,514]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="1" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[834,420][854,466]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="6" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[945,409][1050,514]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="2" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[987,420][1007,466]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="7" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[27,514][132,619]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="3" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[69,525][89,571]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="8" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[180,514][285,619]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="4" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[222,525][242,571]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="9" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[333,514][438,619]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="5" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[375,525][395,571]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="10" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[486,514][591,619]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="6" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[528,525][548,571]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="11" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[639,514][744,619]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="7" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[681,525][701,571]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="12" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[792,514][897,619]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="8" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[834,525][854,571]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="13" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[945,514][1050,619]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="9" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[987,525][1007,571]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="14" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[27,619][132,724]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="10" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[59,630][99,676]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="15" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[180,619][285,724]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="11" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[212,630][252,676]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="16" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[333,619][438,724]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="12" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[365,630][405,676]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="17" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[486,619][591,724]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="13" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[518,630][558,676]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="18" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[639,619][744,724]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="14" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[671,630][711,676]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="19" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[792,619][897,724]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="15" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[824,630][864,676]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="20" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[945,619][1050,724]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="16" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[977,630][1017,676]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="21" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[27,724][132,829]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="17" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[59,735][99,781]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="22" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[180,724][285,829]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="18" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[212,735][252,781]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="23" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[333,724][438,829]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="19" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[365,735][405,781]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="24" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[486,724][591,829]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="20" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[518,735][558,781]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="25" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[639,724][744,829]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="21" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[671,735][711,781]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="26" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[792,724][897,829]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="22" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[824,735][864,781]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="27" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[945,724][1050,829]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="23" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[977,735][1017,781]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="28" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[27,829][132,934]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="24" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[59,840][99,886]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="29" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[180,829][285,934]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="25" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[212,840][252,886]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="30" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[333,829][438,934]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="26" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[365,840][405,886]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="31" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[486,829][591,934]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="27" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[518,840][558,886]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="32" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[639,829][744,934]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="28" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[671,840][711,886]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="33" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[792,829][897,934]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="29" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[824,840][864,886]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="34" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[945,829][1050,934]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="30" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[977,840][1017,886]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="35" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[27,934][132,1039]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="31" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[59,945][99,991]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="36" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[180,934][285,1039]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="1" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[222,945][242,991]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="37" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[333,934][438,1039]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="2" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[375,945][395,991]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="38" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[486,934][591,1039]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="3" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[528,945][548,991]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="39" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[639,934][744,1039]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="4" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[681,945][701,991]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="40" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[792,934][897,1039]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="5" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[834,945][854,991]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="41" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/custom_cell" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[945,934][1050,1039]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="6" resource-id="com.benoitletondor.easybudgetapp:id/grid_cell_tv1" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[987,945][1007,991]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                      
+											</android.widget.GridView>
+											
+                    
+										</android.support.v4.view.ViewPager>
+										
+                  
+									</android.widget.LinearLayout>
+									
+                
+								</android.widget.FrameLayout>
+								
+                
+								<android.view.View index="1" package="com.benoitletondor.easybudgetapp" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1042][1080,1060]" displayed="true"/>
+								
+                
+								<android.widget.LinearLayout index="2" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/budgetLineContainer" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1060][1080,1134]" displayed="true">
+									
+                  
+									<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="Balance on 7月 19:" resource-id="com.benoitletondor.easybudgetapp:id/budgetLine" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[335,1071][643,1122]" displayed="true"/>
+									
+                  
+									<android.widget.TextView index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="¥0.00" resource-id="com.benoitletondor.easybudgetapp:id/budgetLineAmount" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[651,1071][745,1122]" displayed="true"/>
+									
+                
+								</android.widget.LinearLayout>
+								
+                
+								<android.widget.LinearLayout index="3" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/emptyExpensesRecyclerViewPlaceholder" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1134][1080,1857]" displayed="true">
+									
+                  
+									<android.widget.ImageView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.ImageView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[477,1173][603,1299]" displayed="true"/>
+									
+                  
+									<android.widget.TextView index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="No income or expense yet." checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[322,1312][758,1363]" displayed="true"/>
+									
+                
+								</android.widget.LinearLayout>
+								
+              
+							</android.widget.LinearLayout>
+							
+              
+							<android.view.ViewGroup index="2" package="com.benoitletondor.easybudgetapp" class="android.view.ViewGroup" text="" resource-id="com.benoitletondor.easybudgetapp:id/coordinatorLayout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+								
+                
+								<android.view.ViewGroup index="0" package="com.benoitletondor.easybudgetapp" class="android.view.ViewGroup" text="" resource-id="com.benoitletondor.easybudgetapp:id/fab_choices" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[281,1210][1054,1831]" displayed="true">
+									
+                  
+									<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="Add recurring expense/income" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[281,1342][839,1419]" displayed="true"/>
+									
+                  
+									<android.widget.ImageButton index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.ImageButton" text="" resource-id="com.benoitletondor.easybudgetapp:id/fab_new_recurring_expense" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[881,1313][1033,1465]" displayed="true"/>
+									
+                  
+									<android.widget.TextView index="2" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="Add expense/income" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[438,1504][839,1581]" displayed="true"/>
+									
+                  
+									<android.widget.ImageButton index="3" package="com.benoitletondor.easybudgetapp" class="android.widget.ImageButton" text="" resource-id="com.benoitletondor.easybudgetapp:id/fab_new_expense" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[881,1475][1033,1627]" displayed="true"/>
+									
+                  
+									<android.widget.ImageButton index="4" package="com.benoitletondor.easybudgetapp" class="android.widget.ImageButton" text="" resource-id="com.benoitletondor.easybudgetapp:id/fab_expand_menu_button" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[860,1637][1054,1831]" displayed="true"/>
+									
+                
+								</android.view.ViewGroup>
+								
+              
+							</android.view.ViewGroup>
+							
+            
+						</android.widget.FrameLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.view.ViewGroup>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+    
+		<android.view.View index="2" package="com.benoitletondor.easybudgetapp" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1857][1080,1920]" displayed="true"/>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

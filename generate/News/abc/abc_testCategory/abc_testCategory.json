@@ -1,0 +1,21 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "package": "com.abc.abcnews",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "abc_testCategory",
+        "activity": ".ui.navigation.MainNavigationActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

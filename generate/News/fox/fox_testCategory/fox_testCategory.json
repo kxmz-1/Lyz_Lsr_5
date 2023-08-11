@@ -1,0 +1,40 @@
+[
+    {
+        "class": "androidx.appcompat.widget.LinearLayoutCompat",
+        "resource-id": "com.foxnews.android:id/navbar_browse",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "fox_testCategory",
+        "package": "com.foxnews.android",
+        "activity": ".corenav.StartActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "",
+        "text": "U.S.",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "fox_testCategory",
+        "package": "com.foxnews.android",
+        "activity": ".corenav.StartActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

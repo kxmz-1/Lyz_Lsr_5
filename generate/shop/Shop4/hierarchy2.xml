@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="org.openintents.shopping" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[28,706][1052,1213]" displayed="true">
+		
+    
+		<android.widget.FrameLayout index="0" package="org.openintents.shopping" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,748][1010,1171]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="org.openintents.shopping" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,748][1010,1171]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="org.openintents.shopping" class="android.widget.LinearLayout" text="" resource-id="android:id/parentPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,748][1010,1171]" displayed="true">
+					
+          
+					<android.widget.LinearLayout index="0" package="org.openintents.shopping" class="android.widget.LinearLayout" text="" resource-id="android:id/topPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,748][1010,879]" displayed="true">
+						
+            
+						<android.widget.LinearLayout index="0" package="org.openintents.shopping" class="android.widget.LinearLayout" text="" resource-id="android:id/title_template" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,748][1010,879]" displayed="true">
+							
+              
+							<android.widget.ImageView index="0" package="org.openintents.shopping" class="android.widget.ImageView" text="" resource-id="android:id/icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[133,795][217,879]" displayed="true"/>
+							
+              
+							<android.widget.TextView index="1" package="org.openintents.shopping" class="android.widget.TextView" text="输入新购物列表的名称" resource-id="android:id/alertTitle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[238,805][947,868]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+          
+					</android.widget.LinearLayout>
+					
+          
+					<android.widget.FrameLayout index="1" package="org.openintents.shopping" class="android.widget.FrameLayout" text="" resource-id="android:id/customPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,879][1010,1023]" displayed="true">
+						
+            
+						<android.widget.FrameLayout index="0" package="org.openintents.shopping" class="android.widget.FrameLayout" text="" resource-id="android:id/custom" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,879][1010,1023]" displayed="true">
+							
+              
+							<android.widget.LinearLayout index="0" package="org.openintents.shopping" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,879][1010,1023]" displayed="true">
+								
+                
+								<android.widget.EditText index="0" package="org.openintents.shopping" class="android.widget.EditText" text="e.g. wishlist, family list" resource-id="org.openintents.shopping:id/edittext" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[83,892][997,1010]" displayed="true" hint="e.g. wishlist, family list"/>
+								
+              
+							</android.widget.LinearLayout>
+							
+            
+						</android.widget.FrameLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+          
+					<android.widget.ScrollView index="2" package="org.openintents.shopping" class="android.widget.ScrollView" text="" resource-id="android:id/buttonPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,1023][1010,1171]" displayed="true">
+						
+            
+						<android.widget.LinearLayout index="0" package="org.openintents.shopping" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,1023][1010,1171]" displayed="true">
+							
+              
+							<android.widget.Button index="0" package="org.openintents.shopping" class="android.widget.Button" text="取消" resource-id="android:id/button2" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[642,1034][810,1160]" displayed="true"/>
+							
+              
+							<android.widget.Button index="1" package="org.openintents.shopping" class="android.widget.Button" text="确认" resource-id="android:id/button1" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[810,1034][978,1160]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+          
+					</android.widget.ScrollView>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.FrameLayout>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

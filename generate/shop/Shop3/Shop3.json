@@ -1,0 +1,79 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/btn_skip",
+        "text": "SKIP",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Shop3",
+        "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+        "activity": ".ui.tutorial.TutorialActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/fab_new_list",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Shop3",
+        "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+        "activity": ".ui.main.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist:id/list_name",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "Shopping List Name",
+        "sibling_text": "",
+        "tid": "Shop3",
+        "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+        "activity": ".ui.main.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys",
+            "Fruit"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "android:id/button1",
+        "text": "OKAY",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Shop3",
+        "package": "privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist",
+        "activity": ".ui.main.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

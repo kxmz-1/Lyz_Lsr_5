@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 from appium.webdriver.common.mobileby import MobileBy
 from selenium.common.exceptions import StaleElementReferenceException
 import time
-
+import ast
 
 def process(dom, element):
     soup = BeautifulSoup(dom, 'lxml')
@@ -91,6 +91,29 @@ def get_element_info(driver, element, element_info):
         element_info['child_text'] = child_text
     return element_info
 
+def parse_string_to_list(string_with_bounds):
+    try:
+        # Fix the input string by adding a comma between the two sublists
+        fixed_string = string_with_bounds.replace("][", "],[")
+        # Convert the fixed string to a Python object using ast.literal_eval
+        parsed_list = ast.literal_eval(fixed_string)
+
+        if not isinstance(parsed_list, list) or len(parsed_list) != 2:
+            raise ValueError("Input should be a string representation of a list containing two sublists.")
+
+        for sublist in parsed_list:
+            if not isinstance(sublist, list) or len(sublist) != 2:
+                raise ValueError("Sublists should contain exactly two elements each.")
+
+            for element in sublist:
+                if not isinstance(element, int):
+                    raise ValueError("Elements in the sublists should be integers.")
+
+        return parsed_list
+
+    except (ValueError, SyntaxError):
+        raise ValueError(
+            "Invalid input format. Please provide a valid string representation of a list containing two sublists.")
 
 def info(driver, element_list):
     time.sleep(10)
@@ -103,7 +126,7 @@ def info(driver, element_list):
                 element_info["clickable"] = True
             if element.is_displayed() and element.get_attribute("scrollable") == "true":
                 element_info["scrollable"] = True
-                element_info["bounds"] = element.get_attribute("bounds")
+                element_info["bounds"] = parse_string_to_list("["+element.get_attribute("bounds")+"]")
             if element.is_displayed() and element.get_attribute("long-clickable") == "true":
                 element_info["long-clickable"] = True
             if element.is_displayed() and element.get_attribute("checked") == "true":

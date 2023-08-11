@@ -1,0 +1,21 @@
+[
+    {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "package": "com.usatoday.android.news",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "usatoday_testDetail",
+        "activity": "com.gannett.android.news.ui.activity.ActivityNavigation",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

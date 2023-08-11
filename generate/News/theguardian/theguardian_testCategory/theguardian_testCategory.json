@@ -1,0 +1,22 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "com.guardian:id/fabHome",
+        "text": "",
+        "content-desc": "Open navigation button",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [],
+        "tid": "theguardian_testCategory",
+        "package": "com.guardian",
+        "activity": ".feature.stream.NewHomeActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

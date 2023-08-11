@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="org.secuso.privacyfriendlytodolist" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="org.secuso.privacyfriendlytodolist" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="org.secuso.privacyfriendlytodolist" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="org.secuso.privacyfriendlytodolist" class="android.widget.LinearLayout" text="" resource-id="org.secuso.privacyfriendlytodolist:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="org.secuso.privacyfriendlytodolist" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+						
+            
+						<android.widget.RelativeLayout index="0" package="org.secuso.privacyfriendlytodolist" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+							
+              
+							<android.support.v4.view.ViewPager index="0" package="org.secuso.privacyfriendlytodolist" class="android.support.v4.view.ViewPager" text="" resource-id="org.secuso.privacyfriendlytodolist:id/view_pager" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+								
+                
+								<android.widget.RelativeLayout index="0" package="org.secuso.privacyfriendlytodolist" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+									
+                  
+									<android.widget.LinearLayout index="0" package="org.secuso.privacyfriendlytodolist" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,652][1080,1205]" displayed="true">
+										
+                    
+										<android.widget.TextView index="0" package="org.secuso.privacyfriendlytodolist" class="android.widget.TextView" text="Welcome!" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[365,652][715,758]" displayed="true"/>
+										
+                    
+										<android.widget.ImageView index="1" package="org.secuso.privacyfriendlytodolist" class="android.widget.ImageView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[382,758][697,1073]" displayed="true"/>
+										
+                    
+										<android.widget.TextView index="2" package="org.secuso.privacyfriendlytodolist" class="android.widget.TextView" text="Welcome to your privacy friendly To-Do list. This app does not use any permissions." checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1099][1080,1205]" displayed="true"/>
+										
+                  
+									</android.widget.LinearLayout>
+									
+                
+								</android.widget.RelativeLayout>
+								
+              
+							</android.support.v4.view.ViewPager>
+							
+              
+							<android.view.View index="1" package="org.secuso.privacyfriendlytodolist" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1722][1080,1725]" displayed="true"/>
+							
+              
+							<android.widget.LinearLayout index="2" package="org.secuso.privacyfriendlytodolist" class="android.widget.LinearLayout" text="" resource-id="org.secuso.privacyfriendlytodolist:id/layoutDots" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1725][1080,1804]" displayed="true">
+								
+                
+								<android.widget.TextView index="0" package="org.secuso.privacyfriendlytodolist" class="android.widget.TextView" text="•" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[462,1725][493,1804]" displayed="true"/>
+								
+                
+								<android.widget.TextView index="1" package="org.secuso.privacyfriendlytodolist" class="android.widget.TextView" text="•" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[493,1725][524,1804]" displayed="true"/>
+								
+                
+								<android.widget.TextView index="2" package="org.secuso.privacyfriendlytodolist" class="android.widget.TextView" text="•" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[524,1725][555,1804]" displayed="true"/>
+								
+                
+								<android.widget.TextView index="3" package="org.secuso.privacyfriendlytodolist" class="android.widget.TextView" text="•" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[555,1725][586,1804]" displayed="true"/>
+								
+                
+								<android.widget.TextView index="4" package="org.secuso.privacyfriendlytodolist" class="android.widget.TextView" text="•" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[586,1725][617,1804]" displayed="true"/>
+								
+              
+							</android.widget.LinearLayout>
+							
+              
+							<android.widget.Button index="3" package="org.secuso.privacyfriendlytodolist" class="android.widget.Button" text="SKIP" resource-id="org.secuso.privacyfriendlytodolist:id/btn_skip" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1731][231,1857]" displayed="true"/>
+							
+              
+							<android.widget.Button index="4" package="org.secuso.privacyfriendlytodolist" class="android.widget.Button" text="NEXT" resource-id="org.secuso.privacyfriendlytodolist:id/btn_next" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[849,1731][1080,1857]" displayed="true"/>
+							
+            
+						</android.widget.RelativeLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+    
+		<android.view.View index="1" package="org.secuso.privacyfriendlytodolist" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1857][1080,1920]" displayed="true"/>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

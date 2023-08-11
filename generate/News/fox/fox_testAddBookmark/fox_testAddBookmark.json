@@ -1,0 +1,40 @@
+[
+    {
+        "class": "android.view.ViewGroup",
+        "resource-id": "com.foxnews.android:id/big_top_item_container",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "fox_testSave",
+        "package": "com.foxnews.android",
+        "activity": ".corenav.StartActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.foxnews.android:id/save",
+        "text": "",
+        "content-desc": "Save",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "fox_testSave",
+        "package": "com.foxnews.android",
+        "activity": ".feature.articledetail.ArticleDetailActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

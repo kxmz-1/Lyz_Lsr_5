@@ -1,0 +1,99 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "me.writeily:id/fab_expand_menu_button",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Note3",
+        "package": "me.writeily",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "me.writeily:id/create_note",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Note3",
+        "package": "me.writeily",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "me.writeily:id/edit_note_title",
+        "text": "标题",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Note3",
+        "package": "me.writeily",
+        "activity": ".NoteActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "Title"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "me.writeily:id/note_content",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Note3",
+        "package": "me.writeily",
+        "activity": ".NoteActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "abcde"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "转到上一层级",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Note3",
+        "package": "me.writeily",
+        "activity": ".NoteActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

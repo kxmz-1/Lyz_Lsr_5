@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="me.writeily" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+		
+    
+		<android.widget.FrameLayout index="0" package="me.writeily" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="me.writeily" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+				
+        
+				<android.widget.FrameLayout index="0" package="me.writeily" class="android.widget.FrameLayout" text="" resource-id="me.writeily:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="me.writeily" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+						
+            
+						<android.widget.LinearLayout index="0" package="me.writeily" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+							
+              
+							<android.widget.RelativeLayout index="0" package="me.writeily" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+								
+                
+								<android.view.ViewGroup index="0" package="me.writeily" class="android.view.ViewGroup" text="" resource-id="me.writeily:id/toolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+									
+                  
+									<android.widget.TextView index="0" package="me.writeily" class="android.widget.TextView" text="Writeily Pro" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,101][317,172]" displayed="true"/>
+									
+                  
+									<android.support.v7.widget.LinearLayoutCompat index="1" package="me.writeily" class="android.support.v7.widget.LinearLayoutCompat" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[848,63][1080,210]" displayed="true">
+										
+                    
+										<android.support.v7.widget.LinearLayoutCompat index="0" package="me.writeily" class="android.support.v7.widget.LinearLayoutCompat" text="" resource-id="me.writeily:id/action_search" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[848,73][975,199]" displayed="true">
+											
+                      
+											<android.widget.LinearLayout index="0" package="me.writeily" class="android.widget.LinearLayout" text="" resource-id="me.writeily:id/search_bar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[848,73][975,199]" displayed="true">
+												
+                        
+												<android.widget.ImageView index="0" package="me.writeily" class="android.widget.ImageView" text="" content-desc="搜索" resource-id="me.writeily:id/search_button" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[848,73][975,199]" displayed="true"/>
+												
+                      
+											</android.widget.LinearLayout>
+											
+                    
+										</android.support.v7.widget.LinearLayoutCompat>
+										
+                    
+										<android.widget.ImageView index="1" package="me.writeily" class="android.widget.ImageView" text="" content-desc="更多选项" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[975,73][1080,199]" displayed="true"/>
+										
+                  
+									</android.support.v7.widget.LinearLayoutCompat>
+									
+                
+								</android.view.ViewGroup>
+								
+                
+								<android.widget.FrameLayout index="1" package="me.writeily" class="android.widget.FrameLayout" text="" resource-id="me.writeily:id/frame" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+									
+                  
+									<android.widget.RelativeLayout index="0" package="me.writeily" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+										
+                    
+										<android.widget.ListView index="0" package="me.writeily" class="android.widget.ListView" text="" resource-id="me.writeily:id/notes_listview" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[0,210][1080,714]" displayed="true">
+											
+                      
+											<android.widget.LinearLayout index="0" package="me.writeily" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,300]" displayed="true">
+												
+                        
+												<android.widget.TextView index="0" package="me.writeily" class="android.widget.TextView" text="Files" resource-id="me.writeily:id/notes_fragment_section_text" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[39,249][1080,300]" displayed="true"/>
+												
+                      
+											</android.widget.LinearLayout>
+											
+                      
+											<android.widget.LinearLayout index="1" package="me.writeily" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[0,303][1080,507]" displayed="true">
+												
+                        
+												<android.widget.ImageView index="0" package="me.writeily" class="android.widget.ImageView" text="" resource-id="me.writeily:id/file_identifier_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,345][210,465]" displayed="true"/>
+												
+                        
+												<android.widget.LinearLayout index="1" package="me.writeily" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[210,345][737,465]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="me.writeily" class="android.widget.TextView" text="Title" resource-id="me.writeily:id/note_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[231,345][716,412]" displayed="true"/>
+													
+                          
+													<android.widget.TextView index="1" package="me.writeily" class="android.widget.TextView" text="最后修改：2023/7/19 10:43" resource-id="me.writeily:id/note_extra" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[231,412][716,465]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                      
+											</android.widget.LinearLayout>
+											
+                      
+											<android.widget.LinearLayout index="2" package="me.writeily" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[0,510][1080,714]" displayed="true">
+												
+                        
+												<android.widget.ImageView index="0" package="me.writeily" class="android.widget.ImageView" text="" resource-id="me.writeily:id/file_identifier_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,552][210,672]" displayed="true"/>
+												
+                        
+												<android.widget.LinearLayout index="1" package="me.writeily" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[210,552][737,672]" displayed="true">
+													
+                          
+													<android.widget.TextView index="0" package="me.writeily" class="android.widget.TextView" text="2123" resource-id="me.writeily:id/note_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[231,552][716,619]" displayed="true"/>
+													
+                          
+													<android.widget.TextView index="1" package="me.writeily" class="android.widget.TextView" text="最后修改：2023/7/18 06:45" resource-id="me.writeily:id/note_extra" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[231,619][716,672]" displayed="true"/>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                      
+											</android.widget.LinearLayout>
+											
+                    
+										</android.widget.ListView>
+										
+                  
+									</android.widget.RelativeLayout>
+									
+                
+								</android.widget.FrameLayout>
+								
+                
+								<android.view.ViewGroup index="2" package="me.writeily" class="android.view.ViewGroup" text="" resource-id="me.writeily:id/fab" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[823,1103][1038,1825]" displayed="true">
+									
+                  
+									<android.widget.ImageButton index="2" package="me.writeily" class="android.widget.ImageButton" text="" resource-id="me.writeily:id/fab_expand_menu_button" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[844,1631][1038,1825]" displayed="true"/>
+									
+                
+								</android.view.ViewGroup>
+								
+              
+							</android.widget.RelativeLayout>
+							
+            
+						</android.widget.LinearLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.widget.FrameLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.FrameLayout>
+		
+    
+		<android.view.View index="2" package="me.writeily" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1857][1080,1920]" displayed="true"/>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

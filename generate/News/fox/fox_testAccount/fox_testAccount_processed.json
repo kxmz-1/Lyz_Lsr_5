@@ -1,0 +1,21 @@
+[
+    {
+        "class": "androidx.appcompat.widget.LinearLayoutCompat",
+        "resource-id": "com.foxnews.android:id/navbar_for_you",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "fox_testAccount",
+        "package": "com.foxnews.android",
+        "activity": ".corenav.StartActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

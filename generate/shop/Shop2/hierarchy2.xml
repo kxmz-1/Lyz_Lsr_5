@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="br.com.activity" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[28,620][1052,1299]" displayed="true">
+		
+    
+		<android.widget.FrameLayout index="0" package="br.com.activity" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[28,620][1052,1299]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="br.com.activity" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[28,620][1052,1299]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="br.com.activity" class="android.widget.LinearLayout" text="" resource-id="android:id/parentPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[49,620][1031,1299]" displayed="true">
+					
+          
+					<android.widget.LinearLayout index="0" package="br.com.activity" class="android.widget.LinearLayout" text="" resource-id="android:id/topPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[49,620][1031,814]" displayed="true">
+						
+            
+						<android.widget.LinearLayout index="0" package="br.com.activity" class="android.widget.LinearLayout" text="" resource-id="android:id/title_template" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[112,641][968,809]" displayed="true">
+							
+              
+							<android.widget.TextView index="0" package="br.com.activity" class="android.widget.TextView" text="Save?" resource-id="android:id/alertTitle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[112,686][968,764]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+            
+						<android.view.View index="1" package="br.com.activity" class="android.view.View" text="" resource-id="android:id/titleDivider" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,809][1010,814]" displayed="true"/>
+						
+          
+					</android.widget.LinearLayout>
+					
+          
+					<android.widget.LinearLayout index="1" package="br.com.activity" class="android.widget.LinearLayout" text="" resource-id="android:id/contentPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[49,814][1031,982]" displayed="true">
+						
+            
+						<android.widget.ScrollView index="0" package="br.com.activity" class="android.widget.ScrollView" text="" resource-id="android:id/scrollView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,814][1010,919]" displayed="true">
+							
+              
+							<android.widget.TextView index="0" package="br.com.activity" class="android.widget.TextView" text="New shopping list" resource-id="android:id/message" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,814][1010,919]" displayed="true"/>
+							
+            
+						</android.widget.ScrollView>
+						
+          
+					</android.widget.LinearLayout>
+					
+          
+					<android.widget.FrameLayout index="2" package="br.com.activity" class="android.widget.FrameLayout" text="" resource-id="android:id/customPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[49,982][1031,1150]" displayed="true">
+						
+            
+						<android.widget.FrameLayout index="0" package="br.com.activity" class="android.widget.FrameLayout" text="" resource-id="android:id/custom" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,982][1010,1084]" displayed="true">
+							
+              
+							<android.widget.EditText index="0" package="br.com.activity" class="android.widget.EditText" text="Title" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[70,982][1010,1084]" displayed="true"/>
+							
+            
+						</android.widget.FrameLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+          
+					<android.widget.LinearLayout index="3" package="br.com.activity" class="android.widget.LinearLayout" text="" resource-id="android:id/buttonPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[49,1150][1031,1299]" displayed="true">
+						
+            
+						<android.widget.LinearLayout index="0" package="br.com.activity" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,1152][1010,1278]" displayed="true">
+							
+              
+							<android.widget.Button index="0" package="br.com.activity" class="android.widget.Button" text="取消" resource-id="android:id/button2" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[70,1152][539,1278]" displayed="true"/>
+							
+              
+							<android.widget.Button index="1" package="br.com.activity" class="android.widget.Button" text="确定" resource-id="android:id/button1" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[541,1152][1010,1278]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+          
+					</android.widget.LinearLayout>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.FrameLayout>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

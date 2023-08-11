@@ -1,0 +1,175 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.benoitletondor.easybudgetapp:id/onboarding_screen1_next_button",
+        "text": "Yes!",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expense1",
+        "package": "com.benoitletondor.easybudgetapp",
+        "activity": ".view.WelcomeActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.benoitletondor.easybudgetapp:id/onboarding_screen2_next_button",
+        "text": "Go with ¥",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid":  "Expense1",
+        "package": "com.benoitletondor.easybudgetapp",
+        "activity": ".view.WelcomeActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.benoitletondor.easybudgetapp:id/onboarding_screen3_next_button",
+        "text": "Start with ¥0.00",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid":  "Expense1",
+        "package": "com.benoitletondor.easybudgetapp",
+        "activity": ".view.WelcomeActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.benoitletondor.easybudgetapp:id/onboarding_screen4_next_button",
+        "text": "Let's go!",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expense1",
+        "package": "com.benoitletondor.easybudgetapp",
+        "activity": ".view.WelcomeActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "com.benoitletondor.easybudgetapp:id/fab_expand_menu_button",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid":  "Expense1",
+        "package": "com.benoitletondor.easybudgetapp",
+        "activity": ".view.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "com.benoitletondor.easybudgetapp:id/fab_new_expense",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid":  "Expense1",
+        "package": "com.benoitletondor.easybudgetapp",
+        "activity": ".view.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.benoitletondor.easybudgetapp:id/description_edittext",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "Description",
+        "sibling_text": "",
+        "tid": "Expense1",
+        "package": "com.benoitletondor.easybudgetapp",
+        "activity": ".view.ExpenseEditActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "Food"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.benoitletondor.easybudgetapp:id/amount_edittext",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "Amount ( ¥ )",
+        "sibling_text": "",
+        "tid": "Expense1",
+        "package": "com.benoitletondor.easybudgetapp",
+        "activity": ".view.ExpenseEditActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "50"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "com.benoitletondor.easybudgetapp:id/save_expense_fab",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expense1",
+        "package": "com.benoitletondor.easybudgetapp",
+        "activity": ".view.ExpenseEditActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

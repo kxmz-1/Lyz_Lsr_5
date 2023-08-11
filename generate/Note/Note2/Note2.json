@@ -1,0 +1,99 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "com.moonpi.swiftnotes:id/newNote",
+        "text": "",
+        "content-desc": "New note",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Note2",
+        "package": "com.moonpi.swiftnotes",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.moonpi.swiftnotes:id/titleEdit",
+        "text": "Title",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Note2",
+        "package": "com.moonpi.swiftnotes",
+        "activity": ".EditActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "Title"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.moonpi.swiftnotes:id/bodyEdit",
+        "text": "Note",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Note2",
+        "package": "com.moonpi.swiftnotes",
+        "activity": ".EditActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "Note"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Note2",
+        "package": "com.moonpi.swiftnotes",
+        "activity": ".EditActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "android:id/button1",
+        "text": "YES",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Note2",
+        "package": "com.moonpi.swiftnotes",
+        "activity": ".EditActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

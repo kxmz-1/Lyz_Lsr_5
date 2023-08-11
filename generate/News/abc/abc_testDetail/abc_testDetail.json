@@ -1,0 +1,60 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "package": "com.abc.abcnews",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "abc_testDetail",
+        "activity": ".ui.navigation.MainNavigationActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.abc.abcnews:id/drawer_search",
+        "text": "Search",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "package": "com.abc.abcnews",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "abc_testDetail",
+        "activity": ".ui.navigation.MainNavigationActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_enter",
+            "sanders feels the heatn"
+        ]
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "false",
+        "password": "false",
+        "naf": "",
+        "package": "com.abc.abcnews",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "abc_testDetail",
+        "activity": ".ui.SearchActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

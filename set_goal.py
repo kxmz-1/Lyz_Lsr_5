@@ -76,12 +76,14 @@ def process_json(json_file_path):
     for entry in data:
         # Remove empty values (text:'' and content-desc:'')
         entry = {key: value for key, value in entry.items() if value not in ['', '']}
-
+        if "resource-id" in entry:
+            entry['resource-id'] = entry['resource-id'].split('/')[-1]
+            entry['resource-id'] = entry['resource-id'].replace('_', ' ')
         # Exclude 'ignorable', 'tid', and 'password' fields
         entry.pop('ignorable', None)
         entry.pop('tid', None)
         entry.pop('password', None)
-
+        print(entry)
         processed_data.append(entry)
     return processed_data
 
@@ -163,7 +165,7 @@ def comprehend(provide_path):
     message = [
         {"role": "system",
          "content": "You are an UI testing android expert. You are here to assist me to understand the intention of a "
-                    "test case that is performed on an app. I then will "},
+                    "test case that is performed on an app."},
         {"role": "user",
          "content": "A test case contains multiple events that is performed on UI elements on a UI Hierarchy. Now, "
                     "I will provide you a test case with events and their corresponding UI hierarchy. You have to "

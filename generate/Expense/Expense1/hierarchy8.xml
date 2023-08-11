@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1164]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" resource-id="com.benoitletondor.easybudgetapp:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1164]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1164]" displayed="true">
+						
+            
+						<android.widget.RelativeLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1164]" displayed="true">
+							
+              
+							<android.view.ViewGroup index="0" package="com.benoitletondor.easybudgetapp" class="android.view.ViewGroup" text="" resource-id="com.benoitletondor.easybudgetapp:id/toolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+								
+                
+								<android.widget.ImageButton index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.ImageButton" text="" content-desc="转到上一层级" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][147,210]" displayed="true"/>
+								
+                
+								<android.widget.TextView index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="Add expense" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[189,101][495,172]" displayed="true"/>
+								
+              
+							</android.view.ViewGroup>
+							
+              
+							<android.widget.ScrollView index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.ScrollView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,857]" displayed="true">
+								
+                
+								<android.widget.LinearLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,857]" displayed="true">
+									
+                  
+									<android.widget.LinearLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,609]" displayed="true">
+										
+                    
+										<TextInputLayout index="0" package="com.benoitletondor.easybudgetapp" class="TextInputLayout" text="Description" resource-id="com.benoitletondor.easybudgetapp:id/description_inputlayout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,236][1001,377]" displayed="true">
+											
+                      
+											<android.widget.FrameLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,265][1001,377]" displayed="true">
+												
+                        
+												<android.widget.EditText index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.EditText" text="Food" resource-id="com.benoitletondor.easybudgetapp:id/description_edittext" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[79,265][1001,377]" displayed="true"/>
+												
+                      
+											</android.widget.FrameLayout>
+											
+                    
+										</TextInputLayout>
+										
+                    
+										<android.widget.FrameLayout index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,416][1001,557]" displayed="true">
+											
+                      
+											<TextInputLayout index="0" package="com.benoitletondor.easybudgetapp" class="TextInputLayout" text="Amount ( ¥ )" resource-id="com.benoitletondor.easybudgetapp:id/amount_inputlayout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,416][540,557]" displayed="true">
+												
+                        
+												<android.widget.FrameLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,445][540,557]" displayed="true">
+													
+                          
+													<android.widget.EditText index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.EditText" text="50" resource-id="com.benoitletondor.easybudgetapp:id/amount_edittext" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[79,445][540,557]" displayed="true"/>
+													
+                        
+												</android.widget.FrameLayout>
+												
+                      
+											</TextInputLayout>
+											
+                    
+										</android.widget.FrameLayout>
+										
+                  
+									</android.widget.LinearLayout>
+									
+                  
+									<android.widget.LinearLayout index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,669][1080,815]" displayed="true">
+										
+                    
+										<android.widget.LinearLayout index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,669][520,815]" displayed="true">
+											
+                      
+											<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="Type" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,669][520,720]" displayed="true"/>
+											
+                      
+											<android.widget.LinearLayout index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,733][520,815]" displayed="true">
+												
+                        
+												<android.widget.Switch index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.Switch" text="关闭" resource-id="com.benoitletondor.easybudgetapp:id/expense_type_switch" checkable="true" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[79,744][201,815]" displayed="true"/>
+												
+                        
+												<android.widget.TextView index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="Expense" resource-id="com.benoitletondor.easybudgetapp:id/expense_type_tv" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[214,760][335,803]" displayed="true"/>
+												
+                      
+											</android.widget.LinearLayout>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                    
+										<android.widget.LinearLayout index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[559,669][1001,812]" displayed="true">
+											
+                      
+											<android.widget.TextView index="0" package="com.benoitletondor.easybudgetapp" class="android.widget.TextView" text="Date" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[559,669][1001,720]" displayed="true"/>
+											
+                      
+											<android.widget.Button index="1" package="com.benoitletondor.easybudgetapp" class="android.widget.Button" text="7月 19 2023" resource-id="com.benoitletondor.easybudgetapp:id/date_button" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[559,733][1001,812]" displayed="true"/>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                  
+									</android.widget.LinearLayout>
+									
+                  
+									<android.widget.ImageButton index="2" package="com.benoitletondor.easybudgetapp" class="android.widget.ImageButton" text="" resource-id="com.benoitletondor.easybudgetapp:id/save_expense_fab" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[859,535][1006,682]" displayed="true"/>
+									
+                
+								</android.widget.LinearLayout>
+								
+              
+							</android.widget.ScrollView>
+							
+            
+						</android.widget.RelativeLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

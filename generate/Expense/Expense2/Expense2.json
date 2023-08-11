@@ -1,0 +1,118 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "luankevinferreira.expenses:id/fab",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expense2",
+        "package": "luankevinferreira.expenses",
+        "activity": ".MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "luankevinferreira.expenses:id/expense_value",
+        "text": "0.00",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expense2",
+        "package": "luankevinferreira.expenses",
+        "activity": ".ExpenseActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "3.50"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "luankevinferreira.expenses:id/expense_description",
+        "text": "Adicione uma descrição",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expense2",
+        "package": "luankevinferreira.expenses",
+        "activity": ".ExpenseActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys_and_hide_keyboard",
+            "Fruit"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "luankevinferreira.expenses:id/date_picker",
+        "text": "18/07/2023",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expense2",
+        "package": "luankevinferreira.expenses",
+        "activity": ".ExpenseActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "android:id/button1",
+        "text": "确定",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expense2",
+        "package": "luankevinferreira.expenses",
+        "activity": ".ExpenseActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "luankevinferreira.expenses:id/save_expense",
+        "text": "SALVAR",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "Expense2",
+        "package": "luankevinferreira.expenses",
+        "activity": ".ExpenseActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

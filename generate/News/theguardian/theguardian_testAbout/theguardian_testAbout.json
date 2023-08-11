@@ -1,0 +1,82 @@
+[
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "com.guardian:id/fabHome",
+        "text": "",
+        "content-desc": "Open navigation button",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [],
+        "tid": "theguardian_testAbout",
+        "package": "com.guardian",
+        "activity": ".feature.stream.NewHomeActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.guardian:id/nav_drawer_settings_button",
+        "text": "",
+        "content-desc": "Settings",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [],
+        "tid": "theguardian_testAbout",
+        "package": "com.guardian",
+        "activity": ".feature.stream.NewHomeActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "action": [
+            "swipe"
+        ],
+        "event_type": "gui",
+        "tid": "theguardian_testAbout",
+        "package": "com.guardian",
+        "activity": ".feature.setting.SettingsActivity"
+    },
+    {
+        "action": [
+            "swipe"
+        ],
+        "event_type": "gui",
+        "tid": "theguardian_testAbout",
+        "package": "com.guardian",
+        "activity": ".feature.setting.SettingsActivity"
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [
+            "About"
+        ],
+        "tid": "theguardian_testAbout",
+        "package": "com.guardian",
+        "activity": ".feature.setting.SettingsActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

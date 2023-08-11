@@ -1,0 +1,21 @@
+[
+    {
+        "class": "android.view.View",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "package": "jp.gocro.smartnews.android",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "smartnews_testCategory",
+        "activity": ".activity.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

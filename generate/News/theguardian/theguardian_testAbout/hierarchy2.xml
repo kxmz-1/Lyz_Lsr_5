@@ -1,0 +1,203 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1848">
+	
+  
+	<android.widget.FrameLayout index="0" package="com.guardian" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="com.guardian" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="com.guardian" class="android.widget.LinearLayout" text="" resource-id="com.guardian:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="com.guardian" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+						
+            
+						<android.view.ViewGroup index="0" package="com.guardian" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+							
+              
+							<android.view.ViewGroup index="0" package="com.guardian" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+								
+                
+								<android.view.ViewGroup index="0" package="com.guardian" class="android.view.ViewGroup" text="" resource-id="com.guardian:id/tToolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,252]" displayed="true">
+									
+                  
+									<android.widget.ImageView index="0" package="com.guardian" class="android.widget.ImageView" text="" resource-id="com.guardian:id/iivBackButton" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[24,96][144,216]" displayed="true"/>
+									
+                  
+									<android.widget.TextView index="1" package="com.guardian" class="android.widget.TextView" text="Settings" resource-id="com.guardian:id/customTitle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[687,86][1056,226]" displayed="true"/>
+									
+                
+								</android.view.ViewGroup>
+								
+                
+								<android.widget.FrameLayout index="1" package="com.guardian" class="android.widget.FrameLayout" text="" resource-id="com.guardian:id/flPreferences" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,252][1080,1848]" displayed="true">
+									
+                  
+									<android.widget.LinearLayout index="0" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,252][1080,1848]" displayed="true">
+										
+                    
+										<android.widget.FrameLayout index="0" package="com.guardian" class="android.widget.FrameLayout" text="" resource-id="android:id/list_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,252][1080,1848]" displayed="true">
+											
+                      
+											<androidx.recyclerview.widget.RecyclerView index="0" package="com.guardian" class="androidx.recyclerview.widget.RecyclerView" text="" resource-id="com.guardian:id/recycler_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,252][1080,1848]" displayed="true">
+												
+                        
+												<android.widget.LinearLayout index="0" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,252][1080,310]" displayed="true"/>
+												
+                        
+												<android.widget.LinearLayout index="1" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,310][1080,502]" displayed="true">
+													
+                          
+													<android.widget.RelativeLayout index="0" package="com.guardian" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,349][1050,462]" displayed="true">
+														
+                            
+														<android.widget.TextView index="0" package="com.guardian" class="android.widget.TextView" text="Edition" resource-id="android:id/title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,349][185,409]" displayed="true"/>
+														
+                            
+														<android.widget.TextView index="1" package="com.guardian" class="android.widget.TextView" text="US Edition" resource-id="android:id/summary" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,409][225,462]" displayed="true"/>
+														
+                          
+													</android.widget.RelativeLayout>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="2" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,502][1080,694]" displayed="true">
+													
+                          
+													<android.widget.RelativeLayout index="0" package="com.guardian" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,568][1050,628]" displayed="true">
+														
+                            
+														<android.widget.TextView index="0" package="com.guardian" class="android.widget.TextView" text="Tracking" resource-id="android:id/title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,568][213,628]" displayed="true"/>
+														
+                          
+													</android.widget.RelativeLayout>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="3" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,694][1080,886]" displayed="true">
+													
+                          
+													<android.widget.RelativeLayout index="0" package="com.guardian" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,760][1050,820]" displayed="true">
+														
+                            
+														<android.widget.TextView index="0" package="com.guardian" class="android.widget.TextView" text="Advanced Settings" resource-id="android:id/title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,760][408,820]" displayed="true"/>
+														
+                          
+													</android.widget.RelativeLayout>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.TextView index="4" package="com.guardian" class="android.widget.TextView" text="Support" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,886][1080,1032]" displayed="true"/>
+												
+                        
+												<android.widget.LinearLayout index="5" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1080][1080,1272]" displayed="true">
+													
+                          
+													<android.widget.RelativeLayout index="0" package="com.guardian" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1146][1050,1206]" displayed="true">
+														
+                            
+														<android.widget.TextView index="0" package="com.guardian" class="android.widget.TextView" text="Help" resource-id="android:id/title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1146][137,1206]" displayed="true"/>
+														
+                          
+													</android.widget.RelativeLayout>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="6" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1272][1080,1464]" displayed="true">
+													
+                          
+													<android.widget.RelativeLayout index="0" package="com.guardian" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1338][1050,1398]" displayed="true">
+														
+                            
+														<android.widget.TextView index="0" package="com.guardian" class="android.widget.TextView" text="Send feedback" resource-id="android:id/title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1338][330,1398]" displayed="true"/>
+														
+                          
+													</android.widget.RelativeLayout>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="7" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1464][1080,1656]" displayed="true">
+													
+                          
+													<android.widget.RelativeLayout index="0" package="com.guardian" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1503][1050,1616]" displayed="true">
+														
+                            
+														<android.widget.TextView index="0" package="com.guardian" class="android.widget.TextView" text="Become a Guardian Beta tester" resource-id="android:id/title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1503][644,1563]" displayed="true"/>
+														
+                            
+														<android.widget.TextView index="1" package="com.guardian" class="android.widget.TextView" text="Help us improve the Guardian app" resource-id="android:id/summary" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1563][629,1616]" displayed="true"/>
+														
+                          
+													</android.widget.RelativeLayout>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                        
+												<android.widget.LinearLayout index="8" package="com.guardian" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1656][1080,1848]" displayed="true">
+													
+                          
+													<android.widget.RelativeLayout index="0" package="com.guardian" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1722][1050,1782]" displayed="true">
+														
+                            
+														<android.widget.TextView index="0" package="com.guardian" class="android.widget.TextView" text="About" resource-id="android:id/title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1722][163,1782]" displayed="true"/>
+														
+                          
+													</android.widget.RelativeLayout>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                      
+											</androidx.recyclerview.widget.RecyclerView>
+											
+                    
+										</android.widget.FrameLayout>
+										
+                  
+									</android.widget.LinearLayout>
+									
+                
+								</android.widget.FrameLayout>
+								
+              
+							</android.view.ViewGroup>
+							
+            
+						</android.view.ViewGroup>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+    
+		<android.view.View index="2" package="com.guardian" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1848][1080,1920]" displayed="true"/>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

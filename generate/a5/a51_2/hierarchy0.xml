@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="anti.tip" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="anti.tip" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="anti.tip" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,64][1080,1856]" displayed="true">
+				
+        
+				<android.widget.RelativeLayout index="0" package="anti.tip" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,64][1080,1856]" displayed="true">
+					
+          
+					<android.widget.LinearLayout index="0" package="anti.tip" class="android.widget.LinearLayout" text="" resource-id="anti.tip:id/home_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,98][1080,1232]" displayed="true">
+						
+            
+						<android.widget.LinearLayout index="0" package="anti.tip" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,98][1080,260]" displayed="true">
+							
+              
+							<android.widget.TextView index="0" package="anti.tip" class="android.widget.TextView" text=" Bill Amount" resource-id="anti.tip:id/textBill" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,138][540,260]" displayed="true"/>
+							
+              
+							<android.widget.EditText index="1" package="anti.tip" class="android.widget.EditText" text="0.00" resource-id="anti.tip:id/bill" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" long-clickable="true" password="false" scrollable="false" selection-start="0" selection-end="4" selected="false" bounds="[540,98][1080,260]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+            
+						<android.widget.LinearLayout index="1" package="anti.tip" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,260][1080,422]" displayed="true">
+							
+              
+							<android.widget.TextView index="0" package="anti.tip" class="android.widget.TextView" text=" # Of People" resource-id="anti.tip:id/textPeople" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,300][540,422]" displayed="true"/>
+							
+              
+							<android.widget.EditText index="1" package="anti.tip" class="android.widget.EditText" text="1" resource-id="anti.tip:id/people" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[540,260][1080,422]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+            
+						<android.widget.LinearLayout index="2" package="anti.tip" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,422][1080,584]" displayed="true">
+							
+              
+							<android.widget.TextView index="0" package="anti.tip" class="android.widget.TextView" text=" Tip Percent (%)" resource-id="anti.tip:id/textPercent" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,462][540,584]" displayed="true"/>
+							
+              
+							<android.widget.EditText index="1" package="anti.tip" class="android.widget.EditText" text="15" resource-id="anti.tip:id/percent" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[540,422][1080,584]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+            
+						<android.widget.LinearLayout index="3" package="anti.tip" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,584][1080,746]" displayed="true">
+							
+              
+							<android.widget.TextView index="0" package="anti.tip" class="android.widget.TextView" text=" Tip Per Person" resource-id="anti.tip:id/textTipEach" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,624][540,746]" displayed="true"/>
+							
+              
+							<android.widget.EditText index="1" package="anti.tip" class="android.widget.EditText" text="0.00" resource-id="anti.tip:id/tipEach" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[540,584][1080,746]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+            
+						<android.widget.LinearLayout index="4" package="anti.tip" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,746][1080,908]" displayed="true">
+							
+              
+							<android.widget.TextView index="0" package="anti.tip" class="android.widget.TextView" text=" Total Tip" resource-id="anti.tip:id/textTip" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,786][540,908]" displayed="true"/>
+							
+              
+							<android.widget.EditText index="1" package="anti.tip" class="android.widget.EditText" text="0.00" resource-id="anti.tip:id/tip" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[540,746][1080,908]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+            
+						<android.widget.LinearLayout index="5" package="anti.tip" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,908][1080,1070]" displayed="true">
+							
+              
+							<android.widget.TextView index="0" package="anti.tip" class="android.widget.TextView" text=" Each Person Pays" resource-id="anti.tip:id/textEach" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,948][540,1070]" displayed="true"/>
+							
+              
+							<android.widget.EditText index="1" package="anti.tip" class="android.widget.EditText" text="0.00" resource-id="anti.tip:id/each" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[540,908][1080,1070]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+            
+						<android.widget.LinearLayout index="6" package="anti.tip" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1070][1080,1232]" displayed="true">
+							
+              
+							<android.widget.TextView index="0" package="anti.tip" class="android.widget.TextView" text=" Total Amount" resource-id="anti.tip:id/textTotal" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1110][540,1232]" displayed="true"/>
+							
+              
+							<android.widget.EditText index="1" package="anti.tip" class="android.widget.EditText" text="0.00" resource-id="anti.tip:id/total" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[540,1070][1080,1232]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+          
+					</android.widget.LinearLayout>
+					
+        
+				</android.widget.RelativeLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

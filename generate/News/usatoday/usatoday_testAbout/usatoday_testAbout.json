@@ -1,0 +1,44 @@
+[
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.usatoday.android.news:id/settings_gear",
+        "text": "",
+        "content-desc": "Settings",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [],
+        "tid": "usatoday_testAbout",
+        "package": "com.usatoday.android.news",
+        "activity": "com.gannett.android.news.ui.activity.ActivityNavigation",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.usatoday.android.news:id/preference_layout",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "children_text": [
+            "About"
+        ],
+        "tid": "usatoday_testAbout",
+        "package": "com.usatoday.android.news",
+        "activity": "com.gannett.android.news.ui.activity.ActivityNavigation",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

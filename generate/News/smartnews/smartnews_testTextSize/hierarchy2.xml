@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1848">
+	
+  
+	<android.widget.FrameLayout index="0" package="jp.gocro.smartnews.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[27,604][1053,1315]" displayed="true">
+		
+    
+		<android.widget.FrameLayout index="0" package="jp.gocro.smartnews.android" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[75,652][1005,1267]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="jp.gocro.smartnews.android" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[75,652][1005,1267]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="jp.gocro.smartnews.android" class="android.widget.LinearLayout" text="" resource-id="android:id/parentPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[75,652][1005,1267]" displayed="true">
+					
+          
+					<android.widget.LinearLayout index="0" package="jp.gocro.smartnews.android" class="android.widget.LinearLayout" text="" resource-id="android:id/topPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[75,652][1005,811]" displayed="true">
+						
+            
+						<android.widget.LinearLayout index="0" package="jp.gocro.smartnews.android" class="android.widget.LinearLayout" text="" resource-id="android:id/title_template" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[75,652][1005,787]" displayed="true">
+							
+              
+							<android.widget.TextView index="0" package="jp.gocro.smartnews.android" class="android.widget.TextView" text="Article font size" resource-id="android:id/alertTitle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[147,706][933,787]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+            
+						<android.view.View index="1" package="jp.gocro.smartnews.android" class="android.view.View" text="" resource-id="android:id/titleDividerNoCustom" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[75,787][1005,811]" displayed="true"/>
+						
+          
+					</android.widget.LinearLayout>
+					
+          
+					<android.widget.FrameLayout index="1" package="jp.gocro.smartnews.android" class="android.widget.FrameLayout" text="" resource-id="android:id/contentPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[75,811][1005,1099]" displayed="true">
+						
+            
+						<android.widget.ListView index="0" package="jp.gocro.smartnews.android" class="android.widget.ListView" text="" resource-id="android:id/select_dialog_listview" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[75,811][1005,1099]" displayed="true">
+							
+              
+							<android.widget.CheckedTextView index="0" package="jp.gocro.smartnews.android" class="android.widget.CheckedTextView" text="Normal" resource-id="android:id/text1" checkable="true" checked="true" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[75,811][1005,955]" displayed="true"/>
+							
+              
+							<android.widget.CheckedTextView index="1" package="jp.gocro.smartnews.android" class="android.widget.CheckedTextView" text="Large" resource-id="android:id/text1" checkable="true" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[75,955][1005,1099]" displayed="true"/>
+							
+            
+						</android.widget.ListView>
+						
+          
+					</android.widget.FrameLayout>
+					
+          
+					<android.widget.ScrollView index="2" package="jp.gocro.smartnews.android" class="android.widget.ScrollView" text="" resource-id="android:id/buttonPanel" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[75,1099][1005,1267]" displayed="true">
+						
+            
+						<android.widget.LinearLayout index="0" package="jp.gocro.smartnews.android" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[75,1099][1005,1267]" displayed="true">
+							
+              
+							<android.widget.Button index="0" package="jp.gocro.smartnews.android" class="android.widget.Button" text="CANCEL" resource-id="android:id/button2" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[738,1111][969,1255]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+          
+					</android.widget.ScrollView>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.FrameLayout>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>
