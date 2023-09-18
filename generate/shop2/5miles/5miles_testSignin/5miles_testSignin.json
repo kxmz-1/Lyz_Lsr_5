@@ -1,0 +1,80 @@
+[
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.thirdrock.fivemiles:id/sign_in",
+        "text": "Sign In",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "5miles_testMenu",
+        "package": "com.thirdrock.fivemiles",
+        "activity": "com.insthub.fivemiles.Activity.WelcomeActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.thirdrock.fivemiles:id/login_email",
+        "text": "Email",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "5miles_testMenu",
+        "package": "com.thirdrock.fivemiles",
+        "activity": ".login.EmailLoginActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys",
+            "migratingresearch@gmail.com"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource-id": "com.thirdrock.fivemiles:id/login_password",
+        "text": "Password (6–16 characters)",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "true",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "5miles_testMenu",
+        "package": "com.thirdrock.fivemiles",
+        "activity": ".login.EmailLoginActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys",
+            "researchisfun"
+        ]
+    },
+    {
+        "class": "android.widget.Button",
+        "resource-id": "com.thirdrock.fivemiles:id/login_login",
+        "text": "SIGN IN",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "5miles_testMenu",
+        "package": "com.thirdrock.fivemiles",
+        "activity": ".login.EmailLoginActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

@@ -24,7 +24,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'co
 event_0_button = driver.find_element(MobileBy.ID, 'com.thirdrock.fivemiles:id/sign_in')
 event_0_button.click()
 
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'com.thirdrock.fivemiles:id/login_email')))
+WebDriverWait(driver, 30).until(EC.presence_of_element_located((MobileBy.ID, 'com.thirdrock.fivemiles:id/login_email')))
 
 event_1_input = driver.find_element(MobileBy.ID, 'com.thirdrock.fivemiles:id/login_email')
 event_1_input.send_keys(Config.user_email)
@@ -34,7 +34,7 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'co
 event_2_input = driver.find_element(MobileBy.ID, 'com.thirdrock.fivemiles:id/login_password')
 event_2_input.send_keys(Config.email_password)
 
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'com.thirdrock.fivemiles:id/login_login')))
+WebDriverWait(driver, 30).until(EC.presence_of_element_located((MobileBy.ID, 'com.thirdrock.fivemiles:id/login_login')))
 
 event_3_button = driver.find_element(MobileBy.ID, 'com.thirdrock.fivemiles:id/login_login')
 event_3_button.click()
@@ -51,21 +51,14 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.XPATH, 
 event_3_button = driver.find_element(MobileBy.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.ImageView')
 event_3_button.click()
 
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'com.thirdrock.fivemiles:id/action_profile')))
+WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'com.thirdrock.fivemiles:id/home_toolbar_search')))
 
-event_4_button = driver.find_element(MobileBy.ID, 'com.thirdrock.fivemiles:id/action_profile')
+event_4_button = driver.find_element(MobileBy.ID, 'com.thirdrock.fivemiles:id/home_toolbar_search')
 event_4_button.click()
 
-driver.swipe(130, 1262, 130, 460)
+WebDriverWait(driver, 30).until(EC.presence_of_element_located((MobileBy.ID, 'com.thirdrock.fivemiles:id/edt_keyword_search')))
 
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'com.thirdrock.fivemiles:id/profile_setting')))
-
-event_5_button = driver.find_element(MobileBy.ID, 'com.thirdrock.fivemiles:id/profile_setting')
-event_5_button.click()
-
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout[4]')))
-
-event_6_button = driver.find_element(MobileBy.XPATH, '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout[4]')
-event_6_button.click()
+event_5_input = driver.find_element(MobileBy.ID, 'com.thirdrock.fivemiles:id/edt_keyword_search')
+event_5_input.send_keys('aan')
 
 driver.quit()

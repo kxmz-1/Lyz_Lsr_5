@@ -1,0 +1,80 @@
+[
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "resource-id": "com.contextlogic.home:id/sign_in_fragment_email_text",
+        "text": "Email",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "home_testMenu",
+        "package": "com.contextlogic.home",
+        "activity": "com.contextlogic.wish.activity.login.signin.SignInActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys",
+            "migratingresearch@gmail.com"
+        ]
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "resource-id": "com.contextlogic.home:id/sign_in_fragment_password_text",
+        "text": "Password",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "true",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "home_testMenu",
+        "package": "com.contextlogic.home",
+        "activity": "com.contextlogic.wish.activity.login.signin.SignInActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys",
+            "researchisfun"
+        ]
+    },
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "com.contextlogic.home:id/sign_in_fragment_sign_in_button",
+        "text": "Sign In",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "home_testMenu",
+        "package": "com.contextlogic.home",
+        "activity": "com.contextlogic.wish.activity.login.signin.SignInActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.ImageButton",
+        "resource-id": "",
+        "text": "",
+        "content-desc": "Open Menu",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "home_testMenu",
+        "package": "com.contextlogic.home",
+        "activity": "com.contextlogic.wish.activity.browse.BrowseActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]
