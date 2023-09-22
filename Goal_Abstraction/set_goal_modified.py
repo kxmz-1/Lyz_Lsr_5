@@ -180,10 +180,37 @@ def comprehend(provide_path):
     ]
     completion = gpt_generation(message)
     message.append({"role": "assistant", "content": completion})
+    #Only Goal Abstraction
+    '''
     message.append({"role": "user",
                     "content": "Don't listing the step one by one with number. You need to summarize the overall test "
                                "case's goal within three sentences without listing and providing specific "
                                "declarations so I can also perform these procedures in another APP with different "
                                "attributes' name"})
+    '''
+    #Goal+broad step intention
+    '''
+    message.append({"role": "user",
+                    "content": "First, you need to summarize the overall test "
+                               "case's goal within three sentences. Then providing me a rough "
+                               "description on the events so I can also perform these procedures in another APP with different "
+                               "attributes' name"})
+    '''
+    #Goal with step
+    '''
+    message.append({"role": "user",
+                    "content": "First, you need to summarize the overall test "
+                               "case's goal while referencing the"
+                               "description on the UI events so I can also perform these procedures in another APP with different "
+                               "attributes' name"})
+    '''
+    #Goal+detailed step intention
+    '''
+    message.append({"role": "user",
+                    "content": "First, you need to summarize the overall test case's goal. Then list and provide me a specific "
+                               "description on every event with the function and intention of the event "
+                               "so I can also perform these procedures in another APP with different "
+                               "attributes' name"})
+    '''
     completion = gpt_generation(message)
     return completion, processed_data
