@@ -1,0 +1,43 @@
+[
+    {
+        "content-desc": "New list",
+        "class": "android.widget.TextView",
+        "resource_id": "action add",
+        "tid": "Shop2",
+        "package": "br.com.activity",
+        "activity": "br.com.vansact.MainApp",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "tid": "Shop2",
+        "package": "br.com.activity",
+        "activity": "br.com.vansact.MainApp",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys",
+            "Title"
+        ]
+    },
+    {
+        "text": "OK",
+        "class": "android.widget.Button",
+        "resource_id": "button1",
+        "child_text": [
+            "OK"
+        ],
+        "tid": "Shop2",
+        "package": "br.com.activity",
+        "activity": "br.com.vansact.MainApp",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

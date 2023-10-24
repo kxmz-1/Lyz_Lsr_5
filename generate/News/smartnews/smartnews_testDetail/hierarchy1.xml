@@ -41,10 +41,7 @@
 												<android.widget.LinearLayout index="0" package="jp.gocro.smartnews.android" class="android.widget.LinearLayout" text="" resource-id="jp.gocro.smartnews.android:id/search_plate" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[192,84][1056,228]" displayed="true">
 													
                           
-													<android.widget.AutoCompleteTextView index="0" package="jp.gocro.smartnews.android" class="android.widget.AutoCompleteTextView" text="Ilaman" resource-id="jp.gocro.smartnews.android:id/search_src_text" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[192,102][936,210]" displayed="true" hint="Search News"/>
-													
-                          
-													<android.widget.ImageView index="1" package="jp.gocro.smartnews.android" class="android.widget.ImageView" text="" content-desc="Clear query" resource-id="jp.gocro.smartnews.android:id/search_close_btn" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[936,84][1056,228]" displayed="true"/>
+													<android.widget.AutoCompleteTextView index="0" package="jp.gocro.smartnews.android" class="android.widget.AutoCompleteTextView" text="Search News" resource-id="jp.gocro.smartnews.android:id/search_src_text" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[192,102][1056,210]" displayed="true" hint="Search News"/>
 													
                         
 												</android.widget.LinearLayout>

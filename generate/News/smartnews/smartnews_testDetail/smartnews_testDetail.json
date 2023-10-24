@@ -1,0 +1,60 @@
+[
+    {
+        "class": "android.widget.TextView",
+        "resource-id": "jp.gocro.smartnews.android:id/searchTextView",
+        "text": "Search News",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "smartnews_testDetail",
+        "package": "jp.gocro.smartnews.android",
+        "activity": ".activity.MainActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.AutoCompleteTextView",
+        "resource-id": "jp.gocro.smartnews.android:id/search_src_text",
+        "text": "Search News",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "smartnews_testDetail",
+        "package": "jp.gocro.smartnews.android",
+        "activity": ".search.SearchActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click and send_keys and search",
+            "llaman"
+        ]
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "jp.gocro.smartnews.android:id/article",
+        "text": "",
+        "content-desc": "",
+        "clickable": "true",
+        "password": "false",
+        "naf": "",
+        "parent_text": "",
+        "sibling_text": "",
+        "tid": "smartnews_testDetail",
+        "package": "jp.gocro.smartnews.android",
+        "activity": ".search.SearchActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]
