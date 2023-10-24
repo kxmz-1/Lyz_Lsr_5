@@ -1,41 +1,41 @@
 <?xml version="1.0" ?>
-<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1848">
 	
   
-	<android.widget.FrameLayout index="0" package="com.abc.abcnews" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+	<android.widget.FrameLayout index="0" package="com.abc.abcnews" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
 		
     
-		<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+		<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
 			
       
-			<android.widget.FrameLayout index="0" package="com.abc.abcnews" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+			<android.widget.FrameLayout index="0" package="com.abc.abcnews" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
 				
         
-				<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" resource-id="com.abc.abcnews:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+				<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" resource-id="com.abc.abcnews:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
 					
           
-					<android.widget.FrameLayout index="0" package="com.abc.abcnews" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+					<android.widget.FrameLayout index="0" package="com.abc.abcnews" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
 						
             
-						<androidx.drawerlayout.widget.DrawerLayout index="0" package="com.abc.abcnews" class="androidx.drawerlayout.widget.DrawerLayout" text="" resource-id="com.abc.abcnews:id/drawer_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+						<androidx.drawerlayout.widget.DrawerLayout index="0" package="com.abc.abcnews" class="androidx.drawerlayout.widget.DrawerLayout" text="" resource-id="com.abc.abcnews:id/drawer_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
 							
               
-							<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" resource-id="com.abc.abcnews:id/main_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+							<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" resource-id="com.abc.abcnews:id/main_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
 								
                 
-								<android.view.ViewGroup index="1" package="com.abc.abcnews" class="android.view.ViewGroup" text="" resource-id="com.abc.abcnews:id/abc_toolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+								<android.view.ViewGroup index="1" package="com.abc.abcnews" class="android.view.ViewGroup" text="" resource-id="com.abc.abcnews:id/abc_toolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,240]" displayed="true">
 									
                   
-									<android.widget.ImageButton index="0" package="com.abc.abcnews" class="android.widget.ImageButton" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][147,210]" displayed="true"/>
+									<android.widget.ImageButton index="0" package="com.abc.abcnews" class="android.widget.ImageButton" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][168,240]" displayed="true"/>
 									
                   
-									<android.widget.RelativeLayout index="1" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/generic_action_bar_title_and_button_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[189,63][1080,210]" displayed="true">
+									<android.widget.RelativeLayout index="1" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/generic_action_bar_title_and_button_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[216,72][1080,240]" displayed="true">
 										
                     
-										<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/action_bar_abcnews_logo" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[189,63][484,210]" displayed="true"/>
+										<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/action_bar_abcnews_logo" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[216,72][555,240]" displayed="true"/>
 										
                     
-										<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="" resource-id="com.abc.abcnews:id/title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[189,108][1080,165]" displayed="true"/>
+										<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="" resource-id="com.abc.abcnews:id/title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[216,123][1080,188]" displayed="true"/>
 										
                   
 									</android.widget.RelativeLayout>
@@ -44,103 +44,103 @@
 								</android.view.ViewGroup>
 								
                 
-								<android.widget.RelativeLayout index="2" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+								<android.widget.RelativeLayout index="2" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,1848]" displayed="true">
 									
                   
-									<android.widget.FrameLayout index="0" package="com.abc.abcnews" class="android.widget.FrameLayout" text="" resource-id="com.abc.abcnews:id/content_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+									<android.widget.FrameLayout index="0" package="com.abc.abcnews" class="android.widget.FrameLayout" text="" resource-id="com.abc.abcnews:id/content_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,1848]" displayed="true">
 										
                     
-										<android.widget.FrameLayout index="0" package="com.abc.abcnews" class="android.widget.FrameLayout" text="" resource-id="com.abc.abcnews:id/fragment_base" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+										<android.widget.FrameLayout index="0" package="com.abc.abcnews" class="android.widget.FrameLayout" text="" resource-id="com.abc.abcnews:id/fragment_base" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,1848]" displayed="true">
 											
                       
-											<android.widget.FrameLayout index="0" package="com.abc.abcnews" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+											<android.widget.FrameLayout index="0" package="com.abc.abcnews" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,1848]" displayed="true">
 												
                         
-												<android.view.ViewGroup index="0" package="com.abc.abcnews" class="android.view.ViewGroup" text="" resource-id="com.abc.abcnews:id/swipe_refresh_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+												<android.view.ViewGroup index="0" package="com.abc.abcnews" class="android.view.ViewGroup" text="" resource-id="com.abc.abcnews:id/swipe_refresh_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,1848]" displayed="true">
 													
                           
-													<androidx.recyclerview.widget.RecyclerView index="0" package="com.abc.abcnews" class="androidx.recyclerview.widget.RecyclerView" text="" resource-id="com.abc.abcnews:id/top_stories_module_recycler_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+													<androidx.recyclerview.widget.RecyclerView index="0" package="com.abc.abcnews" class="androidx.recyclerview.widget.RecyclerView" text="" resource-id="com.abc.abcnews:id/top_stories_module_recycler_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,240][1080,1848]" displayed="true">
 														
                             
-														<android.view.ViewGroup index="0" package="com.abc.abcnews" class="android.view.ViewGroup" text="" resource-id="com.abc.abcnews:id/cinematic_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1560]" displayed="true">
+														<android.view.ViewGroup index="0" package="com.abc.abcnews" class="android.view.ViewGroup" text="" resource-id="com.abc.abcnews:id/cinematic_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,1590]" displayed="true">
 															
                               
-															<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/cinematic_background_image" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1560]" displayed="true"/>
+															<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/cinematic_background_image" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,1590]" displayed="true"/>
 															
                               
-															<android.view.View index="1" package="com.abc.abcnews" class="android.view.View" text="" resource-id="com.abc.abcnews:id/cinematic_main_onclick" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1560]" displayed="true"/>
+															<android.view.View index="1" package="com.abc.abcnews" class="android.view.View" text="" resource-id="com.abc.abcnews:id/cinematic_main_onclick" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,1590]" displayed="true"/>
 															
                               
-															<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/cinematic_gradient" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,885][1080,1560]" displayed="true"/>
+															<android.widget.TextView index="2" package="com.abc.abcnews" class="android.widget.TextView" text="Morocco earthquake live updates: More than 2,000 dead in rare, powerful quake" resource-id="com.abc.abcnews:id/cinematic_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,884][1080,1075]" displayed="true"/>
 															
                               
-															<android.widget.TextView index="3" package="com.abc.abcnews" class="android.widget.TextView" text="House passes resolution saying Israel isn't a 'racist or apartheid state'" resource-id="com.abc.abcnews:id/cinematic_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1031][1080,1147]" displayed="true"/>
+															<android.widget.ImageView index="3" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/cinematic_gradient" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,915][1080,1590]" displayed="true"/>
 															
                               
-															<android.widget.TextView index="4" package="com.abc.abcnews" class="android.widget.TextView" text="Jul 18, 11:06pm" resource-id="com.abc.abcnews:id/cinematic_pub_date" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[39,1189][244,1227]" displayed="true"/>
+															<android.widget.TextView index="4" package="com.abc.abcnews" class="android.widget.TextView" text="Sep 9, 9:47pm" resource-id="com.abc.abcnews:id/cinematic_pub_date" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1123][271,1166]" displayed="true"/>
 															
                               
-															<android.view.View index="5" package="com.abc.abcnews" class="android.view.View" text="" resource-id="com.abc.abcnews:id/cinematic_related_divider" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[39,1269][1041,1272]" displayed="true"/>
+															<android.view.View index="5" package="com.abc.abcnews" class="android.view.View" text="" resource-id="com.abc.abcnews:id/cinematic_related_divider" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1214][1035,1217]" displayed="true"/>
 															
                               
-															<android.widget.LinearLayout index="6" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" resource-id="com.abc.abcnews:id/cinematic_related_container_one" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1298][1080,1378]" displayed="true">
+															<android.widget.LinearLayout index="6" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" resource-id="com.abc.abcnews:id/cinematic_related_container_one" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1247][1080,1381]" displayed="true">
 																
                                 
-																<android.widget.TextView index="0" package="com.abc.abcnews" class="android.widget.TextView" text="+" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[39,1316][60,1360]" displayed="true"/>
+																<android.widget.TextView index="0" package="com.abc.abcnews" class="android.widget.TextView" text="+" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1268][69,1360]" displayed="true"/>
 																
                                 
-																<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="Biden hosts Israeli president amid tensions" resource-id="com.abc.abcnews:id/cinematic_related_title_one" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[86,1323][1041,1367]" displayed="true"/>
+																<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="Moroccan villagers mourn after earthquake brings destruction to their rural mountain home" resource-id="com.abc.abcnews:id/cinematic_related_title_one" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[99,1275][1035,1367]" displayed="true"/>
 																
                               
 															</android.widget.LinearLayout>
 															
                               
-															<android.widget.LinearLayout index="7" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" resource-id="com.abc.abcnews:id/cinematic_related_container_two" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1378][1080,1495]" displayed="true">
+															<android.widget.LinearLayout index="7" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" resource-id="com.abc.abcnews:id/cinematic_related_container_two" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1381][1080,1515]" displayed="true">
 																
                                 
-																<android.widget.TextView index="0" package="com.abc.abcnews" class="android.widget.TextView" text="+" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[39,1396][60,1477]" displayed="true"/>
+																<android.widget.TextView index="0" package="com.abc.abcnews" class="android.widget.TextView" text="+" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1402][69,1494]" displayed="true"/>
 																
                                 
-																<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="Israeli protesters set for 'day of disruption' against Netanyahu's judicial overhaul" resource-id="com.abc.abcnews:id/cinematic_related_title_two" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[86,1403][1041,1484]" displayed="true"/>
+																<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="Soccer star Achraf Hakimi urges Moroccans to 'help each other' after earthquake" resource-id="com.abc.abcnews:id/cinematic_related_title_two" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[99,1409][1035,1501]" displayed="true"/>
 																
                               
 															</android.widget.LinearLayout>
 															
                               
-															<android.widget.TextView index="8" package="com.abc.abcnews" class="android.widget.TextView" text="Patrick Semansky/AP" resource-id="com.abc.abcnews:id/cinematic_image_credit" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[825,1515][1080,1560]" displayed="true"/>
+															<android.widget.TextView index="8" package="com.abc.abcnews" class="android.widget.TextView" text="The Associated Press" resource-id="com.abc.abcnews:id/cinematic_image_credit" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[779,1539][1080,1590]" displayed="true"/>
 															
                             
 														</android.view.ViewGroup>
 														
                             
-														<android.widget.LinearLayout index="1" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" resource-id="com.abc.abcnews:id/top_stories_module_spacing_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1560][1080,1599]" displayed="true">
+														<android.widget.LinearLayout index="1" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" resource-id="com.abc.abcnews:id/top_stories_module_spacing_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1590][1080,1635]" displayed="true">
 															
                               
-															<android.view.View index="0" package="com.abc.abcnews" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1560][1080,1563]" displayed="true"/>
+															<android.view.View index="0" package="com.abc.abcnews" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1590][1080,1593]" displayed="true"/>
 															
                               
-															<android.view.View index="1" package="com.abc.abcnews" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1563][1080,1596]" displayed="true"/>
+															<android.view.View index="1" package="com.abc.abcnews" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1593][1080,1632]" displayed="true"/>
 															
                               
-															<android.view.View index="2" package="com.abc.abcnews" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1596][1080,1599]" displayed="true"/>
+															<android.view.View index="2" package="com.abc.abcnews" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1632][1080,1635]" displayed="true"/>
 															
                             
 														</android.widget.LinearLayout>
 														
                             
-														<android.widget.RelativeLayout index="2" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1599][1080,1857]" displayed="true">
+														<android.widget.RelativeLayout index="2" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1635][1080,1848]" displayed="true">
 															
                               
-															<android.view.View index="0" package="com.abc.abcnews" class="android.view.View" text="" resource-id="com.abc.abcnews:id/featured_content_onclick" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1599][1080,1857]" displayed="true"/>
+															<android.view.View index="0" package="com.abc.abcnews" class="android.view.View" text="" resource-id="com.abc.abcnews:id/featured_content_onclick" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1635][1080,1848]" displayed="true"/>
 															
                               
-															<android.widget.RelativeLayout index="1" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/featured_content_subcontainer" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1599][1080,1857]" displayed="true">
+															<android.widget.RelativeLayout index="1" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/featured_content_subcontainer" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1635][1080,1848]" displayed="true">
 																
                                 
-																<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/featured_content_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1599][1080,1857]" displayed="true">
+																<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/featured_content_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1635][1080,1848]" displayed="true">
 																	
                                   
-																	<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/featured_content_background_image" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1599][1080,1857]" displayed="true"/>
+																	<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/featured_content_background_image" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1635][1080,1848]" displayed="true"/>
 																	
                                 
 																</android.widget.RelativeLayout>
@@ -167,28 +167,28 @@
 									</android.widget.FrameLayout>
 									
                   
-									<android.widget.LinearLayout index="1" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" resource-id="com.abc.abcnews:id/main_navigation_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1707][1080,1857]" displayed="true">
+									<android.widget.LinearLayout index="1" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" resource-id="com.abc.abcnews:id/main_navigation_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1677][1080,1848]" displayed="true">
 										
                     
-										<android.view.View index="0" package="com.abc.abcnews" class="android.view.View" text="" resource-id="com.abc.abcnews:id/main_navigation_divider" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1707][1080,1710]" displayed="true"/>
+										<android.view.View index="0" package="com.abc.abcnews" class="android.view.View" text="" resource-id="com.abc.abcnews:id/main_navigation_divider" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1677][1080,1680]" displayed="true"/>
 										
                     
-										<android.widget.HorizontalScrollView index="1" package="com.abc.abcnews" class="android.widget.HorizontalScrollView" text="" resource-id="com.abc.abcnews:id/section_view_pager_tabs" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1710][1080,1857]" displayed="true">
+										<android.widget.HorizontalScrollView index="1" package="com.abc.abcnews" class="android.widget.HorizontalScrollView" text="" resource-id="com.abc.abcnews:id/section_view_pager_tabs" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1680][1080,1848]" displayed="true">
 											
                       
-											<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1710][1080,1857]" displayed="true">
+											<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1680][1080,1848]" displayed="true">
 												
                         
-												<androidx.appcompat.app.ActionBar.Tab index="0" package="com.abc.abcnews" class="androidx.appcompat.app.ActionBar$Tab" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[0,1710][216,1857]" displayed="true">
+												<androidx.appcompat.app.ActionBar.Tab index="0" package="com.abc.abcnews" class="androidx.appcompat.app.ActionBar$Tab" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[0,1680][216,1848]" displayed="true">
 													
                           
-													<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[0,1732][216,1834]" displayed="true">
+													<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[0,1706][216,1821]" displayed="true">
 														
                             
-														<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/tab_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[78,1732][138,1792]" displayed="true"/>
+														<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/tab_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[73,1706][142,1775]" displayed="true"/>
 														
                             
-														<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="NEWS" resource-id="com.abc.abcnews:id/tab_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[0,1798][216,1834]" displayed="true"/>
+														<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="NEWS" resource-id="com.abc.abcnews:id/tab_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[0,1781][216,1821]" displayed="true"/>
 														
                           
 													</android.widget.LinearLayout>
@@ -197,34 +197,16 @@
 												</androidx.appcompat.app.ActionBar.Tab>
 												
                         
-												<androidx.appcompat.app.ActionBar.Tab index="1" package="com.abc.abcnews" class="androidx.appcompat.app.ActionBar$Tab" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[216,1710][432,1857]" displayed="true">
+												<androidx.appcompat.app.ActionBar.Tab index="1" package="com.abc.abcnews" class="androidx.appcompat.app.ActionBar$Tab" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[216,1680][432,1848]" displayed="true">
 													
                           
-													<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[216,1735][432,1832]" displayed="true">
+													<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[216,1709][432,1818]" displayed="true">
 														
                             
-														<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/tab_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[296,1735][351,1790]" displayed="true"/>
+														<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/tab_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[292,1709][355,1772]" displayed="true"/>
 														
                             
-														<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="INTERESTS" resource-id="com.abc.abcnews:id/tab_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[216,1796][432,1832]" displayed="true"/>
-														
-                          
-													</android.widget.LinearLayout>
-													
-                        
-												</androidx.appcompat.app.ActionBar.Tab>
-												
-                        
-												<androidx.appcompat.app.ActionBar.Tab index="2" package="com.abc.abcnews" class="androidx.appcompat.app.ActionBar$Tab" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[432,1710][648,1857]" displayed="true">
-													
-                          
-													<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[432,1732][648,1834]" displayed="true">
-														
-                            
-														<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/tab_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[510,1732][570,1792]" displayed="true"/>
-														
-                            
-														<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="LIVE" resource-id="com.abc.abcnews:id/tab_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[432,1798][648,1834]" displayed="true"/>
+														<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="INTERESTS" resource-id="com.abc.abcnews:id/tab_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[216,1778][432,1818]" displayed="true"/>
 														
                           
 													</android.widget.LinearLayout>
@@ -233,16 +215,16 @@
 												</androidx.appcompat.app.ActionBar.Tab>
 												
                         
-												<androidx.appcompat.app.ActionBar.Tab index="3" package="com.abc.abcnews" class="androidx.appcompat.app.ActionBar$Tab" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[648,1710][864,1857]" displayed="true">
+												<androidx.appcompat.app.ActionBar.Tab index="2" package="com.abc.abcnews" class="androidx.appcompat.app.ActionBar$Tab" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[432,1680][648,1848]" displayed="true">
 													
                           
-													<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[648,1732][864,1834]" displayed="true">
+													<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[432,1706][648,1821]" displayed="true">
 														
                             
-														<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/tab_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[726,1732][786,1792]" displayed="true"/>
+														<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/tab_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[505,1706][574,1775]" displayed="true"/>
 														
                             
-														<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="SHOWS" resource-id="com.abc.abcnews:id/tab_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[648,1798][864,1834]" displayed="true"/>
+														<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="LIVE" resource-id="com.abc.abcnews:id/tab_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[432,1781][648,1821]" displayed="true"/>
 														
                           
 													</android.widget.LinearLayout>
@@ -251,16 +233,34 @@
 												</androidx.appcompat.app.ActionBar.Tab>
 												
                         
-												<androidx.appcompat.app.ActionBar.Tab index="4" package="com.abc.abcnews" class="androidx.appcompat.app.ActionBar$Tab" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[864,1710][1080,1857]" displayed="true">
+												<androidx.appcompat.app.ActionBar.Tab index="3" package="com.abc.abcnews" class="androidx.appcompat.app.ActionBar$Tab" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[648,1680][864,1848]" displayed="true">
 													
                           
-													<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[864,1732][1080,1834]" displayed="true">
+													<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[648,1706][864,1821]" displayed="true">
 														
                             
-														<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/tab_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[942,1732][1002,1792]" displayed="true"/>
+														<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/tab_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[721,1706][790,1775]" displayed="true"/>
 														
                             
-														<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="LISTEN" resource-id="com.abc.abcnews:id/tab_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[864,1798][1080,1834]" displayed="true"/>
+														<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="SHOWS" resource-id="com.abc.abcnews:id/tab_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[648,1781][864,1821]" displayed="true"/>
+														
+                          
+													</android.widget.LinearLayout>
+													
+                        
+												</androidx.appcompat.app.ActionBar.Tab>
+												
+                        
+												<androidx.appcompat.app.ActionBar.Tab index="4" package="com.abc.abcnews" class="androidx.appcompat.app.ActionBar$Tab" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[864,1680][1080,1848]" displayed="true">
+													
+                          
+													<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[864,1706][1080,1821]" displayed="true">
+														
+                            
+														<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/tab_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[937,1706][1006,1775]" displayed="true"/>
+														
+                            
+														<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="LISTEN" resource-id="com.abc.abcnews:id/tab_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[864,1781][1080,1821]" displayed="true"/>
 														
                           
 													</android.widget.LinearLayout>
@@ -284,43 +284,43 @@
 							</android.widget.LinearLayout>
 							
               
-							<android.widget.LinearLayout index="1" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" resource-id="com.abc.abcnews:id/drawer_linear_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][840,1857]" displayed="true">
+							<android.widget.LinearLayout index="1" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" resource-id="com.abc.abcnews:id/drawer_linear_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][960,1848]" displayed="true">
 								
                 
-								<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][840,440]" displayed="true">
+								<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][960,501]" displayed="true">
 									
                   
-									<android.widget.LinearLayout index="1" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[34,116][806,242]" displayed="true">
+									<android.widget.LinearLayout index="1" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[39,132][921,276]" displayed="true">
 										
                     
-										<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[34,155][158,202]" displayed="true"/>
+										<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[39,177][180,231]" displayed="true"/>
 										
                     
-										<android.widget.EditText index="1" package="com.abc.abcnews" class="android.widget.EditText" text="Search" resource-id="com.abc.abcnews:id/drawer_search" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[158,116][806,242]" displayed="true" hint="Search"/>
+										<android.widget.EditText index="1" package="com.abc.abcnews" class="android.widget.EditText" text="Search" resource-id="com.abc.abcnews:id/drawer_search" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[180,132][921,276]" displayed="true" hint="Search"/>
 										
                   
 									</android.widget.LinearLayout>
 									
                   
-									<android.widget.HorizontalScrollView index="2" package="com.abc.abcnews" class="android.widget.HorizontalScrollView" text="" resource-id="com.abc.abcnews:id/tabs" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[32,292][808,424]" displayed="true">
+									<android.widget.HorizontalScrollView index="2" package="com.abc.abcnews" class="android.widget.HorizontalScrollView" text="" resource-id="com.abc.abcnews:id/tabs" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[36,333][924,483]" displayed="true">
 										
                     
-										<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[35,295][808,421]" displayed="true">
+										<android.widget.LinearLayout index="0" package="com.abc.abcnews" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[39,336][924,480]" displayed="true">
 											
                       
-											<androidx.appcompat.app.ActionBar.Tab index="0" package="com.abc.abcnews" class="androidx.appcompat.app.ActionBar$Tab" text="" content-desc="Sections" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[35,295][423,421]" displayed="true">
+											<androidx.appcompat.app.ActionBar.Tab index="0" package="com.abc.abcnews" class="androidx.appcompat.app.ActionBar$Tab" text="" content-desc="Sections" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[39,336][483,480]" displayed="true">
 												
                         
-												<android.widget.TextView index="0" package="com.abc.abcnews" class="android.widget.TextView" text="SECTIONS" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[142,332][315,383]" displayed="true"/>
+												<android.widget.TextView index="0" package="com.abc.abcnews" class="android.widget.TextView" text="SECTIONS" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[162,379][360,436]" displayed="true"/>
 												
                       
 											</androidx.appcompat.app.ActionBar.Tab>
 											
                       
-											<androidx.appcompat.app.ActionBar.Tab index="1" package="com.abc.abcnews" class="androidx.appcompat.app.ActionBar$Tab" text="" content-desc="Shows" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[423,295][808,421]" displayed="true">
+											<androidx.appcompat.app.ActionBar.Tab index="1" package="com.abc.abcnews" class="androidx.appcompat.app.ActionBar$Tab" text="" content-desc="Shows" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[483,336][924,480]" displayed="true">
 												
                         
-												<android.widget.TextView index="0" package="com.abc.abcnews" class="android.widget.TextView" text="SHOWS" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[553,332][681,383]" displayed="true"/>
+												<android.widget.TextView index="0" package="com.abc.abcnews" class="android.widget.TextView" text="SHOWS" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[632,379][778,436]" displayed="true"/>
 												
                       
 											</androidx.appcompat.app.ActionBar.Tab>
@@ -335,25 +335,25 @@
 								</android.widget.LinearLayout>
 								
                 
-								<android.widget.ListView index="1" package="com.abc.abcnews" class="android.widget.ListView" text="" resource-id="com.abc.abcnews:id/drawer_listview" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,440][840,1857]" displayed="true">
+								<android.widget.ListView index="1" package="com.abc.abcnews" class="android.widget.ListView" text="" resource-id="com.abc.abcnews:id/drawer_listview" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="true" selected="false" bounds="[0,501][960,1848]" displayed="true">
 									
                   
-									<android.view.ViewGroup index="0" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,440][840,576]" displayed="true">
+									<android.view.ViewGroup index="0" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,501][960,657]" displayed="true">
 										
                     
-										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[0,440][840,576]" displayed="true">
+										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[0,501][960,657]" displayed="true">
 											
                       
-											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[37,474][105,542]" displayed="true">
+											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[42,540][120,618]" displayed="true">
 												
                         
-												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[37,474][105,542]" displayed="true"/>
+												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[42,540][120,618]" displayed="true"/>
 												
                       
 											</android.widget.RelativeLayout>
 											
                       
-											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="TOP STORIES" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[147,445][722,571]" displayed="true"/>
+											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="TOP STORIES" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="true" bounds="[168,507][825,651]" displayed="true"/>
 											
                     
 										</android.widget.RelativeLayout>
@@ -362,25 +362,25 @@
 									</android.view.ViewGroup>
 									
                   
-									<android.view.ViewGroup index="1" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,576][840,712]" displayed="true">
+									<android.view.ViewGroup index="1" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,657][960,813]" displayed="true">
 										
                     
-										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,576][840,712]" displayed="true">
+										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,657][960,813]" displayed="true">
 											
                       
-											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,610][105,678]" displayed="true">
+											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,696][120,774]" displayed="true">
 												
                         
-												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,610][105,678]" displayed="true"/>
+												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,696][120,774]" displayed="true"/>
 												
                       
 											</android.widget.RelativeLayout>
 											
                       
-											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="SAVED" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[147,581][722,707]" displayed="true"/>
+											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="SAVED" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[168,663][825,807]" displayed="true"/>
 											
                       
-											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[722,611][840,676]" displayed="true"/>
+											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[825,697][960,772]" displayed="true"/>
 											
                     
 										</android.widget.RelativeLayout>
@@ -389,25 +389,25 @@
 									</android.view.ViewGroup>
 									
                   
-									<android.view.ViewGroup index="2" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,712][840,848]" displayed="true">
+									<android.view.ViewGroup index="2" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,813][960,969]" displayed="true">
 										
                     
-										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,712][840,848]" displayed="true">
+										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,813][960,969]" displayed="true">
 											
                       
-											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,746][105,814]" displayed="true">
+											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,852][120,930]" displayed="true">
 												
                         
-												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,746][105,814]" displayed="true"/>
+												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,852][120,930]" displayed="true"/>
 												
                       
 											</android.widget.RelativeLayout>
 											
                       
-											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="TRENDING" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[147,717][722,843]" displayed="true"/>
+											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="TRENDING" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[168,819][825,963]" displayed="true"/>
 											
                       
-											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[722,747][840,812]" displayed="true"/>
+											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[825,853][960,928]" displayed="true"/>
 											
                     
 										</android.widget.RelativeLayout>
@@ -416,25 +416,25 @@
 									</android.view.ViewGroup>
 									
                   
-									<android.view.ViewGroup index="3" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,848][840,984]" displayed="true">
+									<android.view.ViewGroup index="3" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,969][960,1125]" displayed="true">
 										
                     
-										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,848][840,984]" displayed="true">
+										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,969][960,1125]" displayed="true">
 											
                       
-											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,882][105,950]" displayed="true">
+											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,1008][120,1086]" displayed="true">
 												
                         
-												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,882][105,950]" displayed="true"/>
+												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,1008][120,1086]" displayed="true"/>
 												
                       
 											</android.widget.RelativeLayout>
 											
                       
-											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="U.S." resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[147,853][722,979]" displayed="true"/>
+											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="U.S." resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[168,975][825,1119]" displayed="true"/>
 											
                       
-											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[722,883][840,948]" displayed="true"/>
+											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[825,1009][960,1084]" displayed="true"/>
 											
                     
 										</android.widget.RelativeLayout>
@@ -443,25 +443,25 @@
 									</android.view.ViewGroup>
 									
                   
-									<android.view.ViewGroup index="4" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,984][840,1120]" displayed="true">
+									<android.view.ViewGroup index="4" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1125][960,1281]" displayed="true">
 										
                     
-										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,984][840,1120]" displayed="true">
+										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1125][960,1281]" displayed="true">
 											
                       
-											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1018][105,1086]" displayed="true">
+											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,1164][120,1242]" displayed="true">
 												
                         
-												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1018][105,1086]" displayed="true"/>
+												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,1164][120,1242]" displayed="true"/>
 												
                       
 											</android.widget.RelativeLayout>
 											
                       
-											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="VIDEO" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[147,989][722,1115]" displayed="true"/>
+											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="VIDEO" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[168,1131][825,1275]" displayed="true"/>
 											
                       
-											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[722,1019][840,1084]" displayed="true"/>
+											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[825,1165][960,1240]" displayed="true"/>
 											
                     
 										</android.widget.RelativeLayout>
@@ -470,25 +470,25 @@
 									</android.view.ViewGroup>
 									
                   
-									<android.view.ViewGroup index="5" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1120][840,1256]" displayed="true">
+									<android.view.ViewGroup index="5" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1281][960,1437]" displayed="true">
 										
                     
-										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1120][840,1256]" displayed="true">
+										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1281][960,1437]" displayed="true">
 											
                       
-											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1154][105,1222]" displayed="true">
+											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,1320][120,1398]" displayed="true">
 												
                         
-												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1154][105,1222]" displayed="true"/>
+												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,1320][120,1398]" displayed="true"/>
 												
                       
 											</android.widget.RelativeLayout>
 											
                       
-											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="ELECTION 2020" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[147,1125][722,1251]" displayed="true"/>
+											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="ELECTION 2020" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[168,1287][825,1431]" displayed="true"/>
 											
                       
-											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[722,1155][840,1220]" displayed="true"/>
+											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[825,1321][960,1396]" displayed="true"/>
 											
                     
 										</android.widget.RelativeLayout>
@@ -497,25 +497,25 @@
 									</android.view.ViewGroup>
 									
                   
-									<android.view.ViewGroup index="6" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1256][840,1392]" displayed="true">
+									<android.view.ViewGroup index="6" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1437][960,1593]" displayed="true">
 										
                     
-										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1256][840,1392]" displayed="true">
+										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1437][960,1593]" displayed="true">
 											
                       
-											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1290][105,1358]" displayed="true">
+											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,1476][120,1554]" displayed="true">
 												
                         
-												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1290][105,1358]" displayed="true"/>
+												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,1476][120,1554]" displayed="true"/>
 												
                       
 											</android.widget.RelativeLayout>
 											
                       
-											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="POLITICS" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[147,1261][722,1387]" displayed="true"/>
+											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="POLITICS" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[168,1443][825,1587]" displayed="true"/>
 											
                       
-											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[722,1291][840,1356]" displayed="true"/>
+											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[825,1477][960,1552]" displayed="true"/>
 											
                     
 										</android.widget.RelativeLayout>
@@ -524,25 +524,25 @@
 									</android.view.ViewGroup>
 									
                   
-									<android.view.ViewGroup index="7" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1392][840,1528]" displayed="true">
+									<android.view.ViewGroup index="7" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1593][960,1749]" displayed="true">
 										
                     
-										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1392][840,1528]" displayed="true">
+										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1593][960,1749]" displayed="true">
 											
                       
-											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1426][105,1494]" displayed="true">
+											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,1632][120,1710]" displayed="true">
 												
                         
-												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1426][105,1494]" displayed="true"/>
+												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,1632][120,1710]" displayed="true"/>
 												
                       
 											</android.widget.RelativeLayout>
 											
                       
-											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="LOCAL VIDEO" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[147,1397][722,1523]" displayed="true"/>
+											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="LOCAL VIDEO" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[168,1599][825,1743]" displayed="true"/>
 											
                       
-											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[722,1427][840,1492]" displayed="true"/>
+											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[825,1633][960,1708]" displayed="true"/>
 											
                     
 										</android.widget.RelativeLayout>
@@ -551,79 +551,25 @@
 									</android.view.ViewGroup>
 									
                   
-									<android.view.ViewGroup index="8" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1528][840,1664]" displayed="true">
+									<android.view.ViewGroup index="8" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1749][960,1848]" displayed="true">
 										
                     
-										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1528][840,1664]" displayed="true">
+										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1749][960,1848]" displayed="true">
 											
                       
-											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1562][105,1630]" displayed="true">
+											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,1788][120,1848]" displayed="true">
 												
                         
-												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1562][105,1630]" displayed="true"/>
+												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,1788][120,1848]" displayed="true"/>
 												
                       
 											</android.widget.RelativeLayout>
 											
                       
-											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="INTERNATIONAL" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[147,1533][722,1659]" displayed="true"/>
+											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="INTERNATIONAL" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[168,1755][825,1848]" displayed="true"/>
 											
                       
-											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[722,1563][840,1628]" displayed="true"/>
-											
-                    
-										</android.widget.RelativeLayout>
-										
-                  
-									</android.view.ViewGroup>
-									
-                  
-									<android.view.ViewGroup index="9" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1664][840,1800]" displayed="true">
-										
-                    
-										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1664][840,1800]" displayed="true">
-											
-                      
-											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1698][105,1766]" displayed="true">
-												
-                        
-												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1698][105,1766]" displayed="true"/>
-												
-                      
-											</android.widget.RelativeLayout>
-											
-                      
-											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="INVESTIGATIVE" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[147,1669][722,1795]" displayed="true"/>
-											
-                      
-											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[722,1699][840,1764]" displayed="true"/>
-											
-                    
-										</android.widget.RelativeLayout>
-										
-                  
-									</android.view.ViewGroup>
-									
-                  
-									<android.view.ViewGroup index="10" package="com.abc.abcnews" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1800][840,1857]" displayed="true">
-										
-                    
-										<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1800][840,1857]" displayed="true">
-											
-                      
-											<android.widget.RelativeLayout index="0" package="com.abc.abcnews" class="android.widget.RelativeLayout" text="" resource-id="com.abc.abcnews:id/icon_wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1834][105,1857]" displayed="true">
-												
-                        
-												<android.widget.ImageView index="0" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_item_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[37,1834][105,1857]" displayed="true"/>
-												
-                      
-											</android.widget.RelativeLayout>
-											
-                      
-											<android.widget.TextView index="1" package="com.abc.abcnews" class="android.widget.TextView" text="ENTERTAINMENT" resource-id="com.abc.abcnews:id/drawer_item_textview" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[147,1805][722,1857]" displayed="true"/>
-											
-                      
-											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[722,1835][840,1857]" displayed="true"/>
+											<android.widget.ImageView index="2" package="com.abc.abcnews" class="android.widget.ImageView" text="" resource-id="com.abc.abcnews:id/drawer_drag_handle" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[825,1789][960,1848]" displayed="true"/>
 											
                     
 										</android.widget.RelativeLayout>
@@ -653,7 +599,7 @@
 		</android.widget.LinearLayout>
 		
     
-		<android.view.View index="2" package="com.abc.abcnews" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1857][1080,1920]" displayed="true"/>
+		<android.view.View index="2" package="com.abc.abcnews" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1848][1080,1920]" displayed="true"/>
 		
   
 	</android.widget.FrameLayout>
