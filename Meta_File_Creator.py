@@ -14,7 +14,7 @@ for cat in target:
     accu=[]
     tot={}
     testcase=[]
-    paths = os.walk(r'./generate'+'/'+cat)
+    paths = os.walk(r'C:/Users/swale/Desktop/migration (3)/generate'+'/'+cat)
     for path, dir_lst, file_lst in paths:
         for dir_name in dir_lst:
             if dir_name.count("_")==1:
@@ -36,5 +36,5 @@ for cat in target:
                     print(accu)
     tot['data']=accu
     
-    with open(r'./dateset pairing'+'/'+cat+'_meta.json','w') as f:
+    with open(r'C:/Users/swale/Desktop/migration (3)/dateset pairing/'+cat+'_meta.json','w') as f:
         json.dump(tot,f,indent=4)
