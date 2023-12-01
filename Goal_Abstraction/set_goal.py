@@ -208,7 +208,7 @@ def comprehend(provide_path, num):
 
     if num == 3:
         message.append({"role": "user",
-                        "content": "List each event action's function and intention. Transform into a list: "
+                        "content": "List each event action's function and intention in reaching the goal. Transform into a list: "
                                    "['<function_and_intention_1>','<function_and _intention_2>'...]. Make sure it"
                                    "doesn't contain specific attributes' name"})
 

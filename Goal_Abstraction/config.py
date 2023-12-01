@@ -66,4 +66,4 @@ source_path = ""
 #api_base = "https://aigptx.top/v1"
 api_key = "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"
 save_file = "C:\\Users\\11303\\Desktop\\git\\Lyz_Lsr_5\\"
-num = 1
+num = 3
