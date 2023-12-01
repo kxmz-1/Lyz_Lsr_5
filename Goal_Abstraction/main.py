@@ -3,15 +3,15 @@ from appium import webdriver
 import xml.etree.ElementTree as ET
 from time import sleep
 import config
-import openai
+from openai import OpenAI
+import os
 import re
 from control_screen import control
 import element_info_extractor
 from saver import recorder
 
-openai.api_key = config.api_key
 
-
+os.environ["OPENAI_API_KEY"] = config.api_key
 # openai.api_base = config.api_base
 
 
@@ -85,12 +85,13 @@ class History:
 
 
 def gpt_generation(messages):
-    completion = openai.ChatCompletion.create(
+    client = OpenAI()
+    completion = client.chat.completions.create(
         model="gpt-3.5-turbo-16k",
         messages=messages,
         temperature=0.2,
     )
-    return completion.choices[0].message["content"]
+    return completion.choices[0].message.content
 
 
 class Migration:
@@ -144,10 +145,10 @@ class Migration:
                        "you don't have to redo these steps anymore:\n"
             for i in range(len(self.chose_performance)):
                 if self.chose_performance[i][1] is not None:
-                    content += f"\naction{i}. The widget we choose: {str(self.chose_performance[i][1])}, and "
-                    content += f"the action we perform on the widget is {str(self.chose_performance[i][2])}"
+                    content += f"\naction{i}. We choose the widget {str(self.chose_performance[i][1])}, and "
+                    content += f"perform {str(self.chose_performance[i][2])}"
                     if len(self.chose_performance[i]) == 4:
-                        content += f", and the text we enter: {str(self.chose_performance[i][3])}"
+                        content += f"We enter the text {str(self.chose_performance[i][3])}"
                 else:
                     content += f"\nWe are trying to {self.chose_performance[i][2][0]}. This element's " \
                                f"{self.chose_performance[i][2][2]} is {self.chose_performance[i][2][3]}."
@@ -181,8 +182,7 @@ class Migration:
                    f"You need to transfer from welcome and permission screens to the main screen. which widgets do" \
                    f"you decide to choose? Here are the existing widgets' information:"
         ele = []
-        current_page_info = element_info_extractor.info(driver,
-                                                        ele)
+        current_page_info = element_info_extractor.info(driver, ele)
         self.index_list(current_page_info, False)
         print(self.indexes)
         sentence += str(self.indexes)
@@ -199,18 +199,15 @@ class Migration:
                f"organizations. Now, you are trying to perform one of the action described in the test case: " \
                f"{self.source_testcase[self.current_step]}. These are the actions we already performed: \n" \
                f"{nlp} \n"
-        cont += f"Do you think the action in the test case to the action we performed? Because our task is imitating the action in the test case, " \
-                f"the attribute of the widget only need to be similar. They do not need to strictly be the same."\
-                f"If the actions are similar, output [1], and I will provide you with next " \
-                f"step of this test case. else output [0]. First, output only with [0] or [1]. Then, explain the reason"
+        cont += f"Do you think we finished this particular action? The attribute of the widget do not need to be " \
+                f"the same. If we finished, output [1], else output [0]."
         mes = [{"role": "user", "content": cont}]
-        #mes.append({"role": "assistant", "content": completion})
-        #mes.append({"role": "user", "content": "From your previous output, respond only with [0] or [1]."
-        #            "Remember, the attributes do not need to be the same. Similar functions is fine"})
+        completion = gpt_generation(mes)
+        mes.append({"role":"assistant","content":completion})
+        mes.append({"role": "user", "content": "From your previous output, respond only with [0] or [1]."
+                    "Remember, the attributes do not need to be the same. Similar functions is fine"})
         for p in mes:
             print(p['role'],p['content'])
-        #completion = gpt_generation(mes)
-        #print(completion)
         completion = gpt_generation(mes)
         print(completion)
         return "[1]" in completion
@@ -331,7 +328,7 @@ class Migration:
         content = [ {"role": "user",
                     "content": f"This is a test case description of a particular APP: {self.goal}. You are trying to "
                                f"perform the same step described above to a related APP, an APP that has similar "
-                               f"functions but different organizations. Now, you are trying to perform one of the "
+                               f"functions. Now, you are trying to perform one of the "
                                f"action described in the test case: {self.source_testcase[self.current_step]}. I will "
                                f"provide you the indexes you can perform within the current screen. Please choose the "
                                f"most suitable index in order to imitate the above test case procedures\nIf you can "
@@ -378,7 +375,6 @@ class Migration:
                     if self.current_step >= len(self.source_testcase):
                         print("This test migration is finished. Check termination...")
                         self.result_collector.save_file()
-                        self.termination_judgement()
                         break
             # If the current source testcase action is oracle-based, trying to migrate this oracle to the target APP
             if self.source_testcase[self.current_step]["event_type"] == "oracle":
@@ -438,28 +434,9 @@ class Migration:
         self.decision_element = 0
         self.message = []
 
-    def termination_judgement(self):
-        sys_mes = "Suppose you are performing a binary classification, where you need to judge from a response and a " \
-                  "target description to determine whether the target is achieved or not.\n"
-        problem_body = f"The target is {goal}.\n The action performed by us is:"
-        problem_body += self.natural_language_actions
-        prompt = problem_body + "Will the target be achieved after we take the action? Please response with [YES] or " \
-                                "[NO].\n Your answer is:"
-        messages = [{'role': 'system', 'content': sys_mes}, {'role': 'user', 'content': prompt}]
-        response = gpt_generation(messages)
-        messages.append({"role": "assistant", "content": response})
-        messages.append({"role": "user", "content": "Only answer in [YES] or [NO]"})
-        print(response)
-        if 'YES' not in response:
-            self.clear_class()
-            self.normal_step()
-        else:
-            print("finished!")
-
-
 if __name__ == "__main__":
     # start appium
-    goal, source_testcase = set_goal.comprehend(config.source_path)
+    goal, source_testcase = set_goal.comprehend(config.source_path, 0)
     migrate = Migration(goal, source_testcase)
     appium_server = config.appium_server
     desired_caps = config.desired_caps

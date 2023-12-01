@@ -14,22 +14,25 @@ def find_folder(folder_path, target_folder_name):
     return None
 
 
-source = "usatoday_testAbout"
-migrate = "smartnews_testAbout"
-package_name = "jp.gocro.smartnews.android"
-app_activity = ".activity.MainActivity"
+source = "a21_b21"
+migrate = "a24_b21"
+package_name = "kdk.android.simplydo"
+app_activity = ".SimplyDoActivity"
 gpt_model = "gpt-3.5-turbo-16k"
-desired_caps = dict(
-    automationName="uiautomator2",
-    platformName="Android",  # Operating System
-    appPackage=package_name,  # target appPackage
-    appActivity=app_activity,  # target appActivity
-    noReset=True,
-    deviceName='emulator-5554',
-    forceAppLaunch=True
-)
+desired_caps = {
+    'platformName': 'Android',
+    'deviceName': 'emulator-5554',
+    'automationName': 'UiAutomator2',
+    'forceAppLaunch': True,
+    'noReset' : True,
+    'appPackage': '',
+    'appActivity': ''
+}
+desired_caps['appPackage'] = package_name
+desired_caps['appActivity'] = app_activity
 appium_server = 'http://localhost:4723'
-source_path = find_folder("C:\\Users\\swale\\Desktop\\generate\\", source)
+source_path = find_folder("C:\\Users\\11303\\Desktop\\git\\Lyz_Lsr_5\\generate", source)
 #api_key = "sk-obTstm9eJYFBC6DfsBlW6pZ8ue1yfOKkEAZ16GDZApGcNelj"
 #api_base = "https://aigptx.top/v1"
-api_key = "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"
+api_key = "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"
+save_file = "C:\\Users\\11303\\Desktop\\git\\Lyz_Lsr_5\\"

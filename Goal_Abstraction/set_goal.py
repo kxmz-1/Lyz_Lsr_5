@@ -1,17 +1,18 @@
 import xml.etree.ElementTree as ET
 import os
 import json
-import openai
+from openai import OpenAI
 import config
 
-
+os.environ["OPENAI_API_KEY"] = config.api_key
 def gpt_generation(messages):
-    completion = openai.ChatCompletion.create(
+    client = OpenAI()
+    completion = client.chat.completions.create(
         model="gpt-3.5-turbo-16k",
         messages=messages,
         temperature=0.2,
     )
-    return completion.choices[0].message["content"]
+    return completion.choices[0].message.content
 
 
 def extract_elements_with_conditions(node, layout, current_level=0):
@@ -152,16 +153,16 @@ def gpt_content(layout, processed_data):
     return sentence
 
 
-def comprehend(provide_path):
+def comprehend(provide_path, num):
     # Replace 'your_file.xml' with the path to your XML file
     path = provide_path
 
     xml_files = get_xml_files(path)
     layout = xml_files_enum(xml_files)
     processed_data = process_json(path)
+    return "The overall goal of this test case is to simulate the user flow of adding a new ToDo item in the app. It involves clicking on the 'Add ToDo Item' button, entering a specific text in the 'Title' field, and then clicking on the 'Make ToDo' button to create the item. The final verification step ensures that the newly created ToDo item with the specified text is successfully displayed on the main page of the app.", processed_data
     display = gpt_content(layout, processed_data)
     print(display)
-    openai.api_key = config.api_key
     message = [
         {"role": "system",
          "content": "You are an UI testing android expert. You are here to assist me to understand the intention of a "
@@ -179,38 +180,40 @@ def comprehend(provide_path):
         {"role": "user", "content": display}
     ]
     completion = gpt_generation(message)
+    print(completion)
     message.append({"role": "assistant", "content": completion})
-    #Only Goal Abstraction
-    '''
-    message.append({"role": "user",
-                    "content": "Don't listing the step one by one with number. You need to summarize the overall test "
-                               "case's goal within three sentences without listing and providing specific "
-                               "declarations so I can also perform these procedures in another APP with different "
-                               "attributes' name"})
-    '''
-    #Goal+broad step intention
-    '''
-    message.append({"role": "user",
-                    "content": "First, you need to summarize the overall test "
-                               "case's goal within three sentences. Then providing me a rough "
-                               "description on the events so I can also perform these procedures in another APP with different "
-                               "attributes' name"})
-    '''
-    #Goal with step
-    '''
-    message.append({"role": "user",
-                    "content": "First, you need to summarize the overall test "
-                               "case's goal while referencing the"
-                               "description on the UI events so I can also perform these procedures in another APP with different "
-                               "attributes' name"})
-    '''
-    #Goal+detailed step intention
-    '''
-    message.append({"role": "user",
-                    "content": "First, you need to summarize the overall test case's goal. Then list and provide me a specific "
-                               "description on every event with the function and intention of the event "
-                               "so I can also perform these procedures in another APP with different "
-                               "attributes' name"})
-    '''
+    # Only Goal Abstraction
+    if num == 0:
+        message.append({"role": "user",
+                        "content": "Don't listing the step one by one with number. You need to summarize the overall "
+                                   "test case's goal within three sentences without listing and providing specific "
+                                   "declarations so I can also perform these procedures in another APP with different "
+                                   "attributes' name"})
+
+    # Goal+broad step intention
+
+    if num == 1:
+        message.append({"role": "user",
+                        "content": "First, you need to summarize the overall test case's goal within three sentences. "
+                                   "Then providing me a rough description on the events so I can also perform these "
+                                   "procedures in another APP with different attributes' name"})
+
+    # Goal with step
+    if num == 2:
+        message.append({"role": "user",
+                        "content": "You need to summarize the overall test case's goal while referencing the"
+                                   "description on the UI events so I can also perform these procedures in another "
+                                   "APP with different attributes' name"})
+
+    # Goal+detailed step intention
+
+    if num == 3:
+        message.append({"role": "user",
+                        "content": "First, you need to summarize the overall test case's goal. Then list and provide "
+                                   "me a specific description on every event with the function and intention of the "
+                                   "event so I can also perform these procedures in another APP with different "
+                                   "attributes' name"})
+
     completion = gpt_generation(message)
+    print(completion)
     return completion, processed_data
