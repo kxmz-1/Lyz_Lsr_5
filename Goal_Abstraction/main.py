@@ -39,14 +39,11 @@ class Context:
 
     def equal(self, activity, ui_elem):
         if activity != self.activity:
-            print(False)
             return False
         if len(self.ui) != len(ui_elem):
-            print(False)
             return False
         for key in ui_elem:
             if key not in self.ui:
-                print(False)
                 return False
         return True
 
@@ -80,7 +77,6 @@ class History:
     def history_cache_check(self, activity, ui_elem):
         for index, context in enumerate(self.all_contexts):
             if context.equal(activity, ui_elem):
-                print('cache found')
                 return index
 
 
@@ -141,8 +137,8 @@ class Migration:
         if len(self.chose_performance) == 0:
             return ""
         else:
-            content += "\nCurrently, we have already performed the following actions to reach this goal, meaning that " \
-                       "you don't have to redo these steps anymore:\n"
+            content += "\nCurrently, we have already performed the following actions to reach this goal. You don't have " \
+                       "to redo these steps anymore:\n"
             for i in range(len(self.chose_performance)):
                 if self.chose_performance[i][1] is not None:
                     content += f"\naction{i}. We choose the widget {str(self.chose_performance[i][1])}, and "
@@ -157,9 +153,8 @@ class Migration:
     def finished_welcome_session(self):
         sentence = "The initial stage of any software includes a setup/configuration interface and a brief " \
                    "description of the software to provide information to the users who interact with this app for " \
-                   "the first time. Do you think our app, with package {config.package_name}, is in the initial stage " \
-                   "or in the main screen where the core functionality resides now? Choose [not main] or [main] with " \
-                   "explanations. Here are the existing widgets' information:"
+                   "the first time. Do you think our app is in the initial stage or in the main screen? Choose " \
+                   "[not main] or [main]. Here are the existing widgets' information:"
         ui_hierarchies = driver.page_source
         root = ET.fromstring(ui_hierarchies)
         layout_min = {}
@@ -191,13 +186,34 @@ class Migration:
         num = int(self.choose(completion, "index"))
         ele[num].click()
 
-    def checked_if_finished(self):
-        nlp=self.natural_language_actions.replace("Currently, we have already performed the following actions to reach this goal, meaning that you don't have to redo these steps anymore:","")
+    def checked_if_finished_2(self):
+        nlp=self.natural_language_actions.replace("Currently, we have already performed the following actions to "
+                                                  "reach this goal:","")
         nlp=nlp.replace('\n',"")
         cont = f"This is a test case description of a particular APP: {self.goal}. You are trying to perform the same " \
-               f"step described above to a related APP, an APP that has similar functions but different " \
+               f"step described above to an APP that has similar functions but different " \
+               f"organizations. These are the actions we already performed: \n" \
+               f"{nlp} \n"
+        cont += f"Do you think we reach this goal? If we finished, output [1], else output [0]."
+        mes = [{"role": "user", "content": cont}]
+        completion = gpt_generation(mes)
+        mes.append({"role":"assistant","content":completion})
+        mes.append({"role": "user", "content": "From your previous output, respond only with [0] or [1]."
+                    "Remember, the attributes do not need to be the same. Similar functions is fine"})
+        for p in mes:
+            print(p['role'],p['content'])
+        completion = gpt_generation(mes)
+        print(completion)
+        return "[1]" in completion
+
+    def checked_if_finished(self):
+        nlp=self.natural_language_actions.replace("Currently, we have already performed the following actions to "
+                                                  "reach this goal:","")
+        nlp=nlp.replace('\n',"")
+        cont = f"This is a test case description of a particular APP: {self.goal}. You are trying to perform the same " \
+               f"step described above to an APP that has similar functions but different " \
                f"organizations. Now, you are trying to perform one of the action described in the test case: " \
-               f"{self.source_testcase[self.current_step]}. These are the actions we already performed: \n" \
+               f"{specific[self.current_step]}. These are the actions we already performed: \n" \
                f"{nlp} \n"
         cont += f"Do you think we finished this particular action? The attribute of the widget do not need to be " \
                 f"the same. If we finished, output [1], else output [0]."
@@ -228,17 +244,17 @@ class Migration:
                 self.flag = True
                 self.scroll_decision = i
         if self.flag:
-            message += f"Among these indexes, index{self.scroll_decision} is a scrollable element that can can lead you to discover elements that are " \
-                       f"hidden under the current UI state that might lead you to finish the testcase. If you want to act on this element, this element" \
-                       f"will be swiped down. However, if you already swipe this elements, you should not do it again.\n"
+            message += f"Among these indexes, index{self.scroll_decision} is a scrollable element that can can lead you " \
+                       f"to discover elements that are hidden under the current UI state that might lead you to finish " \
+                       f"the testcase. If you want to act on this element, this element will be swiped down. However, " \
+                       f"if you already swipe this elements, you should not do it again.\n"
         if add:
-            message += "Please choose the index you think can imitate the above test case or bring us closer to the goal. Display your " \
-                       "answer in the form [index{i}]. For example, [index0]"
+            message += "Please choose the index you think can imitate the above test case or bring us closer to the " \
+                       "goal. Display your answer in the form [index{i}]. For example, [index0]"
         else:
             message += "Please choose the index you think can transfer to main screen. Display your " \
                        "answer in the form [index{i}]. For example, [index0]"
         self.indexes = message
-        print(self.indexes)
 
     def choose_action(self):
         print(self.decision_element, self.scroll_decision, self.flag)
@@ -275,7 +291,6 @@ class Migration:
             print(text)
         else:
             text = None
-        print(completion)
         return choose_action, text
 
     def send_migrate_result_oracle(self, ele):
@@ -325,19 +340,18 @@ class Migration:
             return self.check_valid_response(message,keyword)
 
     def perform_gpt(self):
+        initial_content = f"This is a test case description of a particular APP: {self.goal} You are trying to perform " \
+                          f"the goal described above to an APP that has similar functions."
+        if specific != None:
+            initial_content += "Now, you are trying to perform one of the action described in the test case" \
+                               ": "+ specific[self.current_step] + ". I will provide you the actions we already performed " \
+                                "and the indexes you can perform within the current screen. Please choose the most " \
+                                "suitable index in order to reach the goal."
         content = [ {"role": "user",
-                    "content": f"This is a test case description of a particular APP: {self.goal}. You are trying to "
-                               f"perform the same step described above to a related APP, an APP that has similar "
-                               f"functions. Now, you are trying to perform one of the "
-                               f"action described in the test case: {self.source_testcase[self.current_step]}. I will "
-                               f"provide you the indexes you can perform within the current screen. Please choose the "
-                               f"most suitable index in order to imitate the above test case procedures\nIf you can "
-                               f"not find an index similar to the events in the test case,choose an index that you "
-                               f"think can bring us closer to the events in the original test case or the goal"},
+                    "content": initial_content},
                    {"role": "assistant", "content": "Sure, I'll be happy to help you perform the similar goal on the "
                                                     "related APP. Please provide the actions you've taken before and "
-                                                    "the current UI hierarchy information. Once you share that "
-                                                    "information, I'll be able to guide you further and suggest the "
+                                                    "the current UI hierarchy information, and I'll suggest the "
                                                     "appropriate index to achieve your goal."}]
         if self.natural_language_actions != "":
             lead = "After these actions, we reach the screen that contains the following indexes:"
@@ -347,6 +361,7 @@ class Migration:
         content.append({"role": "user", "content": self.natural_language_actions + lead + self.indexes})
         self.decision_element = self.check_valid_response(content,"index")
         content.append({"role": "assistant", "content": "index" + str(self.decision_element)})
+        print(content)
         self.message = content
 
     def normal_step(self):
@@ -366,18 +381,24 @@ class Migration:
             # If previously there were actions being performed in the target app, check whether these actions are
             # similar to the specific step currently specified by self.current_step. If similar, move to the next
             # specific step. Otherwise, remain in this step.
-            if len(self.chose_performance) != 0:
+            if len(self.chose_performance) != 0 and config.num != 0 and config.num != 2:
                 current_finish = self.checked_if_finished()
                 if current_finish:
                     self.current_step += 1
                     #  Once finished imitating all test cases, prompt ChatGPT to assess the accuracy of this test
                     #  case and decide whether to terminate or regenerate.
-                    if self.current_step >= len(self.source_testcase):
+                    if self.current_step >= len(specific):
                         print("This test migration is finished. Check termination...")
                         self.result_collector.save_file()
                         break
+            if len(self.chose_performance) != 0 and config.num != 1 and config.num != 3:
+                finish = self.checked_if_finished_2()
+                if finish:
+                    print("This test migration is finished. Check termination...")
+                    self.result_collector.save_file()
+                    break
             # If the current source testcase action is oracle-based, trying to migrate this oracle to the target APP
-            if self.source_testcase[self.current_step]["event_type"] == "oracle":
+            if config.num == 3 and self.source_testcase[self.current_step]["event_type"] == "oracle":
                 act_result, ele = screen_control.act_on_emulator_oracle(
                     self.source_testcase[self.current_step]["action"], driver)
                 print(act_result, ele)
@@ -387,11 +408,6 @@ class Migration:
                     lst = [ele, None, self.source_testcase[self.current_step]["action"]]
                     self.chose_performance.append(lst)
                     continue
-                # If the migration fails (cannot find the designated resource-id, xpath, etc.), restart the process.
-                else:
-                    print("Migration is failed. Cannot complete the oracle. Terminate and redo...")
-                    self.clear_class()
-                    self.normal_step()
             # If the current source testcase action is GUI-based
             # Used to store the current screen's elements in the form of WebElement objects.
             self.element_List = []
@@ -436,7 +452,7 @@ class Migration:
 
 if __name__ == "__main__":
     # start appium
-    goal, source_testcase = set_goal.comprehend(config.source_path, 0)
+    goal, specific, source_testcase = set_goal.comprehend(config.source_path, config.num)
     migrate = Migration(goal, source_testcase)
     appium_server = config.appium_server
     desired_caps = config.desired_caps

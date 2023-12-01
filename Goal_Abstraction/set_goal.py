@@ -3,7 +3,7 @@ import os
 import json
 from openai import OpenAI
 import config
-
+import re
 os.environ["OPENAI_API_KEY"] = config.api_key
 def gpt_generation(messages):
     client = OpenAI()
@@ -160,8 +160,8 @@ def comprehend(provide_path, num):
     xml_files = get_xml_files(path)
     layout = xml_files_enum(xml_files)
     processed_data = process_json(path)
-    return "The overall goal of this test case is to simulate the user flow of adding a new ToDo item in the app. It involves clicking on the 'Add ToDo Item' button, entering a specific text in the 'Title' field, and then clicking on the 'Make ToDo' button to create the item. The final verification step ensures that the newly created ToDo item with the specified text is successfully displayed on the main page of the app.", processed_data
     display = gpt_content(layout, processed_data)
+    return "The goal of this test case is to verify the successful addition of a new to-do item in the Minimal Todo app and its proper display on the main page.", ['Click on the "Add To-Do Item" floating action button', 'Enter the text "Sample Todo" in the "Title" field', 'Click on the "Make To-Do" floating action button', 'Wait until the element with the text "Sample Todo" is present on the main page'],processed_data
     print(display)
     message = [
         {"role": "system",
@@ -180,40 +180,47 @@ def comprehend(provide_path, num):
         {"role": "user", "content": display}
     ]
     completion = gpt_generation(message)
-    print(completion)
     message.append({"role": "assistant", "content": completion})
     # Only Goal Abstraction
-    if num == 0:
+    if num == 0 or num == 1 or num == 3:
         message.append({"role": "user",
-                        "content": "Don't listing the step one by one with number. You need to summarize the overall "
-                                   "test case's goal within three sentences without listing and providing specific "
-                                   "declarations so I can also perform these procedures in another APP with different "
-                                   "attributes' name"})
-
+                        "content": "Summarize the overall test case's goal within one sentence without "
+                                   "listing and providing specific attributes' name"})
+        completion = gpt_generation(message)
+    del message[-1]
     # Goal+broad step intention
 
     if num == 1:
         message.append({"role": "user",
-                        "content": "First, you need to summarize the overall test case's goal within three sentences. "
-                                   "Then providing me a rough description on the events so I can also perform these "
-                                   "procedures in another APP with different attributes' name"})
+                        "content": "Providing me a rough description on the events through splitting into"
+                                   "separate major parts. Transform into a list: "
+                                   "['<major_part_1>','<major_part2>'...]. Make sure it"
+                                   "doesn't contain specific attributes' name. "})
 
     # Goal with step
     if num == 2:
         message.append({"role": "user",
-                        "content": "You need to summarize the overall test case's goal while referencing the"
-                                   "description on the UI events so I can also perform these procedures in another "
+                        "content": "Summarize the overall test case's goal while referencing the"
+                                   "description on the UI events so I can perform these procedures in another "
                                    "APP with different attributes' name"})
 
     # Goal+detailed step intention
 
     if num == 3:
         message.append({"role": "user",
-                        "content": "First, you need to summarize the overall test case's goal. Then list and provide "
-                                   "me a specific description on every event with the function and intention of the "
-                                   "event so I can also perform these procedures in another APP with different "
-                                   "attributes' name"})
+                        "content": "List each event action's function and intention. Transform into a list: "
+                                   "['<function_and_intention_1>','<function_and _intention_2>'...]. Make sure it"
+                                   "doesn't contain specific attributes' name"})
 
-    completion = gpt_generation(message)
-    print(completion)
-    return completion, processed_data
+    if num != 0 and num != 2:
+        completion_2 = gpt_generation(message)
+    else:
+        completion_2 = None
+    if num == 2:
+        completion = gpt_generation(message)
+    print(completion, completion_2)
+    if completion_2 != None:
+        list_str = re.findall(r'\[.*?\]', completion_2, re.DOTALL)
+        completion_2 = eval(list_str[0]) if list_str else []
+    print(completion, completion_2)
+    return completion, completion_2, processed_data
