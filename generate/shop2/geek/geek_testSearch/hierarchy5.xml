@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1848">
+	
+  
+	<android.widget.FrameLayout index="0" package="com.contextlogic.geek" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="com.contextlogic.geek" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1848]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="com.contextlogic.geek" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="com.contextlogic.geek" class="android.widget.LinearLayout" text="" resource-id="com.contextlogic.geek:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="com.contextlogic.geek" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+						
+            
+						<android.support.v4.widget.DrawerLayout index="0" package="com.contextlogic.geek" class="android.support.v4.widget.DrawerLayout" text="" resource-id="com.contextlogic.geek:id/drawer_activity_drawer_layout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+							
+              
+							<android.widget.FrameLayout index="0" package="com.contextlogic.geek" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,1848]" displayed="true">
+								
+                
+								<android.widget.FrameLayout index="0" package="com.contextlogic.geek" class="android.widget.FrameLayout" text="" resource-id="com.contextlogic.geek:id/drawer_activity_toolbar_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,240]" displayed="true">
+									
+                  
+									<android.view.ViewGroup index="0" package="com.contextlogic.geek" class="android.view.ViewGroup" text="" resource-id="com.contextlogic.geek:id/drawer_activity_toolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][1080,240]" displayed="true">
+										
+                    
+										<android.widget.ImageButton index="0" package="com.contextlogic.geek" class="android.widget.ImageButton" text="" content-desc="Open Menu" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,72][168,240]" displayed="true"/>
+										
+                    
+										<android.support.v7.widget.LinearLayoutCompat index="1" package="com.contextlogic.geek" class="android.support.v7.widget.LinearLayoutCompat" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[168,72][1080,240]" displayed="true">
+											
+                      
+											<android.widget.LinearLayout index="0" package="com.contextlogic.geek" class="android.widget.LinearLayout" text="" resource-id="com.contextlogic.geek:id/search_bar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[168,72][1080,240]" displayed="true">
+												
+                        
+												<android.widget.LinearLayout index="0" package="com.contextlogic.geek" class="android.widget.LinearLayout" text="" resource-id="com.contextlogic.geek:id/search_edit_frame" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[192,100][1056,211]" displayed="true">
+													
+                          
+													<android.widget.ImageView index="0" package="com.contextlogic.geek" class="android.widget.ImageView" text="" resource-id="com.contextlogic.geek:id/search_mag_icon" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[216,107][312,203]" displayed="true"/>
+													
+                          
+													<android.widget.LinearLayout index="1" package="com.contextlogic.geek" class="android.widget.LinearLayout" text="" resource-id="com.contextlogic.geek:id/search_plate" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[312,100][1056,211]" displayed="true">
+														
+                            
+														<android.widget.AutoCompleteTextView index="0" package="com.contextlogic.geek" class="android.widget.AutoCompleteTextView" text="Search" resource-id="com.contextlogic.geek:id/search_src_text" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[312,100][1056,208]" displayed="true" hint="Search"/>
+														
+                          
+													</android.widget.LinearLayout>
+													
+                        
+												</android.widget.LinearLayout>
+												
+                      
+											</android.widget.LinearLayout>
+											
+                    
+										</android.support.v7.widget.LinearLayoutCompat>
+										
+                  
+									</android.view.ViewGroup>
+									
+                  
+									<android.view.View index="1" package="com.contextlogic.geek" class="android.view.View" text="" resource-id="com.contextlogic.geek:id/drawer_activity_toolbar_badge" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[84,114][126,156]" displayed="true"/>
+									
+                
+								</android.widget.FrameLayout>
+								
+                
+								<android.widget.FrameLayout index="1" package="com.contextlogic.geek" class="android.widget.FrameLayout" text="" resource-id="com.contextlogic.geek:id/drawer_activity_under_toolbar_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,1848]" displayed="true">
+									
+                  
+									<android.widget.FrameLayout index="0" package="com.contextlogic.geek" class="android.widget.FrameLayout" text="" resource-id="com.contextlogic.geek:id/drawer_activity_content_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,1848]" displayed="true">
+										
+                    
+										<android.widget.FrameLayout index="0" package="com.contextlogic.geek" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,1848]" displayed="true">
+											
+                      
+											<android.widget.FrameLayout index="0" package="com.contextlogic.geek" class="android.widget.FrameLayout" text="" resource-id="com.contextlogic.geek:id/loading_ui_fragment_loading_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,1848]" displayed="true">
+												
+                        
+												<android.widget.FrameLayout index="0" package="com.contextlogic.geek" class="android.widget.FrameLayout" text="" resource-id="com.contextlogic.geek:id/loading_page_content_view" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,1848]" displayed="true">
+													
+                          
+													<android.widget.ScrollView index="0" package="com.contextlogic.geek" class="android.widget.ScrollView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,1848]" displayed="true">
+														
+                            
+														<android.widget.LinearLayout index="0" package="com.contextlogic.geek" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,477]" displayed="true">
+															
+                              
+															<android.widget.LinearLayout index="1" package="com.contextlogic.geek" class="android.widget.LinearLayout" text="" resource-id="com.contextlogic.geek:id/fragment_search_history_section" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,477]" displayed="true">
+																
+                                
+																<android.widget.LinearLayout index="0" package="com.contextlogic.geek" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,240][1080,357]" displayed="true">
+																	
+                                  
+																	<android.widget.TextView index="0" package="com.contextlogic.geek" class="android.widget.TextView" text="Search History" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[30,270][1050,327]" displayed="true"/>
+																	
+                                
+																</android.widget.LinearLayout>
+																
+                                
+																<android.widget.LinearLayout index="1" package="com.contextlogic.geek" class="android.widget.LinearLayout" text="" resource-id="com.contextlogic.geek:id/fragment_search_history_main_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,357][1080,477]" displayed="true">
+																	
+                                  
+																	<android.widget.TextView index="0" package="com.contextlogic.geek" class="android.widget.TextView" text="aan" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,357][1080,477]" displayed="true"/>
+																	
+                                
+																</android.widget.LinearLayout>
+																
+                              
+															</android.widget.LinearLayout>
+															
+                            
+														</android.widget.LinearLayout>
+														
+                          
+													</android.widget.ScrollView>
+													
+                        
+												</android.widget.FrameLayout>
+												
+                      
+											</android.widget.FrameLayout>
+											
+                    
+										</android.widget.FrameLayout>
+										
+                  
+									</android.widget.FrameLayout>
+									
+                
+								</android.widget.FrameLayout>
+								
+              
+							</android.widget.FrameLayout>
+							
+            
+						</android.support.v4.widget.DrawerLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+    
+		<android.view.View index="2" package="com.contextlogic.geek" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1848][1080,1920]" displayed="true"/>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>
