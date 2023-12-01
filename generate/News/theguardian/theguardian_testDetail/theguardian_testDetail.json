@@ -1,0 +1,74 @@
+[
+    {
+        "content-desc": "Open navigation button",
+        "class": "android.widget.ImageButton",
+        "resource_id": "fabHome",
+        "tid": "theguardian_testDetail",
+        "package": "com.guardian",
+        "activity": ".feature.stream.NewHomeActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.view.ViewGroup",
+        "resource_id": "clSearchBox",
+        "child_text": [
+            "Search"
+        ],
+        "tid": "theguardian_testDetail",
+        "package": "com.guardian",
+        "activity": ".feature.stream.NewHomeActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.EditText",
+        "resource_id": "etInput",
+        "tid": "theguardian_testDetail",
+        "package": "com.guardian",
+        "activity": ".feature.search.SearchActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "send_keys",
+            "llama"
+        ]
+    },
+    {
+        "text": "View 30 articles",
+        "class": "android.widget.TextView",
+        "resource_id": "search footer text view",
+        "child_text": [
+            "View 30 articles"
+        ],
+        "tid": "theguardian_testDetail",
+        "package": "com.guardian",
+        "activity": ".feature.search.SearchActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "class": "android.widget.LinearLayout",
+        "child_text": [
+            "7w",
+            "Llama 2: why is Meta releasing open-source AI model and are there any risks?"
+        ],
+        "tid": "theguardian_testDetail",
+        "package": "com.guardian",
+        "activity": ".feature.search.SearchViewMoreActivity",
+        "ignorable": "false",
+        "event_type": "gui",
+        "action": [
+            "click"
+        ]
+    }
+]

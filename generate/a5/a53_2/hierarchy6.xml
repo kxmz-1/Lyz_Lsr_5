@@ -1,0 +1,314 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="com.tleapps.simpletipcalculator" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="com.tleapps.simpletipcalculator" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="com.tleapps.simpletipcalculator" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="com.tleapps.simpletipcalculator" class="android.widget.LinearLayout" text="" resource-id="com.tleapps.simpletipcalculator:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="com.tleapps.simpletipcalculator" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+						
+            
+						<android.view.ViewGroup index="0" package="com.tleapps.simpletipcalculator" class="android.view.ViewGroup" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+							
+              
+							<android.widget.LinearLayout index="0" package="com.tleapps.simpletipcalculator" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+								
+                
+								<android.view.ViewGroup index="0" package="com.tleapps.simpletipcalculator" class="android.view.ViewGroup" text="" resource-id="com.tleapps.simpletipcalculator:id/toolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true"/>
+								
+              
+							</android.widget.LinearLayout>
+							
+              
+							<android.widget.RelativeLayout index="1" package="com.tleapps.simpletipcalculator" class="android.widget.RelativeLayout" text="" resource-id="com.tleapps.simpletipcalculator:id/content_main" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+								
+                
+								<android.widget.ScrollView index="0" package="com.tleapps.simpletipcalculator" class="android.widget.ScrollView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[42,252][1038,1262]" displayed="true">
+									
+                  
+									<android.widget.LinearLayout index="0" package="com.tleapps.simpletipcalculator" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,1262]" displayed="true">
+										
+                    
+										<android.widget.LinearLayout index="0" package="com.tleapps.simpletipcalculator" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,383]" displayed="true">
+											
+                      
+											<android.view.ViewGroup index="0" package="com.tleapps.simpletipcalculator" class="android.view.ViewGroup" text="" resource-id="com.tleapps.simpletipcalculator:id/adView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,383]" displayed="true">
+												
+                        
+												<android.widget.FrameLayout index="0" package="com.tleapps.simpletipcalculator" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,383]" displayed="true">
+													
+                          
+													<android.widget.FrameLayout index="0" package="com.tleapps.simpletipcalculator" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,383]" displayed="true">
+														
+                            
+														<android.widget.FrameLayout index="0" package="com.tleapps.simpletipcalculator" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,383]" displayed="true">
+															
+                              
+															<android.webkit.WebView index="0" package="com.tleapps.simpletipcalculator" class="android.webkit.WebView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,383]" displayed="true">
+																
+                                
+																<android.webkit.WebView index="0" package="com.tleapps.simpletipcalculator" class="android.webkit.WebView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,384]" displayed="true" hint="">
+																	
+                                  
+																	<android.view.View index="0" package="com.tleapps.simpletipcalculator" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,384]" displayed="true" hint="">
+																		
+                                    
+																		<android.view.View index="0" package="com.tleapps.simpletipcalculator" class="android.view.View" text="" resource-id="mys-wrapper" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,384]" displayed="true" hint="">
+																			
+                                      
+																			<android.widget.TextView index="0" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="" resource-id="mys-overlay" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,384]" displayed="true" hint=""/>
+																			
+                                      
+																			<android.view.View index="1" package="com.tleapps.simpletipcalculator" class="android.view.View" text="" resource-id="mys-content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,384]" displayed="true" hint="">
+																				
+                                        
+																				<android.view.View index="0" package="com.tleapps.simpletipcalculator" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,384]" displayed="true" hint="">
+																					
+                                          
+																					<android.view.View index="0" package="com.tleapps.simpletipcalculator" class="android.view.View" text="" resource-id="bannerSmallTextCtaWithoutBody" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,384]" displayed="true" hint="">
+																						
+                                            
+																						<android.view.View index="0" package="com.tleapps.simpletipcalculator" class="android.view.View" text="" content-desc="打开 杏q来惹 看片不求人，自己做大神" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,384]" displayed="true" hint="">
+																							
+                                              
+																							<android.view.View index="0" package="com.tleapps.simpletipcalculator" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,384]" displayed="true" hint="">
+																								
+                                                
+																								<android.view.View index="0" package="com.tleapps.simpletipcalculator" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[723,270][936,364]" displayed="true" hint="">
+																									
+                                                  
+																									<android.widget.TextView index="0" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="打开" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[797,299][862,336]" displayed="true" hint=""/>
+																									
+                                                
+																								</android.view.View>
+																								
+                                                
+																								<android.widget.TextView index="1" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[723,252][936,384]" displayed="true" hint=""/>
+																								
+                                                
+																								<android.widget.TextView index="2" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="杏q来惹" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[288,278][382,315]" displayed="true" hint=""/>
+																								
+                                                
+																								<android.widget.TextView index="3" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="看片不求人，自己做大神" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[288,312][694,357]" displayed="true" hint=""/>
+																								
+                                              
+																							</android.view.View>
+																							
+                                            
+																						</android.view.View>
+																						
+                                          
+																					</android.view.View>
+																					
+                                        
+																				</android.view.View>
+																				
+                                      
+																			</android.view.View>
+																			
+                                    
+																		</android.view.View>
+																		
+                                    
+																		<android.view.View index="1" package="com.tleapps.simpletipcalculator" class="android.view.View" text="" resource-id="abgcp" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,278][214,384]" displayed="true" hint="">
+																			
+                                      
+																			<android.view.View index="0" package="com.tleapps.simpletipcalculator" class="android.view.View" text="" resource-id="abgc" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,301][183,383]" displayed="true" hint="">
+																				
+                                        
+																				<android.view.View index="0" package="com.tleapps.simpletipcalculator" class="android.view.View" text="" resource-id="abgb" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,301][183,343]" displayed="true" hint="">
+																					
+                                          
+																					<android.view.View index="0" package="com.tleapps.simpletipcalculator" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,301][183,343]" displayed="true" hint="">
+																						
+                                            
+																						<android.view.View index="0" package="com.tleapps.simpletipcalculator" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,301][183,343]" displayed="true" hint="">
+																							
+                                              
+																							<android.widget.Image index="0" package="com.tleapps.simpletipcalculator" class="android.widget.Image" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,301][183,343]" displayed="true" hint=""/>
+																							
+                                            
+																						</android.view.View>
+																						
+                                          
+																					</android.view.View>
+																					
+                                        
+																				</android.view.View>
+																				
+                                        
+																				<android.widget.Button index="1" package="com.tleapps.simpletipcalculator" class="android.widget.Button" text="" resource-id="cbb" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,341][162,383]" displayed="true" hint=""/>
+																				
+                                      
+																			</android.view.View>
+																			
+                                    
+																		</android.view.View>
+																		
+                                    
+																		<android.widget.TextView index="2" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,252][960,384]" displayed="true" hint=""/>
+																		
+                                  
+																	</android.view.View>
+																	
+                                
+																</android.webkit.WebView>
+																
+                              
+															</android.webkit.WebView>
+															
+                            
+														</android.widget.FrameLayout>
+														
+                          
+													</android.widget.FrameLayout>
+													
+                        
+												</android.widget.FrameLayout>
+												
+                      
+											</android.view.ViewGroup>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                    
+										<android.widget.LinearLayout index="1" package="com.tleapps.simpletipcalculator" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,436][960,567]" displayed="true">
+											
+                      
+											<android.widget.TextView index="0" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="Bill" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,436][514,541]" displayed="true"/>
+											
+                      
+											<android.widget.EditText index="1" package="com.tleapps.simpletipcalculator" class="android.widget.EditText" text="56.6" resource-id="com.tleapps.simpletipcalculator:id/editTextBill" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[514,436][960,548]" displayed="true"/>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                    
+										<android.widget.LinearLayout index="2" package="com.tleapps.simpletipcalculator" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,567][960,698]" displayed="true">
+											
+                      
+											<android.widget.TextView index="0" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="Tip (%)" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,567][514,672]" displayed="true"/>
+											
+                      
+											<android.widget.Button index="1" package="com.tleapps.simpletipcalculator" class="android.widget.Button" text="-" resource-id="com.tleapps.simpletipcalculator:id/buttonTipMinus" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[514,567][606,659]" displayed="true"/>
+											
+                      
+											<android.widget.Button index="2" package="com.tleapps.simpletipcalculator" class="android.widget.Button" text="+" resource-id="com.tleapps.simpletipcalculator:id/buttonTipPlus" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[619,567][711,659]" displayed="true"/>
+											
+                      
+											<android.widget.EditText index="3" package="com.tleapps.simpletipcalculator" class="android.widget.EditText" text="15" resource-id="com.tleapps.simpletipcalculator:id/editTextTip" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[711,567][960,679]" displayed="true"/>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                    
+										<android.widget.LinearLayout index="3" package="com.tleapps.simpletipcalculator" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,698][960,829]" displayed="true">
+											
+                      
+											<android.widget.TextView index="0" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="Split" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,698][514,803]" displayed="true"/>
+											
+                      
+											<android.widget.Button index="1" package="com.tleapps.simpletipcalculator" class="android.widget.Button" text="-" resource-id="com.tleapps.simpletipcalculator:id/buttonSplitMinus" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[514,698][606,790]" displayed="true"/>
+											
+                      
+											<android.widget.Button index="2" package="com.tleapps.simpletipcalculator" class="android.widget.Button" text="+" resource-id="com.tleapps.simpletipcalculator:id/buttonSplitPlus" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[619,698][711,790]" displayed="true"/>
+											
+                      
+											<android.widget.EditText index="3" package="com.tleapps.simpletipcalculator" class="android.widget.EditText" text="4" resource-id="com.tleapps.simpletipcalculator:id/editTextSplit" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[711,698][960,810]" displayed="true"/>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                    
+										<android.widget.LinearLayout index="4" package="com.tleapps.simpletipcalculator" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,829][960,960]" displayed="true">
+											
+                      
+											<android.widget.Button index="0" package="com.tleapps.simpletipcalculator" class="android.widget.Button" text="Calculate" resource-id="com.tleapps.simpletipcalculator:id/buttonCalculate" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[180,831][411,957]" displayed="true"/>
+											
+                      
+											<android.widget.Button index="1" package="com.tleapps.simpletipcalculator" class="android.widget.Button" text="Share" resource-id="com.tleapps.simpletipcalculator:id/buttonShare" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[424,831][655,957]" displayed="true"/>
+											
+                      
+											<android.widget.Button index="2" package="com.tleapps.simpletipcalculator" class="android.widget.Button" text="Copy" resource-id="com.tleapps.simpletipcalculator:id/buttonCopyResult" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[668,831][899,957]" displayed="true"/>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                    
+										<android.widget.LinearLayout index="5" package="com.tleapps.simpletipcalculator" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,1039][960,1096]" displayed="true">
+											
+                      
+											<android.widget.TextView index="0" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="Total Bill" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,1039][550,1096]" displayed="true"/>
+											
+                      
+											<android.widget.TextView index="1" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="$65.09" resource-id="com.tleapps.simpletipcalculator:id/textViewTotalToPay" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[550,1039][960,1096]" displayed="true"/>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                    
+										<android.widget.LinearLayout index="6" package="com.tleapps.simpletipcalculator" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,1122][960,1179]" displayed="true">
+											
+                      
+											<android.widget.TextView index="0" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="Total Tip" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,1122][564,1179]" displayed="true"/>
+											
+                      
+											<android.widget.TextView index="1" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="$8.49" resource-id="com.tleapps.simpletipcalculator:id/textViewTotalTip" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[564,1122][960,1179]" displayed="true"/>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                    
+										<android.widget.LinearLayout index="7" package="com.tleapps.simpletipcalculator" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,1205][960,1262]" displayed="true">
+											
+                      
+											<android.widget.TextView index="0" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="Per person" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[120,1205][585,1262]" displayed="true"/>
+											
+                      
+											<android.widget.TextView index="1" package="com.tleapps.simpletipcalculator" class="android.widget.TextView" text="$16.27" resource-id="com.tleapps.simpletipcalculator:id/textViewTotalPerPerson" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[585,1205][960,1262]" displayed="true"/>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                  
+									</android.widget.LinearLayout>
+									
+                
+								</android.widget.ScrollView>
+								
+              
+							</android.widget.RelativeLayout>
+							
+            
+						</android.view.ViewGroup>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+    
+		<android.view.View index="1" package="com.tleapps.simpletipcalculator" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1857][1080,1920]" displayed="true"/>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

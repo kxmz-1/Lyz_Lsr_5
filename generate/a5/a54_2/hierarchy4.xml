@@ -1,0 +1,173 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="com.zaidisoft.teninone" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+		
+    
+		<android.widget.LinearLayout index="0" package="com.zaidisoft.teninone" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="com.zaidisoft.teninone" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+				
+        
+				<android.widget.LinearLayout index="0" package="com.zaidisoft.teninone" class="android.widget.LinearLayout" text="" resource-id="com.zaidisoft.teninone:id/action_bar_root" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+					
+          
+					<android.widget.FrameLayout index="0" package="com.zaidisoft.teninone" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+						
+            
+						<android.support.v4.widget.DrawerLayout index="0" package="com.zaidisoft.teninone" class="android.support.v4.widget.DrawerLayout" text="" resource-id="com.zaidisoft.teninone:id/drawerLayout" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+							
+              
+							<android.widget.LinearLayout index="0" package="com.zaidisoft.teninone" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,1857]" displayed="true">
+								
+                
+								<android.view.ViewGroup index="0" package="com.zaidisoft.teninone" class="android.view.ViewGroup" text="" resource-id="com.zaidisoft.teninone:id/toolbar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,210]" displayed="true">
+									
+                  
+									<android.widget.ImageButton index="0" package="com.zaidisoft.teninone" class="android.widget.ImageButton" text="" content-desc="drawer open" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][147,210]" displayed="true"/>
+									
+                  
+									<android.widget.TextView index="1" package="com.zaidisoft.teninone" class="android.widget.TextView" text="Tip Calculator" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[189,101][523,172]" displayed="true"/>
+									
+                
+								</android.view.ViewGroup>
+								
+                
+								<android.widget.FrameLayout index="2" package="com.zaidisoft.teninone" class="android.widget.FrameLayout" text="" resource-id="com.zaidisoft.teninone:id/container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+									
+                  
+									<android.widget.ScrollView index="0" package="com.zaidisoft.teninone" class="android.widget.ScrollView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,210][1080,1857]" displayed="true">
+										
+                    
+										<android.widget.LinearLayout index="0" package="com.zaidisoft.teninone" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,231][1080,1402]" displayed="true">
+											
+                      
+											<android.widget.LinearLayout index="0" package="com.zaidisoft.teninone" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[21,252][1059,372]" displayed="true">
+												
+                        
+												<android.widget.TextView index="0" package="com.zaidisoft.teninone" class="android.widget.TextView" text="Bill" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[367,252][713,372]" displayed="true"/>
+												
+                        
+												<android.widget.TextView index="1" package="com.zaidisoft.teninone" class="android.widget.TextView" text="Tip" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[713,252][1059,372]" displayed="true"/>
+												
+                      
+											</android.widget.LinearLayout>
+											
+                      
+											<android.widget.LinearLayout index="1" package="com.zaidisoft.teninone" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[11,383][1069,525]" displayed="true">
+												
+                        
+												<android.widget.TextView index="0" package="com.zaidisoft.teninone" class="android.widget.TextView" text="Total" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[11,383][349,503]" displayed="true"/>
+												
+                        
+												<android.widget.TextView index="1" package="com.zaidisoft.teninone" class="android.widget.TextView" text="65.09" resource-id="com.zaidisoft.teninone:id/totalBillAmountTV" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[360,394][698,514]" displayed="true"/>
+												
+                        
+												<android.widget.TextView index="2" package="com.zaidisoft.teninone" class="android.widget.TextView" text="8.49" resource-id="com.zaidisoft.teninone:id/totalTipTV" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[720,394][1058,514]" displayed="true"/>
+												
+                      
+											</android.widget.LinearLayout>
+											
+                      
+											<android.widget.LinearLayout index="2" package="com.zaidisoft.teninone" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[11,547][1069,689]" displayed="true">
+												
+                        
+												<android.widget.TextView index="0" package="com.zaidisoft.teninone" class="android.widget.TextView" text="Each" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[11,547][349,667]" displayed="true"/>
+												
+                        
+												<android.widget.TextView index="1" package="com.zaidisoft.teninone" class="android.widget.TextView" text="16.27" resource-id="com.zaidisoft.teninone:id/perPersonBillTV" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[360,558][698,678]" displayed="true"/>
+												
+                        
+												<android.widget.TextView index="2" package="com.zaidisoft.teninone" class="android.widget.TextView" text="2.12" resource-id="com.zaidisoft.teninone:id/perPersonTipTV" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[720,558][1058,678]" displayed="true"/>
+												
+                      
+											</android.widget.LinearLayout>
+											
+                      
+											<android.view.View index="3" package="com.zaidisoft.teninone" class="android.view.View" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[21,721][1059,726]" displayed="true"/>
+											
+                      
+											<android.widget.LinearLayout index="4" package="com.zaidisoft.teninone" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[21,768][1059,881]" displayed="true">
+												
+                        
+												<android.widget.TextView index="0" package="com.zaidisoft.teninone" class="android.widget.TextView" text="Bill" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[21,768][643,881]" displayed="true"/>
+												
+                        
+												<android.widget.EditText index="1" package="com.zaidisoft.teninone" class="android.widget.EditText" text="56.6" resource-id="com.zaidisoft.teninone:id/billAmountET" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[643,774][1059,879]" displayed="true" hint="0"/>
+												
+                      
+											</android.widget.LinearLayout>
+											
+                      
+											<android.widget.LinearLayout index="5" package="com.zaidisoft.teninone" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[21,923][1059,1036]" displayed="true">
+												
+                        
+												<android.widget.TextView index="0" package="com.zaidisoft.teninone" class="android.widget.TextView" text="Tip percent" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[21,923][643,1036]" displayed="true"/>
+												
+                        
+												<android.widget.EditText index="1" package="com.zaidisoft.teninone" class="android.widget.EditText" text="15" resource-id="com.zaidisoft.teninone:id/tipPercentET" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[643,929][1059,1034]" displayed="true" hint="0"/>
+												
+                      
+											</android.widget.LinearLayout>
+											
+                      
+											<android.widget.LinearLayout index="6" package="com.zaidisoft.teninone" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[21,1078][1059,1191]" displayed="true">
+												
+                        
+												<android.widget.TextView index="0" package="com.zaidisoft.teninone" class="android.widget.TextView" text="# of people" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[21,1078][643,1191]" displayed="true"/>
+												
+                        
+												<android.widget.EditText index="1" package="com.zaidisoft.teninone" class="android.widget.EditText" text="4" resource-id="com.zaidisoft.teninone:id/guestNumberET" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[643,1084][1059,1189]" displayed="true" hint="1"/>
+												
+                      
+											</android.widget.LinearLayout>
+											
+                      
+											<android.widget.LinearLayout index="7" package="com.zaidisoft.teninone" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[21,1233][1059,1381]" displayed="true">
+												
+                        
+												<android.widget.Button index="0" package="com.zaidisoft.teninone" class="android.widget.Button" text="RESET" resource-id="com.zaidisoft.teninone:id/resetBtn" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[32,1244][529,1370]" displayed="true"/>
+												
+                        
+												<android.widget.Button index="1" package="com.zaidisoft.teninone" class="android.widget.Button" text="CALCULATE" resource-id="com.zaidisoft.teninone:id/calculateBtn" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[551,1244][1048,1370]" displayed="true"/>
+												
+                      
+											</android.widget.LinearLayout>
+											
+                    
+										</android.widget.LinearLayout>
+										
+                  
+									</android.widget.ScrollView>
+									
+                
+								</android.widget.FrameLayout>
+								
+              
+							</android.widget.LinearLayout>
+							
+            
+						</android.support.v4.widget.DrawerLayout>
+						
+          
+					</android.widget.FrameLayout>
+					
+        
+				</android.widget.LinearLayout>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.widget.LinearLayout>
+		
+    
+		<android.view.View index="2" package="com.zaidisoft.teninone" class="android.view.View" text="" resource-id="android:id/navigationBarBackground" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,1857][1080,1920]" displayed="true"/>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>
