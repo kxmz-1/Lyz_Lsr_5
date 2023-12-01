@@ -436,7 +436,6 @@ class Migration:
             # Perform action
             screen_control.act_on_emulator_gui(self.action, self.element_List, self.decision_element, self.text)
 
-
     def clear_class(self):
         # Restore the class to its original state.
         self.get_current_page_info = None
@@ -452,12 +451,25 @@ class Migration:
 
 if __name__ == "__main__":
     # start appium
-    goal, specific, source_testcase = set_goal.comprehend(config.source_path, config.num)
-    migrate = Migration(goal, source_testcase)
-    appium_server = config.appium_server
-    desired_caps = config.desired_caps
-    driver = webdriver.Remote(appium_server, desired_caps)
-    screen_control = control(driver)
-    sleep(5)
-    record_history = History()
-    migrate.normal_step()
+    for i in range(len(config.cat)):
+        Ticker = config.ticker(config.cat[i])
+        while Ticker.get_finish() == False:
+            result = Ticker.get_current()
+            config.source = result["source_app"]
+            config.migrate = result["target_app"]
+            for tup in config.ref_List:
+                if tup[0] == config.migrate:
+                    config.package_name = tup[1]
+                    config.app_activity = tup[2]
+            config.source_path = config.find_folder("C:\\Users\\11303\\Desktop\\git\\Lyz_Lsr_5\\generate", config.source)
+            print(config.source_path)
+            goal, specific, source_testcase = set_goal.comprehend(config.source_path, config.num)
+            migrate = Migration(goal, source_testcase)
+            appium_server = config.appium_server
+            desired_caps = config.desired_caps
+            driver = webdriver.Remote(appium_server, desired_caps)
+            screen_control = control(driver)
+            sleep(5)
+            record_history = History()
+            migrate.normal_step()
+            config.update_status()
