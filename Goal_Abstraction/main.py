@@ -169,13 +169,14 @@ class Migration:
         mes.append({"role": "user", "content": "[main] or [not main]"})
         completion = gpt_generation(mes)
         print(completion)
-        return "[not main]" in completion
+        return "not main" in completion
 
     def act_on_welcome(self):
         sentence = "Currently, you are on the welcome and permission screens that explains the software's " \
                    f"features, instructions, tips, and permissions for use." \
                    f"You need to transfer from welcome and permission screens to the main screen. which widgets do" \
                    f"you decide to choose? Here are the existing widgets' information:"
+        print(sentence)
         ele = []
         current_page_info = element_info_extractor.info(driver, ele)
         self.index_list(current_page_info, False)
