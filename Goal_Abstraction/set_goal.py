@@ -161,7 +161,6 @@ def comprehend(provide_path, num):
     layout = xml_files_enum(xml_files)
     processed_data = process_json(path)
     display = gpt_content(layout, processed_data)
-#    return "The goal of this test case is to verify the successful addition of a new to-do item in the Minimal Todo app and its proper display on the main page.", ['Click on the "Add To-Do Item" floating action button', 'Enter the text "Sample Todo" in the "Title" field', 'Click on the "Make To-Do" floating action button', 'Wait until the element with the text "Sample Todo" is present on the main page'],processed_data
     print(display)
     message = [
         {"role": "system",

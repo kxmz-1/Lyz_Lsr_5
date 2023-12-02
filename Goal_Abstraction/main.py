@@ -375,6 +375,10 @@ class Migration:
                 self.finished_welcome = True
         # After passing Welcome Session
         while True:
+            if self.current_step >= len(specific):
+                print("This test migration is finished. Check termination...")
+                self.result_collector.save_file()
+                break
             # All previously performed actions' descriptions are translated into natural language in the string form
             # (store in self.natural_language_actions)
             self.actions_in_natural_language()
@@ -406,6 +410,7 @@ class Migration:
                 if act_result:
                     self.send_migrate_result_oracle(ele)
                     lst = [ele, None, self.source_testcase[self.current_step]["action"]]
+                    self.current_step += 1
                     self.chose_performance.append(lst)
                     continue
             # If the current source testcase action is GUI-based
@@ -451,6 +456,7 @@ class Migration:
 
 if __name__ == "__main__":
     # start appium
+
     for i in range(len(config.cat)):
         Ticker = config.ticker(config.cat[i])
         while Ticker.get_finish() == False:
@@ -459,8 +465,8 @@ if __name__ == "__main__":
             config.migrate = result["target_app"]
             for tup in config.ref_List:
                 if tup[0] == config.migrate:
-                    config.package_name = tup[1]
-                    config.app_activity = tup[2]
+                    config.desired_caps["appPackage"] = tup[1]
+                    config.desired_caps["appActivity"] = tup[2]
             config.source_path = config.find_folder("C:\\Users\\11303\\Desktop\\git\\Lyz_Lsr_5\\generate", config.source)
             print(config.source_path)
             goal, specific, source_testcase = set_goal.comprehend(config.source_path, config.num)
@@ -472,4 +478,4 @@ if __name__ == "__main__":
             sleep(5)
             record_history = History()
             migrate.normal_step()
-            config.update_status()
+            Ticker.update_status()

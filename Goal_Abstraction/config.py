@@ -57,8 +57,6 @@ desired_caps = {
     'appPackage': '',
     'appActivity': ''
 }
-desired_caps['appPackage'] = package_name
-desired_caps['appActivity'] = app_activity
 appium_server = 'http://localhost:4723'
 ground = "C:\\Users\\11303\\Desktop\\git\\Lyz_Lsr_5\\generate"
 source_path = ""
