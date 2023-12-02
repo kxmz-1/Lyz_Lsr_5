@@ -3,14 +3,11 @@ from appium import webdriver
 import xml.etree.ElementTree as ET
 from time import sleep
 import config
-import openai
+from openai import OpenAI
 import re
 from control_screen import control
 import element_info_extractor
 from saver import recorder
-
-openai.api_key = config.api_key
-
 
 # openai.api_base = config.api_base
 
@@ -85,7 +82,8 @@ class History:
 
 
 def gpt_generation(messages):
-    completion = openai.ChatCompletion.create(
+    client=config.agent
+    completion = client.chat.completions.create(
         model="gpt-3.5-turbo-16k",
         messages=messages,
         temperature=0.2,
