@@ -21,7 +21,7 @@ class control:
         #width = size['width']
         #height = size['height']
         start_x = (x1+x2) // 2
-        start_y = y2-10
+        start_y = y2//2
         end_x = (x1+x2)//2
         end_y = y1+10  # Adjust this value to control the swipe distance
         self.driver.swipe(start_x, start_y, end_x, end_y)
@@ -34,7 +34,7 @@ class control:
         #width = size['width']
         #height = size['height']
         start_x = (x1+x2) // 2
-        start_y = y1+10
+        start_y = y1//2
         end_x = (x1+x2)//2
         end_y = y2-10  # Adjust this value to control the swipe distance
 

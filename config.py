@@ -1,4 +1,5 @@
 import os, json
+from openai import OpenAI
 ref_List=(('a13', 'com.stoutner.privacybrowser.standard','com.stoutner.privacybrowser.activities.MainWebViewActivity'),('a14','de.baumann.browser','.Activity.BrowserActivity'),('a15','org.mozilla.focus','.activity.MainActivity'),\
           ('a21', 'com.rubenroy.minimaltodo','.MainActivity'),('a22','douzifly.list','.ui.home.MainActivity'),('a23','org.secuso.privacyfriendlytodolist', '.view.SplashActivity'),('a24','kdk.android.simplydo','.SimplyDoActivity'),('a25','com.woefe.shoppinglist', '.activity.MainActivity'),\
           ('a51','anti.tip','.Tip'),('a52','com.appsbyvir.tipcalculator','.MainActivity',),('a53','com.tleapps.simpletipcalculator', '.MainActivity'),('a54','com.zaidisoft.teninone','.Calculator'),('a55','com.jpstudiosonline.tipcalculator','.MainActivity'),\
@@ -56,4 +57,4 @@ appium_server = 'http://localhost:4723'
 source_path = find_folder(".\\generate\\", source)
 #api_key = "sk-obTstm9eJYFBC6DfsBlW6pZ8ue1yfOKkEAZ16GDZApGcNelj"
 #api_base = "https://aigptx.top/v1"
-api_key = "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"
+agent=OpenAI(api_key = "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")

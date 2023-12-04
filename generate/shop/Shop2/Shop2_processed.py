@@ -51,6 +51,6 @@ button1_button.click()
 driver.quit()
 
 # Save events to JSON file
-json_file_path = os.path.join('C:\\Users\\11303\\Desktop\\transfer', f'{tid}.json')
+json_file_path = os.path.join('C:\\Users\\11303\\Desktop\\generate\\shop\\Shop2', f'{tid}.json')
 with open(json_file_path, 'w', encoding='utf-8') as file:
     json.dump(actions, file, ensure_ascii=False, indent=4)

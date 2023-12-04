@@ -6,7 +6,8 @@ import config
 
 
 def gpt_generation(messages):
-    completion = openai.ChatCompletion.create(
+    client=config.agent
+    completion = client.chat.completions.create(
         model="gpt-3.5-turbo-16k",
         messages=messages,
         temperature=0.2,
@@ -161,7 +162,6 @@ def comprehend(provide_path):
     processed_data = process_json(path)
     display = gpt_content(layout, processed_data)
     print(display)
-    openai.api_key = config.api_key
     message = [
         {"role": "system",
          "content": "You are an UI testing android expert. You are here to assist me to understand the intention of a "

@@ -40,38 +40,4 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'an
 button1_button = driver.find_element(MobileBy.ID, 'android:id/button1')
 button1_button.click()
 
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, "android:id/text1")))
-
-button = driver.find_element(MobileBy.ID, "android:id/text1")
-button.click()
-
-sleep(5)
-element_text = '我的购物列表'
-element = driver.find_element(MobileBy.ANDROID_UIAUTOMATOR,
-                              'new UiSelector().text("{}")'.format(element_text))
-# 进行操作或断言
-element.click()
-
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'org.openintents.shopping:id/button_add_item')))
-
-button_add_item_button = driver.find_element(MobileBy.ID, 'org.openintents.shopping:id/button_add_item')
-button_add_item_button.click()
-
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'org.openintents.shopping:id/button1')))
-
-button1_button = driver.find_element(MobileBy.ID, 'org.openintents.shopping:id/button1')
-button1_button.click()
-
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'org.openintents.shopping:id/autocomplete_add_item')))
-
-autocomplete_add_item_input = driver.find_element(MobileBy.ID, 'org.openintents.shopping:id/autocomplete_add_item')
-autocomplete_add_item_input.send_keys('123')
-
-driver.hide_keyboard()
-
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'org.openintents.shopping:id/button_add_item')))
-
-button_add_item_button = driver.find_element(MobileBy.ID, 'org.openintents.shopping:id/button_add_item')
-button_add_item_button.click()
-
 driver.quit()

@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<hierarchy index="0" class="hierarchy" rotation="0" width="1080" height="1857">
+	
+  
+	<android.widget.FrameLayout index="0" package="com.appsbyvir.tipcalculator" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+		
+    
+		<android.view.ViewGroup index="0" package="com.appsbyvir.tipcalculator" class="android.view.ViewGroup" text="" resource-id="android:id/decor_content_parent" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,0][1080,1857]" displayed="true">
+			
+      
+			<android.widget.FrameLayout index="0" package="com.appsbyvir.tipcalculator" class="android.widget.FrameLayout" text="" resource-id="android:id/action_bar_container" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,189]" displayed="true">
+				
+        
+				<android.view.ViewGroup index="0" package="com.appsbyvir.tipcalculator" class="android.view.ViewGroup" text="" resource-id="android:id/action_bar" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,63][1080,189]" displayed="true">
+					
+          
+					<android.widget.LinearLayout index="0" package="com.appsbyvir.tipcalculator" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="true" enabled="false" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[21,63][438,189]" displayed="true">
+						
+            
+						<android.widget.FrameLayout index="0" package="com.appsbyvir.tipcalculator" class="android.widget.FrameLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[21,63][126,189]" displayed="true">
+							
+              
+							<android.widget.ImageView index="0" package="com.appsbyvir.tipcalculator" class="android.widget.ImageView" text="" resource-id="android:id/home" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[31,84][115,168]" displayed="true"/>
+							
+            
+						</android.widget.FrameLayout>
+						
+            
+						<android.widget.LinearLayout index="1" package="com.appsbyvir.tipcalculator" class="android.widget.LinearLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[126,94][438,157]" displayed="true">
+							
+              
+							<android.widget.TextView index="0" package="com.appsbyvir.tipcalculator" class="android.widget.TextView" text="Tip Calculator" resource-id="android:id/action_bar_title" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[126,94][417,157]" displayed="true"/>
+							
+            
+						</android.widget.LinearLayout>
+						
+          
+					</android.widget.LinearLayout>
+					
+        
+				</android.view.ViewGroup>
+				
+      
+			</android.widget.FrameLayout>
+			
+      
+			<android.widget.FrameLayout index="1" package="com.appsbyvir.tipcalculator" class="android.widget.FrameLayout" text="" resource-id="android:id/content" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,189][1080,1857]" displayed="true">
+				
+        
+				<android.widget.ScrollView index="0" package="com.appsbyvir.tipcalculator" class="android.widget.ScrollView" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,189][1080,1857]" displayed="true">
+					
+          
+					<android.widget.RelativeLayout index="0" package="com.appsbyvir.tipcalculator" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,189][1080,1857]" displayed="true">
+						
+            
+						<android.widget.TextView index="0" package="com.appsbyvir.tipcalculator" class="android.widget.TextView" text="Bill" resource-id="com.appsbyvir.tipcalculator:id/billTextView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,242][123,320]" displayed="true"/>
+						
+            
+						<android.widget.EditText index="1" package="com.appsbyvir.tipcalculator" class="android.widget.EditText" text="56.6" resource-id="com.appsbyvir.tipcalculator:id/billEditText" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[695,203][1035,320]" displayed="true"/>
+						
+            
+						<android.widget.TextView index="2" package="com.appsbyvir.tipcalculator" class="android.widget.TextView" text="Tip %" resource-id="com.appsbyvir.tipcalculator:id/tipTextView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,367][183,445]" displayed="true"/>
+						
+            
+						<android.widget.EditText index="3" package="com.appsbyvir.tipcalculator" class="android.widget.EditText" text="15" resource-id="com.appsbyvir.tipcalculator:id/tipEditText" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[695,349][1035,466]" displayed="true"/>
+						
+            
+						<android.widget.SeekBar index="4" package="com.appsbyvir.tipcalculator" class="android.widget.SeekBar" text="15.0" resource-id="com.appsbyvir.tipcalculator:id/changeTipSeekBar" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[3,524][1077,608]" displayed="true"/>
+						
+            
+						<android.widget.TextView index="5" package="com.appsbyvir.tipcalculator" class="android.widget.TextView" text="Split Bill" resource-id="com.appsbyvir.tipcalculator:id/splitBillTextView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,676][251,754]" displayed="true"/>
+						
+            
+						<android.widget.EditText index="6" package="com.appsbyvir.tipcalculator" class="android.widget.EditText" text="4" resource-id="com.appsbyvir.tipcalculator:id/splitBillEditText" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[695,637][1035,754]" displayed="true" hint="# of ways"/>
+						
+            
+						<android.widget.TextView index="7" package="com.appsbyvir.tipcalculator" class="android.widget.TextView" text="Final Bill: Verified by Vir" resource-id="com.appsbyvir.tipcalculator:id/finalBillTextView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,838][645,916]" displayed="true"/>
+						
+            
+						<android.widget.TextView index="8" package="com.appsbyvir.tipcalculator" class="android.widget.TextView" text="Tip:" resource-id="com.appsbyvir.tipcalculator:id/finalTipTextView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,974][141,1052]" displayed="true"/>
+						
+            
+						<android.widget.EditText index="9" package="com.appsbyvir.tipcalculator" class="android.widget.EditText" text="8.49" resource-id="com.appsbyvir.tipcalculator:id/finalTipEditText" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[695,935][1035,1052]" displayed="true"/>
+						
+            
+						<android.widget.TextView index="10" package="com.appsbyvir.tipcalculator" class="android.widget.TextView" text="Total:" resource-id="com.appsbyvir.tipcalculator:id/finalTextView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1099][190,1177]" displayed="true"/>
+						
+            
+						<android.widget.EditText index="11" package="com.appsbyvir.tipcalculator" class="android.widget.EditText" text="65.09" resource-id="com.appsbyvir.tipcalculator:id/finalBillEditText" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[695,1060][1035,1177]" displayed="true"/>
+						
+            
+						<android.widget.TextView index="12" package="com.appsbyvir.tipcalculator" class="android.widget.TextView" text="Per Person:" resource-id="com.appsbyvir.tipcalculator:id/perPersonTextView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[45,1224][344,1302]" displayed="true"/>
+						
+            
+						<android.widget.EditText index="13" package="com.appsbyvir.tipcalculator" class="android.widget.EditText" text="16.27" resource-id="com.appsbyvir.tipcalculator:id/perPersonEditText" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" long-clickable="true" password="false" scrollable="false" selected="false" bounds="[695,1185][1035,1302]" displayed="true"/>
+						
+            
+						<android.widget.TextView index="14" package="com.appsbyvir.tipcalculator" class="android.widget.TextView" text="Thanks for tipping your waiter/waitress!" resource-id="com.appsbyvir.tipcalculator:id/signoffTextView" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[347,1352][1035,1405]" displayed="true"/>
+						
+          
+					</android.widget.RelativeLayout>
+					
+        
+				</android.widget.ScrollView>
+				
+        
+				<android.widget.RelativeLayout index="1" package="com.appsbyvir.tipcalculator" class="android.widget.RelativeLayout" text="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" long-clickable="false" password="false" scrollable="false" selected="false" bounds="[0,189][1080,262]" displayed="true"/>
+				
+      
+			</android.widget.FrameLayout>
+			
+    
+		</android.view.ViewGroup>
+		
+  
+	</android.widget.FrameLayout>
+	
+
+</hierarchy>

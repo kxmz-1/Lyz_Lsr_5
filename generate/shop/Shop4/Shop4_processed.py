@@ -73,20 +73,6 @@ actions.append(Util.compose(attrs, tid, ['click'], driver.current_package, drive
 # 进行操作或断言
 element.click()
 
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'org.openintents.shopping:id/button_add_item')))
-
-button_add_item_button = driver.find_element(MobileBy.ID, 'org.openintents.shopping:id/button_add_item')
-attrs = WidgetUtil.get_attrs(driver.page_source, 'resource-id', 'org.openintents.shopping:id/button_add_item')
-actions.append(Util.compose(attrs, tid, ['click'], driver.current_package, driver.current_activity, 'gui'))
-button_add_item_button.click()
-
-WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'org.openintents.shopping:id/button1')))
-
-button1_button = driver.find_element(MobileBy.ID, 'org.openintents.shopping:id/button1')
-attrs = WidgetUtil.get_attrs(driver.page_source, 'resource-id', 'org.openintents.shopping:id/button1')
-actions.append(Util.compose(attrs, tid, ['click'], driver.current_package, driver.current_activity, 'gui'))
-button1_button.click()
-
 WebDriverWait(driver, 20).until(EC.presence_of_element_located((MobileBy.ID, 'org.openintents.shopping:id/autocomplete_add_item')))
 
 autocomplete_add_item_input = driver.find_element(MobileBy.ID, 'org.openintents.shopping:id/autocomplete_add_item')
@@ -106,6 +92,6 @@ button_add_item_button.click()
 driver.quit()
 
 # Save events to JSON file
-json_file_path = os.path.join('C:\\Users\\11303\\Desktop\\transfer', f'{tid}.json')
+json_file_path = os.path.join('C:\\Users\\11303\\Desktop\\generate\\shop\\Shop4', f'{tid}.json')
 with open(json_file_path, 'w', encoding='utf-8') as file:
     json.dump(actions, file, ensure_ascii=False, indent=4)

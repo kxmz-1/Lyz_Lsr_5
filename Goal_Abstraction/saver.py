@@ -1,6 +1,9 @@
 import json
 from pathlib import Path
 
+import config
+
+
 class recorder(object):
     def __init__(self, source, migrate):
         self.record = []
@@ -14,9 +17,11 @@ class recorder(object):
 
     def save_file(self):
         self.remove_cyclic_events()
-        p = Path("C:\\Users\\swale\\Desktop\\migrate\\" + self.sourceapp)
+        p = Path(config.save_file+"migrate_result")
         p.mkdir(exist_ok=True)
-        with open("C:\\Users\\swale\\Desktop\\migrate\\" + self.sourceapp + "\\" + self.sourceapp + '-' + self.migrateapp + '.json', 'w') as f:
+        p = Path(config.save_file+"migrate_result"+"\\" + self.sourceapp)
+        p.mkdir(exist_ok=True)
+        with open(config.save_file+"migrate_result"+"\\" + self.sourceapp + "\\" + self.sourceapp + '-' + self.migrateapp + '.json', 'w') as f:
             json.dump(self.record, f, indent=4)
 
     def compare_attributes(self, event1, event2):

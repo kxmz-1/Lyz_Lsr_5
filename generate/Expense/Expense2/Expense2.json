@@ -60,44 +60,6 @@
     },
     {
         "class": "android.widget.Button",
-        "resource-id": "luankevinferreira.expenses:id/date_picker",
-        "text": "18/07/2023",
-        "content-desc": "",
-        "clickable": "true",
-        "password": "false",
-        "naf": "",
-        "parent_text": "",
-        "sibling_text": "",
-        "tid": "Expense2",
-        "package": "luankevinferreira.expenses",
-        "activity": ".ExpenseActivity",
-        "ignorable": "false",
-        "event_type": "gui",
-        "action": [
-            "click"
-        ]
-    },
-    {
-        "class": "android.widget.Button",
-        "resource-id": "android:id/button1",
-        "text": "确定",
-        "content-desc": "",
-        "clickable": "true",
-        "password": "false",
-        "naf": "",
-        "parent_text": "",
-        "sibling_text": "",
-        "tid": "Expense2",
-        "package": "luankevinferreira.expenses",
-        "activity": ".ExpenseActivity",
-        "ignorable": "false",
-        "event_type": "gui",
-        "action": [
-            "click"
-        ]
-    },
-    {
-        "class": "android.widget.Button",
         "resource-id": "luankevinferreira.expenses:id/save_expense",
         "text": "SALVAR",
         "content-desc": "",
