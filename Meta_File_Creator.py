@@ -26,15 +26,14 @@ for cat in target:
             ptgt_app,ptgt_test=spliter(ptgt)
             if ptgt_app!=src_app:
                 if src_test==ptgt_test:
-                    now={}
-                    now['category']=cat
-                    now['source_app']=src_app
-                    now['target_app']=ptgt_app
-                    now['test_function_id']=src_test
-                    accu.append(now)
-                    print(now)
-                    print(accu)
+                    if not ( (cat=="a2" and src_test=='b21') or (cat=='a5' and src_test=='b51') or (cat=='News' and (src_test=='testCategory' or src_test=='testDetail'))):
+                        now={}
+                        now['category']=cat
+                        now['source_app']=src_app
+                        now['target_app']=ptgt_app
+                        now['test_function_id']=src_test
+                        accu.append(now)
     tot['data']=accu
     
-    with open(r'C:/Users/swale/Desktop/migration (3)/dateset pairing/'+cat+'_meta.json','w') as f:
+    with open(r'C:/Users/swale/Desktop/migration (3)/pairing for kxmz/'+cat+'_meta.json','w') as f:
         json.dump(tot,f,indent=4)
