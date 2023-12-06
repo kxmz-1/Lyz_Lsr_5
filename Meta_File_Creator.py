@@ -26,7 +26,13 @@ for cat in target:
             ptgt_app,ptgt_test=spliter(ptgt)
             if ptgt_app!=src_app:
                 if src_test==ptgt_test:
-                    if not ( (cat=="a2" and src_test=='b21') or (cat=='a5' and src_test=='b51') or (cat=='News' and (src_test=='testCategory' or src_test=='testDetail'))):
+                    if (cat=="a2" and src_test=='2') or (cat=='a5' and src_test=='2') or \
+                        (cat=='News' and (src_test=='testCategory' or src_test=='testDetail') and (src_app!='smartnews' and ptgt_app!='smartnews')) or (not(cat=='shop2' and src_test=='testSignin')):
+                        if cat=='News':
+                            if not (src_test=='testCategory' or src_test=='testDetail'):
+                                continue
+                            if (src_app=='smartnews' or ptgt_app=='smartnews'):
+                                continue
                         now={}
                         now['category']=cat
                         now['source_app']=src_app

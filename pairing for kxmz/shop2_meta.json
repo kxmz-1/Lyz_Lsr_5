@@ -38,18 +38,6 @@
         },
         {
             "category": "shop2",
-            "source_app": "5miles",
-            "target_app": "geek",
-            "test_function_id": "testSignin"
-        },
-        {
-            "category": "shop2",
-            "source_app": "5miles",
-            "target_app": "home",
-            "test_function_id": "testSignin"
-        },
-        {
-            "category": "shop2",
             "source_app": "geek",
             "target_app": "5miles",
             "test_function_id": "testAccount"
@@ -86,18 +74,6 @@
         },
         {
             "category": "shop2",
-            "source_app": "geek",
-            "target_app": "5miles",
-            "test_function_id": "testSignin"
-        },
-        {
-            "category": "shop2",
-            "source_app": "geek",
-            "target_app": "home",
-            "test_function_id": "testSignin"
-        },
-        {
-            "category": "shop2",
             "source_app": "home",
             "target_app": "5miles",
             "test_function_id": "testAccount"
@@ -131,18 +107,6 @@
             "source_app": "home",
             "target_app": "geek",
             "test_function_id": "testSearch"
-        },
-        {
-            "category": "shop2",
-            "source_app": "home",
-            "target_app": "5miles",
-            "test_function_id": "testSignin"
-        },
-        {
-            "category": "shop2",
-            "source_app": "home",
-            "target_app": "geek",
-            "test_function_id": "testSignin"
         }
     ]
 }
