@@ -16,7 +16,7 @@ class ticker(object):
     def __init__(self,cat):
         self.pointer=0
         self.cat=cat
-        self.path=r'C:/Users/11303/Desktop/git/Lyz_Lsr_5/dateset pairing/'+cat+'_meta.json'
+        self.path='..\\dateset pairing\\'+cat+'_meta.json'
         self.dataset=json.load(open(self.path))
         self.is_finished=False
         return
@@ -58,10 +58,8 @@ desired_caps = {
     'appActivity': ''
 }
 appium_server = 'http://localhost:4723'
-ground = "C:\\Users\\11303\\Desktop\\git\\Lyz_Lsr_5\\generate"
+ground = "..\\generate"
 source_path = ""
-#api_key = "sk-obTstm9eJYFBC6DfsBlW6pZ8ue1yfOKkEAZ16GDZApGcNelj"
-#api_base = "https://aigptx.top/v1"
 api_key = "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"
-save_file = "C:\\Users\\11303\\Desktop\\git\\Lyz_Lsr_5\\"
+save_file = "..\\"
 num = 3

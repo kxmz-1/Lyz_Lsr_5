@@ -14,9 +14,10 @@ class recorder(object):
     def add_event(self, event, hierarchy):
         self.record.append(event)
         self.ui_hierarchy.append(hierarchy)
+        print(self.record)
 
     def save_file(self):
-        self.remove_cyclic_events()
+     #  self.remove_cyclic_events()
         p = Path(config.save_file+"migrate_result")
         p.mkdir(exist_ok=True)
         p = Path(config.save_file+"migrate_result"+"\\" + self.sourceapp)

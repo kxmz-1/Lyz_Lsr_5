@@ -188,28 +188,26 @@ def comprehend(provide_path, num):
                                    "listing and providing specific attributes' name"})
         completion = gpt_generation(message)
     del message[-1]
-    # Goal+broad step intention
 
     if num == 1:
         message.append({"role": "user",
-                        "content": "Providing me a rough description on the events through splitting into"
-                                   "separate major parts. Transform into a list: "
-                                   "['<major_part_1>','<major_part2>'...]. Make sure it"
+                        "content": "Provide me a rough description on the whole process through splitting it into"
+                                   "major parts. Two or three actions may regard as one major part. "
+                                   "Transform into a python list: ['<major_part_1>','<major_part2>'...]. Make sure it"
                                    "doesn't contain specific attributes' name. "})
-
     # Goal with step
-    if num == 2:
-        message.append({"role": "user",
-                        "content": "Summarize the overall test case's goal while referencing the"
-                                   "description on the UI events so I can perform these procedures in another "
-                                   "APP with different attributes' name"})
+#    if num == 2:
+#        message.append({"role": "user",
+#                        "content": "Summarize the overall test case's goal while referencing the"
+#                                   "description on the UI events so I can perform these procedures in another "
+#                                   "APP with different attributes' name"})
+
 
     # Goal+detailed step intention
-
     if num == 3:
         message.append({"role": "user",
-                        "content": "List each event action's function and intention in reaching the goal. Transform into a list: "
-                                   "['<function_and_intention_1>','<function_and _intention_2>'...]. Make sure it"
+                        "content": "List each event action's function and intention in reaching the goal. Transform into a python list "
+                                   "['<function_and_intention_1>','<function_and_intention_2>'...] Make sure it"
                                    "doesn't contain specific attributes' name"})
 
     if num != 0 and num != 2:

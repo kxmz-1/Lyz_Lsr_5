@@ -268,13 +268,14 @@ class Migration:
         if "fillable" in self.get_current_page_info[self.decision_element]:
             action_list += "action4:send keys and search \n action5. send keys and enter \n " \
                            "action6: send keys and hide keyboard. \n action7: clear and send keys. \n If you perform " \
-                           "action4 to action8, provide me with the structure [action{i},'{content you want to " \
-                           "send}'] for example, [action4, 'Hello'],[action8, '18']. \n Since this widget is " \
+                           "action4 to action7, provide me with the structure [action{i},'{content you want to " \
+                           "send}'] for example, [action4, 'Hello'],[action7, '18']. \n Since this widget is " \
                            "fillable, you better to choose between action4 and action7 and enter the text of the " \
                            "event in the source testcase that corresponds to the action we want to perform now."
         self.message.append({"role": 'assistant', "content": "index" + str(self.decision_element)})
         self.message.append({'role': "user", "content": action_list})
         completion = gpt_generation(self.message)
+        print(completion)
         choose_action = self.choose(completion, "action")
         if choose_action[len(choose_action) - 2].isdigit() and int(choose_action[len(choose_action) - 2]) >= 4 and int(
                 choose_action[len(choose_action) - 2]) <= 7:
@@ -285,7 +286,8 @@ class Migration:
                                             "a wrong answer:['clear_and_send_keys','12'],don't do that.{content you "
                                             "want to send} refers to the text in the source testcase that corresponds "
                                             "to the  action we want to perform now."})
-        #completion = gpt_generation(self.message)
+            completion = gpt_generation(self.message)
+            print(completion)
         choose_action = self.check_valid_response(self.message, "action")
         if "fillable" in self.get_current_page_info[self.decision_element]:
             text = self.extract_quoted_text(completion)
@@ -295,7 +297,9 @@ class Migration:
         return choose_action, text
 
     def send_migrate_result_oracle(self, ele):
-        if self.source_testcase[self.current_step]["action"][0] == "wait_until_text_presence":
+        print(self.source_testcase[self.current_step]["action"])
+        print(self.current_step)
+        if self.source_testcase[self.current_step]["action"][0] == "wait_until_text_presence" or self.source_testcase[self.current_step]["action"][0] == "wait_until_element_presence":
             process_result = element_info_extractor.process(driver.page_source, ele)
             dic = {"text": ele.text, "content-desc": ele.get_attribute("content-desc"),
                    "class": ele.get_attribute("class"), "resource-id": ele.get_attribute("resourceId"),
@@ -305,9 +309,10 @@ class Migration:
                    "child_text": element_info_extractor.get_child_text(ele),
                    "clickable": ele.get_attribute("clickable"), "event_type": "oracle",
                    "action": self.source_testcase[self.current_step]["action"]}
+            print(dic)
             page = driver.page_source
             self.result_collector.add_event(dic, page)
-        elif self.source_testcase[self.current_step]["action"][0] == "wait_until_text_invisible":
+        elif self.source_testcase[self.current_step]["action"][0] == "wait_until_text_invisible" or self.source_testcase[self.current_step]["action"][0] == "wait_until_element_invisible":
             dic = {"class": "", "resource-id": "", "text": "", "content-desc": "", "clickable": "", "password": "",
                    "parent_text": "", "sibling_text": "", "package": driver.current_package,
                    "activity": driver.current_activity, "event_type": "oracle",
@@ -324,7 +329,7 @@ class Migration:
             "package": driver.current_package, "parent_text": element_info_extractor.get_parent_text(process_result),
             "sibling_text": element_info_extractor.get_sibling_text(process_result),
             "child_text": element_info_extractor.get_child_text(ele), "clickable": ele.get_attribute("clickable"),
-            "event_type": "oracle"
+            "event_type": "gui"
         }
         if self.text is None:
             dic["action"] = [self.possible_actions["action" + str(self.action)]]
@@ -345,10 +350,10 @@ class Migration:
                           f"the goal described above to an APP that has similar functions."
         if specific != None:
             initial_content += "Now, you are trying to perform one of the action described in the test case" \
-                               ": "+ specific[self.current_step] + ". I will provide you the actions we already performed " \
+                               ": " + specific[self.current_step] + ". I will provide you the actions we already performed " \
                                 "and the indexes you can perform within the current screen. Please choose the most " \
                                 "suitable index in order to reach the goal."
-        content = [ {"role": "user",
+        content = [{"role": "user",
                     "content": initial_content},
                    {"role": "assistant", "content": "Sure, I'll be happy to help you perform the similar goal on the "
                                                     "related APP. Please provide the actions you've taken before and "
@@ -376,7 +381,7 @@ class Migration:
                 self.finished_welcome = True
         # After passing Welcome Session
         while True:
-            if self.current_step >= len(specific):
+            if (config.num == 3 or config.num ==1 ) and self.current_step >= len(specific):
                 print("This test migration is finished. Check termination...")
                 self.result_collector.save_file()
                 break
