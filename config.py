@@ -1,5 +1,7 @@
 import os, json
 from openai import OpenAI
+#from appium import webdriver
+#from appium.options.common. import ProxyType, Proxy
 ref_List=(('a13', 'com.stoutner.privacybrowser.standard','com.stoutner.privacybrowser.activities.MainWebViewActivity'),('a14','de.baumann.browser','.Activity.BrowserActivity'),('a15','org.mozilla.focus','.activity.MainActivity'),\
           ('a21', 'com.rubenroy.minimaltodo','.MainActivity'),('a22','douzifly.list','.ui.home.MainActivity'),('a23','org.secuso.privacyfriendlytodolist', '.view.SplashActivity'),('a24','kdk.android.simplydo','.SimplyDoActivity'),('a25','com.woefe.shoppinglist', '.activity.MainActivity'),\
           ('a51','anti.tip','.Tip'),('a52','com.appsbyvir.tipcalculator','.MainActivity',),('a53','com.tleapps.simpletipcalculator', '.MainActivity'),('a54','com.zaidisoft.teninone','.Calculator'),('a55','com.jpstudiosonline.tipcalculator','.MainActivity'),\
@@ -9,6 +11,10 @@ ref_List=(('a13', 'com.stoutner.privacybrowser.standard','com.stoutner.privacybr
           ('Shop1','pl.com.andrzejgrzyb.shoppinglist','.MainActivity'),('Shop2', 'br.com.activity','br.com.vansact.MainApp'),('Shop3','privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist', '.ui.main.SplashActivity'),('Shop4','org.openintents.shopping', '.ShoppingActivity'),\
           ('5miles', 'com.thirdrock.fivemiles','com.insthub.fivemiles.Activity.GuidePagerActivity'),('geek','com.contextlogic.geek','com.contextlogic.wish.activity.browse.BrowseActivity'),('home','com.contextlogic.home','com.contextlogic.wish.activity.browse.BrowseActivity')) 
 #appname,app package,app activity
+
+os.environ["http_proxy"]="http://127.0.0.1:10809"
+os.environ["https_proxy"]="http://127.0.0.1:10809"
+
 
 def find_folder(folder_path, target_folder_name):
     contents = os.listdir(folder_path)
@@ -44,6 +50,13 @@ migrate = "smartnews_testAbout"
 package_name = "jp.gocro.smartnews.android"
 app_activity = ".activity.MainActivity"
 gpt_model = "gpt-3.5-turbo-16k"
+
+#proxy = Proxy()
+# 设置代理类型为MANUAL（手动）
+#proxy.proxy_type = ProxyType.MANUAL
+# 设置代理IP和端口号
+#proxy.http_proxy = "http://127.0.0.1:10809"
+
 desired_caps = dict(
     automationName="uiautomator2",
     platformName="Android",  # Operating System
@@ -52,6 +65,7 @@ desired_caps = dict(
     noReset=True,
     deviceName='emulator-5554',
     forceAppLaunch=True
+    #proxy=proxy
 )
 appium_server = 'http://localhost:4723'
 source_path = find_folder(".\\generate\\", source)

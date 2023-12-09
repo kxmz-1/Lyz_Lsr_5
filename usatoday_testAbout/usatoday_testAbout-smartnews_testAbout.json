@@ -1,0 +1,117 @@
+[
+    {
+        "text": "",
+        "content-desc": null,
+        "class": "android.widget.ImageButton",
+        "resource-id": "jp.gocro.smartnews.android:id/settingButton",
+        "activity": ".activity.MainActivity",
+        "package": "jp.gocro.smartnews.android",
+        "parent_text": "",
+        "sibling_text": "",
+        "child_text": [],
+        "clickable": "true",
+        "event_type": "oracle",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "text": "",
+        "content-desc": null,
+        "class": "android.widget.LinearLayout",
+        "resource-id": null,
+        "activity": ".activity.SettingActivity",
+        "package": "jp.gocro.smartnews.android",
+        "parent_text": "",
+        "sibling_text": "",
+        "child_text": [
+            "Edit channel order"
+        ],
+        "clickable": "true",
+        "event_type": "oracle",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "text": "Phone",
+        "content-desc": "Phone",
+        "class": "android.widget.TextView",
+        "resource-id": null,
+        "activity": ".NexusLauncherActivity",
+        "package": "com.google.android.apps.nexuslauncher",
+        "parent_text": "",
+        "sibling_text": "",
+        "child_text": [
+            "Phone"
+        ],
+        "clickable": "true",
+        "event_type": "oracle",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "text": "",
+        "content-desc": "More options",
+        "class": "android.widget.ImageView",
+        "resource-id": null,
+        "activity": ".extensions.GoogleDialtactsActivity",
+        "package": "com.google.android.dialer",
+        "parent_text": "",
+        "sibling_text": "",
+        "child_text": [],
+        "clickable": "true",
+        "event_type": "oracle",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "text": "",
+        "content-desc": null,
+        "class": "android.widget.LinearLayout",
+        "resource-id": null,
+        "activity": ".extensions.GoogleDialtactsActivity",
+        "package": "com.google.android.dialer",
+        "parent_text": "",
+        "sibling_text": "",
+        "child_text": [
+            "Settings"
+        ],
+        "clickable": "true",
+        "event_type": "oracle",
+        "action": [
+            "click"
+        ]
+    },
+    {
+        "text": "",
+        "content-desc": null,
+        "class": "android.support.v7.widget.RecyclerView",
+        "resource-id": "com.google.android.dialer:id/recycler_view",
+        "activity": "com.android.dialer.multibindingsettings.impl.DialerSettingsActivity",
+        "package": "com.google.android.dialer",
+        "parent_text": "",
+        "sibling_text": "",
+        "child_text": [
+            "ASSISTIVE",
+            "Caller ID & spam",
+            "GENERAL",
+            "Accessibility",
+            "Assisted dialing",
+            "Blocked numbers",
+            "Calls",
+            "Display options",
+            "Nearby places",
+            "Quick responses",
+            "Sounds and vibration",
+            "Voicemail"
+        ],
+        "clickable": "false",
+        "event_type": "oracle",
+        "action": [
+            "swipe down"
+        ]
+    }
+]

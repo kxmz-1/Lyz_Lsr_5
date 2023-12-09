@@ -69,9 +69,11 @@ def get_xml_files(xml_folder_path):
 def process_json(json_file_path):
     for file_name in os.listdir(json_file_path):
         # Check if the file has '.json' extension
+        print(file_name)
         if file_name.endswith('.json'):
+            print(file_name)
             file_path = os.path.join(json_file_path, file_name)
-    with open(file_path, 'r') as json_file:
+    with open(file_path, 'rb') as json_file:
         data = json.load(json_file)
     processed_data = []
     for entry in data:
@@ -148,8 +150,11 @@ def gpt_content(layout, processed_data):
         sentence += "Now, we execute this event within the current UI Hierarchy:\n"
         sentence += str(processed_data[i]) + "\n"
     sentence += "This is the final UI Hierarchy. Indentation refers to the level of hierarchy:\n"
-    sentence += str(templating(layout[length])) + "\n"
-    sentence += "Can you explain the intention of this test case to me?"
+    try:
+        sentence += str(templating(layout[length])) + "\n"
+        sentence += "Can you explain the intention of this test case to me?"
+    except:
+        sentence += "Can you explain the intention of this test case to me?"
     return sentence
 
 

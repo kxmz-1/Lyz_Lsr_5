@@ -4,12 +4,13 @@ import xml.etree.ElementTree as ET
 from time import sleep
 import config
 from openai import OpenAI
+import os
 import re
 from control_screen import control
 import element_info_extractor
 from saver import recorder
 
-# openai.api_base = config.api_base
+# openai.api_base = config.api_bases
 
 
 class Context:
@@ -88,7 +89,7 @@ def gpt_generation(messages):
         messages=messages,
         temperature=0.2,
     )
-    return completion.choices[0].message["content"]
+    return completion.choices[0].message.content
 
 
 class Migration:
@@ -461,6 +462,8 @@ if __name__ == "__main__":
     migrate = Migration(goal, source_testcase)
     appium_server = config.appium_server
     desired_caps = config.desired_caps
+    os.environ.pop("http_proxy")
+    os.environ.pop("https_proxy")
     driver = webdriver.Remote(appium_server, desired_caps)
     screen_control = control(driver)
     sleep(5)

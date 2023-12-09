@@ -1,5 +1,3 @@
-import os
-
 import os, json
 ref_List=(('a13', 'com.stoutner.privacybrowser.standard','com.stoutner.privacybrowser.activities.MainWebViewActivity'),('a14','de.baumann.browser','.Activity.BrowserActivity'),('a15','org.mozilla.focus','.activity.MainActivity'),\
           ('a21', 'com.rubenroy.minimaltodo','.MainActivity'),('a22','douzifly.list','.ui.home.MainActivity'),('a23','org.secuso.privacyfriendlytodolist', '.view.SplashActivity'),('a24','kdk.android.simplydo','.SimplyDoActivity'),('a25','com.woefe.shoppinglist', '.activity.MainActivity'),\
@@ -11,12 +9,15 @@ ref_List=(('a13', 'com.stoutner.privacybrowser.standard','com.stoutner.privacybr
           ('5miles', 'com.thirdrock.fivemiles','com.insthub.fivemiles.Activity.GuidePagerActivity'),('geek','com.contextlogic.geek','com.contextlogic.wish.activity.browse.BrowseActivity'),('home','com.contextlogic.home','com.contextlogic.wish.activity.browse.BrowseActivity'))
 #appname,app package,app activity
 
-cat=('a2','a5','News','shop2')
+os.environ["http_proxy"] = "http://127.0.0.1:10809"
+os.environ["https_proxy"] = "http://127.0.0.1:10809"
+
+cat=("a2","a5")
 class ticker(object):
     def __init__(self,cat):
         self.pointer=0
         self.cat=cat
-        self.path='..\\dateset pairing\\'+cat+'_meta.json'
+        self.path='..\\pairing for kxmz\\'+cat+'_meta.json'
         self.dataset=json.load(open(self.path))
         self.is_finished=False
         return
@@ -45,6 +46,7 @@ def find_folder(folder_path, target_folder_name):
 
 source = ""
 migrate = ""
+case = ''
 package_name = ""
 app_activity = ""
 gpt_model = "gpt-3.5-turbo-16k"
@@ -60,6 +62,6 @@ desired_caps = {
 appium_server = 'http://localhost:4723'
 ground = "..\\generate"
 source_path = ""
-api_key = "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"
+api_key = "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"
 save_file = "..\\"
 num = 3

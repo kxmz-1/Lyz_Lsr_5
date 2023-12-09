@@ -5,10 +5,12 @@ import config
 
 
 class recorder(object):
-    def __init__(self, source, migrate):
+    def __init__(self, source, migrate,case,level):
         self.record = []
         self.sourceapp = source
         self.migrateapp = migrate
+        self.testid=case
+        self.level=level
         self.ui_hierarchy = []
 
     def add_event(self, event, hierarchy):
@@ -22,7 +24,7 @@ class recorder(object):
         p.mkdir(exist_ok=True)
         p = Path(config.save_file+"migrate_result"+"\\" + self.sourceapp)
         p.mkdir(exist_ok=True)
-        with open(config.save_file+"migrate_result"+"\\" + self.sourceapp + "\\" + self.sourceapp + '-' + self.migrateapp + '.json', 'w') as f:
+        with open(config.save_file+"migrate_result"+"\\" + self.sourceapp + "\\" + self.sourceapp + '-' + self.migrateapp +"_"+self.testid+"_Level"+self.level+'.json', 'w') as f:
             json.dump(self.record, f, indent=4)
 
     def compare_attributes(self, event1, event2):

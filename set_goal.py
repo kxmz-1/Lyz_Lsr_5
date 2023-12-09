@@ -12,7 +12,7 @@ def gpt_generation(messages):
         messages=messages,
         temperature=0.2,
     )
-    return completion.choices[0].message["content"]
+    return completion.choices[0].message.content
 
 
 def extract_elements_with_conditions(node, layout, current_level=0):

@@ -14,9 +14,9 @@ class recorder(object):
 
     def save_file(self):
         self.remove_cyclic_events()
-        p = Path("C:\\Users\\swale\\Desktop\\migrate\\" + self.sourceapp)
+        p = Path("C:\\Users\\888\\Desktop\\coding\\Python\\Migration Test\\" + self.sourceapp)
         p.mkdir(exist_ok=True)
-        with open("C:\\Users\\swale\\Desktop\\migrate\\" + self.sourceapp + "\\" + self.sourceapp + '-' + self.migrateapp + '.json', 'w') as f:
+        with open("C:\\Users\\888\\Desktop\\coding\\Python\\Migration Test\\" + self.sourceapp + "\\" + self.sourceapp + '-' + self.migrateapp + '.json', 'w') as f:
             json.dump(self.record, f, indent=4)
 
     def compare_attributes(self, event1, event2):

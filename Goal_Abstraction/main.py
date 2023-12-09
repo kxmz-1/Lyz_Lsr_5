@@ -91,7 +91,7 @@ def gpt_generation(messages):
 
 
 class Migration:
-    def __init__(self, target, source_case):
+    def __init__(self, target, source_case,level):
         self.get_current_page_info = None
         self.successful = False
         self.goal = target
@@ -105,11 +105,12 @@ class Migration:
         self.action = 0
         self.current_page_info = ""
         self.element_List = []
+        self.level=level
         self.decision_element = 0
         self.scroll_decision = 0
         self.flag = False
         self.message = []
-        self.result_collector = recorder(config.source, config.migrate)
+        self.result_collector = recorder(config.source, config.migrate,config.case,self.level)
         self.possible_actions = {"action0": "click", "action1": "long click", "action2": "swipe down",
                                  "action3": "swipe up",
                                  "action4": "send keys and search", "action5": "send keys and enter",
@@ -379,73 +380,81 @@ class Migration:
                 self.act_on_welcome()
             else:
                 self.finished_welcome = True
-        # After passing Welcome Session
+        # After passing Welcome Sessionshishib
         while True:
-            if (config.num == 3 or config.num ==1 ) and self.current_step >= len(specific):
-                print("This test migration is finished. Check termination...")
-                self.result_collector.save_file()
-                break
-            # All previously performed actions' descriptions are translated into natural language in the string form
-            # (store in self.natural_language_actions)
-            self.actions_in_natural_language()
-            # If previously there were actions being performed in the target app, check whether these actions are
-            # similar to the specific step currently specified by self.current_step. If similar, move to the next
-            # specific step. Otherwise, remain in this step.
-            if len(self.chose_performance) != 0 and config.num != 0 and config.num != 2:
-                current_finish = self.checked_if_finished()
-                if current_finish:
-                    self.current_step += 1
-                    #  Once finished imitating all test cases, prompt ChatGPT to assess the accuracy of this test
-                    #  case and decide whether to terminate or regenerate.
-                    if self.current_step >= len(specific):
-                        print("This test migration is finished. Check termination...")
-                        self.result_collector.save_file()
-                        break
-            if len(self.chose_performance) != 0 and config.num != 1 and config.num != 3:
-                finish = self.checked_if_finished_2()
-                if finish:
+            try:
+                if len(self.chose_performance) > 20:
+                    print("exceed action number limitation."" Check termination...")
+                    self.result_collector.save_file()
+                    break
+                if (config.num == 3 or config.num ==1 ) and self.current_step >= len(specific):
                     print("This test migration is finished. Check termination...")
                     self.result_collector.save_file()
                     break
-            # If the current source testcase action is oracle-based, trying to migrate this oracle to the target APP
-            if config.num == 3 and self.source_testcase[self.current_step]["event_type"] == "oracle":
-                act_result, ele = screen_control.act_on_emulator_oracle(
-                    self.source_testcase[self.current_step]["action"], driver)
-                print(act_result, ele)
-                # If the migration achieves
-                if act_result:
-                    self.send_migrate_result_oracle(ele)
-                    lst = [ele, None, self.source_testcase[self.current_step]["action"]]
-                    self.current_step += 1
-                    self.chose_performance.append(lst)
-                    continue
-            # If the current source testcase action is GUI-based
-            # Used to store the current screen's elements in the form of WebElement objects.
-            self.element_List = []
-            # Store the attributes of the current screen's elements (including their corresponding resource-id, text,
-            # class, etc.) in a list. Each index within the list represents an element's information.
-            self.get_current_page_info = element_info_extractor.info(driver, self.element_List)
-            # Prevent loop by adjusting self.element_List and self.get_current_page_info to ignore multiple invocations.
-            self.element_List, self.get_current_page_info = record_history.eliminate_duplications(self.element_List,
-                                                                                                  self.get_current_page_info)
-            # Format elements information into natural language form for ChatGPT to make selections.
-            self.index_list(self.get_current_page_info)
-            # Ask ChatGPT to select the most suitable element
-            self.perform_gpt()
-            # Store this element into the history
-            record_history.store(self.element_List, self.element_List[self.decision_element])
-            # Request ChatGPT to choose an action on this element.
-            self.action, self.text = self.choose_action()
-            # Record the action information in the chose_performance variable.
-            lst = [self.element_List[self.decision_element], self.get_current_page_info[self.decision_element],
-                   [self.possible_actions["action" + str(self.action)]]]
-            if 4 <= int(self.action) <= 7:
-                lst[-1].append(self.text)
-            self.chose_performance.append(lst)
-            # generate dic for the testcase
-            self.send_migrate_result_gui()
-            # Perform action
-            screen_control.act_on_emulator_gui(self.action, self.element_List, self.decision_element, self.text)
+                # All previously performed actions' descriptions are translated into natural language in the string form
+                # (store in self.natural_language_actions)
+                self.actions_in_natural_language()
+                # If previously there were actions being performed in the target app, check whether these actions are
+                # similar to the specific step currently specified by self.current_step. If similar, move to the next
+                # specific step. Otherwise, remain in this step.
+                if len(self.chose_performance) != 0 and config.num != 0 and config.num != 2:
+                    current_finish = self.checked_if_finished()
+                    if current_finish:
+                        self.current_step += 1
+                        #  Once finished imitating all test cases, prompt ChatGPT to assess the accuracy of this test
+                        #  case and decide whether to terminate or regenerate.
+                        if self.current_step >= len(specific):
+                            print("This test migration is finished. Check termination...")
+                            self.result_collector.save_file()
+                            break
+                if len(self.chose_performance) != 0 and config.num != 1 and config.num != 3:
+                    finish = self.checked_if_finished_2()
+                    if finish:
+                        print("This test migration is finished. Check termination...")
+                        self.result_collector.save_file()
+                        break
+                # If the current source testcase action is oracle-based, trying to migrate this oracle to the target APP
+                if config.num == 3 and self.source_testcase[self.current_step]["event_type"] == "oracle":
+                    act_result, ele = screen_control.act_on_emulator_oracle(
+                        self.source_testcase[self.current_step]["action"], driver)
+                    print(act_result, ele)
+                    # If the migration achieves
+                    if act_result:
+                        self.send_migrate_result_oracle(ele)
+                        lst = [ele, None, self.source_testcase[self.current_step]["action"]]
+                        self.current_step += 1
+                        self.chose_performance.append(lst)
+                        continue
+                # If the current source testcase action is GUI-based
+                # Used to store the current screen's elements in the form of WebElement objects.
+                self.element_List = []
+                # Store the attributes of the current screen's elements (including their corresponding resource-id, text,
+                # class, etc.) in a list. Each index within the list represents an element's information.
+                self.get_current_page_info = element_info_extractor.info(driver, self.element_List)
+                # Prevent loop by adjusting self.element_List and self.get_current_page_info to ignore multiple invocations.
+                self.element_List, self.get_current_page_info = record_history.eliminate_duplications(self.element_List,
+                                                                                                      self.get_current_page_info)
+                # Format elements information into natural language form for ChatGPT to make selections.
+                self.index_list(self.get_current_page_info)
+                # Ask ChatGPT to select the most suitable element
+                self.perform_gpt()
+                # Store this element into the history
+                record_history.store(self.element_List, self.element_List[self.decision_element])
+                # Request ChatGPT to choose an action on this element.
+                self.action, self.text = self.choose_action()
+                # Record the action information in the chose_performance variable.
+                lst = [self.element_List[self.decision_element], self.get_current_page_info[self.decision_element],
+                       [self.possible_actions["action" + str(self.action)]]]
+                if 4 <= int(self.action) <= 7:
+                    lst[-1].append(self.text)
+                self.chose_performance.append(lst)
+                # generate dic for the testcase
+                self.send_migrate_result_gui()
+                # Perform action
+                screen_control.act_on_emulator_gui(self.action, self.element_List, self.decision_element, self.text)
+            except:
+                continue
+
 
     def clear_class(self):
         # Restore the class to its original state.
@@ -464,24 +473,31 @@ if __name__ == "__main__":
     # start appium
 
     for i in range(len(config.cat)):
+        print(config.cat)
         Ticker = config.ticker(config.cat[i])
         while Ticker.get_finish() == False:
             result = Ticker.get_current()
             config.source = result["source_app"]
             config.migrate = result["target_app"]
+            config.case=result["test_function_id"]
             for tup in config.ref_List:
                 if tup[0] == config.migrate:
                     config.desired_caps["appPackage"] = tup[1]
                     config.desired_caps["appActivity"] = tup[2]
-            config.source_path = config.find_folder("C:\\Users\\11303\\Desktop\\git\\Lyz_Lsr_5\\generate", config.source)
+            config.source_path = config.find_folder("..\\generate\\", config.source+"_"+config.case)
             print(config.source_path)
             goal, specific, source_testcase = set_goal.comprehend(config.source_path, config.num)
-            migrate = Migration(goal, source_testcase)
+            migrate = Migration(goal, source_testcase,config.num)
             appium_server = config.appium_server
             desired_caps = config.desired_caps
+            os.environ.pop("http_proxy")
+            os.environ.pop("https_proxy")
             driver = webdriver.Remote(appium_server, desired_caps)
             screen_control = control(driver)
             sleep(5)
             record_history = History()
+            os.environ["http_proxy"] = "http://127.0.0.1:10809"
+            os.environ["https_proxy"] = "http://127.0.0.1:10809"
             migrate.normal_step()
             Ticker.update_status()
+            print("one loop finishedskdahjhdkljakjlsdhn")
